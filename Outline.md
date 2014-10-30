@@ -1,21 +1,26 @@
+# Glossary
 # Contents
 
 ## Introduction
+
 ### Problem Statement
 ### Research questions
 ### Results and contributions
+### Context of the work
 ### Structure of the thesis
 
-## Theoretical background
+## The case of Crisis management
 
-### Crisis management
-#### Different phases of a crisis
-#### User groups, roles, coordination and current use of technology
-#### Training activities for crisis management
+### Different phases of a crisis
+### User groups, roles, coordination and current use of technology
+### Training activities for crisis management
 
-### Computer supported reflective learning
+## Computer supported reflective learning
+
 #### CSRL model
 #### CSRL applied, example of applications, MIRROR Appsphere
+
+## Related works
 
 ### Tangible embodied and embedded interaction
 #### Embodied interaction
@@ -41,10 +46,12 @@
 
 ## Discussion and implications
 ### Contributions 
-### Lessons learnt
+### Evaluation
 
 ## Conclusions and Future works
 ### Towards a toolkit approach
+* Tiles
+* Game toolkit
 
 ## References
 
