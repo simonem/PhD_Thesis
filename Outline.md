@@ -17,14 +17,13 @@
 
 ## Computer supported reflective learning
 
-#### CSRL model
-#### CSRL applied, example of applications, MIRROR Appsphere
+### CSRL model
+### CSRL applied, example of applications, MIRROR Appsphere
 
 ## Related works
 
-### Tangible embodied and embedded interaction
-#### Embodied interaction
-#### Wearable computing, Augmented Reality and Token-based interaction
+### Embodied interaction
+### Wearable computing, Augmented Reality and Token-based interaction
 
 ### Rapid prototyping, tools and techniques adopted
 #### Software prototyping 
