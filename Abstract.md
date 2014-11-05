@@ -1,6 +1,6 @@
-# Leveraging embodied and sensor-based interaction for supporting reflection at work: the case of crisis training
+\frontmatter 
+\chapter{Abstract}
 
-## Abstract. 
 *Background+Problem:* Crisis management work entails a set of inter-organisational activities to provide help to the people in need. Continuous training for preparedness enable crisis workers and managers to achieve better performances and commitment to the job. To achieve those goals the body of research in reflective learning provide theoretical tools to guide data-driven, collaborative reflection on work experiences towards change in behaviour. Computer support for reflective learning facilitate the process by providing user interfaces for capturing experiences, visualising discrepancies as reflection triggers; and by supporting sharing of learning outcomes. Yet current IT tools don’t consider the very specific, situated nature of crisis work. While data capturing tools lack of interaction paradigms suitable for being used in-action, visualisation tools struggle in providing the user with the context information needed to ground reflection on-action and achieve valuable learning outcomes.
 
 *Goal:* The research in this thesis is based on the assumption that theory in the field of tangible, embodied and embedded interaction can inform the design of computer interfaces to better assist reflection processes in the specific case of crisis training. This thesis explores how conceptual tools from reflection theory can be implemented in technology to make the data collection process lightweight and pervasive, and interaction with reflection-useful information tangible, situated and playful.
