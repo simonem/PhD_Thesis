@@ -1,4 +1,4 @@
-# Crises, work and learning
+# Crises, Work and Learning
 
 In this section, I provide a brief introduction to the field of crisis management, crisis preparedness and learning.
 
@@ -22,11 +22,13 @@ Crisis learning refers to many activities spanning different lengths of time, ta
 
 There are two main approaches to crisis learning for workers: *formal learning*, e.g. teaching of protocols and best practices, and *learning by experience*. Both are means to achieve better crisis management practices. While the former is traditionally done on books or collaboratively in a classroom setting, the latter in done during real or simulated crises. Simulated crises are events that try to follow as much as possible events and context from real ones, in terms of environment, tasks and challenges, stress and emotions. Examples are: table-top exercises, small to large-scale physical simulations, serious games and virtual worlds. Simulated crises are used for experiential learning for different roles: while tabletop exercises are often performed at the strategic level by coordinators and disaster managers, serious games usually target specific roles; physical simulations involve a wide range of roles. 
 
-Learning by experience and lesson drawing are still quite unexplored areas of crisis management [@Lagadec:1997js; @Boin:2007wt; @Stern:1997eb], in which technology can play a role role boh in helping capturing experiences and re-creating them providing a context as close as possible to real crises. In the remaining section I focus on activities related experiential learning and how technology has been employed to support it.
+Learning by experience and lesson drawing are still quite unexplored areas of crisis management [@Lagadec:1997js; @Boin:2007wt; @Stern:1997eb], in which technology can play a role both in helping capturing experiences and re-creating them providing a context as close as possible to real crises. In the remaining section I focus on activities related experiential learning and how technology has been employed to support it.
 
 ### Learning by experience
 
 Experiences from real and simulated crises can be used as triggers to achieve organisational learning [@Deverell:2009fk]. Organisational learning may occur “when experience systematically alter behaviour or knowledge” [@Schwab:2007iw, p.233]; as an effort to gain knowledge from the past (e.g. an earlier crisis exercise) and use it when managing a new crisis, to correct previous mistakes [@Larsson:2010jr]. As stated by Hillyard [-@Hillyard:SYlJRQLN], organisational learning is one of the basic objective of crisis management, which is to accumulated wisdom by “learning together from the event in order to prevent, lessen the severity of, or improve upon responses to future crises”.
+
+In CM the correct action to take often can only be derived from experience. e.g. handling of the events in similar situations
 
 Yet, how work experiences during crisis work can produce a learning outcome? And what are those learning outcomes?
 
@@ -42,8 +44,8 @@ A outlined by Boud et al. [-@boud1985reflection] debriefing is a form of collabo
 
 The outcome which debriefing seeks to obtain is lesson drawing. Previous work experiences provide a good source of lesson-drawing which may potentially affect managing, planning and training for future crises. Yet lessons-drawing is often one of the most neglected aspects of crisis management [@Lagadec:1997js; @Stern:1997eb]. Studies [@Lagadec:1997js] has show that the introduction of debriefings meet resistance. This might be due to lack of commitment but also to barriers like costs, lack of data to feed the debriefing, lack of tools to provide meaningful visualisation or to recreate a work experience. In the following I describe out technology can help in lowering those barriers.
 
-## Technology support for experiential learning 
+### Technology support for experiential learning 
 
 Technology can provide support to experiential learning in many ways. For example it can be used to capture a work experience, to simulate or re-create a specific crisis, to provide support to coordination, for data collection or to assist debriefings. The common denominator is that technology can add realism to exercises, in order to re-create experiences that are as close as possible to real crisis, and allow trainees to experience emotions (e.g. stress) of a similar nature and intensity as the ones experience under a real emergency [@MacKinnon:2012wz]. Adding realism to the training experience is recognised to be a key for achieving learning outcomes [@Asproth:2013vs].  
 
-In this thesis I focus on using technology for (i) capturing work experiences and (ii) leveraging the captured data to re-create those experiences for debriefing purposes. Being debriefing a form of collaborative reflection [@boud1985reflection] I adopted the MIRROR CSRL model [@Krogstie:2013kf] as a framework to drive the design of computer interfaces and the MIRROR toolbox for evaluation purposes [@Knipfer:2012vi].
+In this thesis I focus on using technology for (i) capturing work experiences and (ii) leveraging the captured data to re-create those experiences for debriefing purposes. Being debriefing a form of collaborative reflection [@boud1985reflection] I adopted the MIRROR CSRL model [@Krogstie:2013kf] as a framework to drive the design of computer interfaces and the MIRROR toolbox for evaluation purposes [@Knipfer:2012vi]. 

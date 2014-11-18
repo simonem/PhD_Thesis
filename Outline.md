@@ -1,25 +1,22 @@
 \mainmatter
 
 # Introduction
-
 ## Problem Statement
 ## Research questions
+## Research design
 ## Results and contributions
 ## Context of the work
 ## Structure of the thesis
 
 # The case of Crisis Management
-
 ## Introduction to Crisis Management
 ## Crisis Training
 
 # Computer Supported Reflective Learning
-
 ## CSRL model
 ## CSRL applied, the MIRROR Appsphere
 
 # Related works
-
 ## Embodied interaction
 ## Wearable computing, AR and Token-based interaction
 

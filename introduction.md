@@ -45,7 +45,7 @@ The research questions RQ1-RQ3 are answered in the following papers:
 
 > **P6** Sisarica, A., Maiden, N., Mora, S., & Divitini, M. Training Carers of Older People with Dementia Using Digitally Augmented and Creative Serious Games. *Submitted at CHI2015*.
 
-> **P7** Müller, L., Divitini, M., Rivera-Pelayo, V., Mora, S., & Stork, W. Context Becomes Content: Sensor Data for Computer Supported Reflective Learning. *To Appear in the IEEE Transactions on Learning Technologies*.
+> **P7** Müller, L., Divitini, M., Mora, S., Rivera-Pelayo, V., & Stork, W. Context Becomes Content: Sensor Data for Computer Supported Reflective Learning. *To Appear in the IEEE Transactions on Learning Technologies*.
 
 > **P8** Mora, S., & Farshchian, B. A. (2010). A Unified Architecture for Supporting Direct Tag-Based and Indirect Network-Based Resource Discovery. *In Proceeding of the International Conference on Ambient Intelligence, AMI*, 6439(Chapter 20), 197–206. doi:10.1007/978-3-642-16917-5_20
 
