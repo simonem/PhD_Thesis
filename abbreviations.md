@@ -6,6 +6,12 @@ TEI Tangible Embodied Interaction
 
 HCI Human Computer Interaction
 
+WIMP Windows Icons Mouse Pointers
+
+GUI Graphical User Interfaces
+
+TUI Tangible User Interfaces
+
 Disaster
 
 Emergency

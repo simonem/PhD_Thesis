@@ -21,11 +21,11 @@ Similar to the work of Boud, Kolb describes experiential learning as a cyclic pr
 
 According with Kolb [-@kolb1984experiential] reflection is a process that involves not only reinterpreting existing experiences, but also initial perception and interpretation of the raw experience. For a description of other existing theories in reflective learning see [@WoodDaudelin199636].
 
-## MIRROR Computer Supported Reflective Learning model
+## MIRROR Computer Supported Reflective Learning model {#foo}
 
 Building on the presented work on reflection theory and on empirical studies, the MIRROR project has iteratively developed a model for Computer Supported Reflective Learning (hereafter CSRL model for short). The CSRL model has been designed to identify requirement, design and implement technology support for reflective learning and is detailed in [@Krogstie:2013kf]. It is meant to understand and analyse reflection in the workplace, it suggests how technology can support those activity rather than providing formal guidelines or pre-defined processes.  
 
-Following the work of Boud et al. [-@boud1985reflection] the model considers reflective learning as “the conscious re-evaluation of experience for the purposes of guiding future behaviour […] as reflection transforms experience from work into knowledge applicable to the challenges of daily work” [@Krogstie:fo]. The model specifically addresses reflection in the workplace with *work* and *reflection on action* seen as intertwined activities that have an impact on personal, collaborative and organisational growth. Therefore the model is well suited to address reflection in the crisis domain which in which unexpected adverse events do not allow to schedule clear boundaries between the time to be dedicated to work and to learning.  
+Following the work of Boud et al. [-@boud1985reflection] the model considers reflective learning as “the conscious re-evaluation of experience for the purposes of guiding future behaviour […] as reflection transforms experience from work into knowledge applicable to the challenges of daily work” [@Krogstie:fo]. The model specifically addresses reflection in the workplace with *work* and *reflection on action* seen as intertwined activities that have an impact on personal, collaborative and organisational growth. Therefore the model is well suited to address reflection in the crisis domain which in which unexpected adverse events do not allow to schedule clear boundaries between the time to be dedicated to work and to learning.
 
 ![CSRL reflection cycle, figure from [@Krogstie:2013kf]](imgs/CSRL.png)
 
