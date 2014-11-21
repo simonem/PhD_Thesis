@@ -12,6 +12,8 @@ GUI Graphical User Interfaces
 
 TUI Tangible User Interfaces
 
+MAR Mobile Augmented Reality
+
 Disaster
 
 Emergency

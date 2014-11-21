@@ -2,6 +2,12 @@
 
 based on ISCRAM literature review and user studies, I didn’t know the crisis domain
 
+I used design and prototyping as a mean to get to know better the crisis domain thought discussions with users that those artefacts facilitate. Many discussions were triggered by the specific design decisions I took in implementing prototpyes. The design process started with challenges and opportunities I observed during user studies and an elaboration, and idea generation throughout partecipatory multiple iterations, on how to respond to them.
+
+The solutions I developed, in terms of prototypes aim at addressing the challenges, within design spaces limited by the constraint proper of the crisis domain. The design space itself wasn’t given a priori but evolved over the course of the design process thanks to new understanding of the crisis domain.
+
+The design process began with an ethnographic study performed during a simulation la maxi emergency held in October 2011. 
+
 user studies methods: observations, interviews, surveys, focus groups
 
 tools used during user studies
