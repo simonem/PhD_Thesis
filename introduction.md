@@ -52,7 +52,7 @@ The research questions RQ1-RQ3 are answered in the following papers:
 Table x shows the mapping between research papers and research questions.
 
 -------------------------------------------------------------------------
-Research questions                P1   P2   P3   P4   P5   P6   P7   P8  
+Research questions                 P1   P2   P3   P4   P5   P6   P7   P8  
 -------------------------------   ---- ---- ---- ---- ---- ---- ---- ----
 (1) How sensor-based interfaces        *    *                   *
 can enable pervasive and 
