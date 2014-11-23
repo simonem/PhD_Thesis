@@ -1,0 +1,38 @@
+User studies
+March 2011 crowd mngmnt
+October 2011 maxi 
+April 2012 focus group (gioco+W)
+May 2012 focus group GA
+October 2012 drill
+April 2013 maxi
+July 2013 focus group
+April 2014 maxi
+
+Prototypes 
+- DP low fi
+- DP high fi
+- WATCHiT v1
+- WATCHiT v2
+- WATCHiT v3
+- WATCHiT v4
+- CroMAR v00
+- CroMAR v01
+
+Conferences
+-AMI 2010
+-UbiComp 2010
+-CollaborateCom 2011
+-MobileHCI 2011
+-CSCW 2012 
+-MobileHCI 2012
+-TEI 2013
+-MobileLearning 2013
+-AMI 2013
+-TEI 2014
+-AMI 2014
+
+misc
+- Summer schools
+- MIRROR meeting
+- MIT Talk
+- UIC Talk

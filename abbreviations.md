@@ -1,5 +1,7 @@
 #Abbreviations
 
+NTNU Norwegian University of Science and Technology
+
 CSRL Computer Supported Reflective Learning
 
 TEI Tangible Embodied Interaction

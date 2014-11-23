@@ -1,0 +1,14 @@
+
+
+| ID (*=key study) | Date, duration | Setting | Participants | Research Methods Research Activity | RQs | Research Papers |
+|------------------|------------------------|------------------------------------|------------------------------|----------------------------------------------------------------------------------------------------------------------------------|-----|-----------------|
+| 1(*) | March 2011, 2 days | Real work | several teams | Observations, interviews User study. | 2 | P1 |
+| 2(*) | October 2011, 3 days | Simulated work in a maxi emergency | several teams, 1 manager | Observations, interviews, video analysis.  Formative evaluation of CroMAR v01. | 2 | P1 |
+| 3 | April 2012, 1 day | Focus group | 9 field workers, 1 manager | Interviews.  Evaluation of WATCHiT v01 and Don't Panic paper mockup. | 1-2 | P3-P5 |
+| 4 | May 2012, 1 day | Focus group | 1 manager | Observation, Interview. Formative evaluation of WATCHiT v02 and CroMAR v02 | 1-2 | P1-P3 |
+| 5(*) | October 2012, 2 days | Simulated work | 5 field workers, 1 manager | Observation, interviews, video analysis. Formative Evaluation of WATCHiT v03 and CroMAR v02 | 1-2 | P1-P3 |
+| 6 | April 2013, 3 days | Simulated work in a maxi emergency | 4 field workers, 1 manager | Observation, interviews, video analysis, questionnaires. Summative evaluation of CroMAR v02, formative evaluation of WATCHiT v03 | 1-2 | P1-P3 |
+| 7(*) | July 2013, 1 day | Focus group | 3 field workers, 1 manager | Observations, interviews, video analysis, questionnaires. Formative evaluation of Don't Panic v01 | 2 | P4 |
+| 8 | September 2013, 1 day | Focus group | 8 IT students, 4 HCI experts | Observations, interviews, video analysis, questionnaires. Formative evaluation of Don't Panic v01 | 2 | P4 |
+| 9 | December 2013, 30 days | Simulated work | 8 field workers | Questionnaires Summative evaluation of WATCHiT v04 | 1 | P2-P3-P7 |
+| 10(*) | April 2014, 2 days | Simulated work | 27 field workers, 1 manager | Observations, Questionnaires Summative evaluation of WATCHiT v04 | 1 | P2-P3-P7 |

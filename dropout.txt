@@ -1,3 +1,5 @@
 p.108: They describe a process in which design plays a critical role in the development of theories, not just their evaluation.In this theory development approach, the design researchers begin with a set of hypotheses and principles that they use to guide a design process.Importantly, these hypotheses and principles are not detailed enough to determine every design decision. In addition, these guiding principles are not followed slavishly if accumulated evidence, specific circumstances, or informed intuition lead the designers to believe they do not applyIn this way, the design researchers proceed through iterative cycles of design and implementation, using each implementation as an opportunity to collect data to inform subsequent design.  -- Highlighted 21 nov 2014
 
 p.108: Through a parallel and retrospective process of reflection upon the design and its outcomes, the design researchers elaborate upon their initial hypotheses and principles, refining, adding, and discarding—gradually knitting together a coherent theory that reflects their understanding of the design experience.  -- Highlighted 21 nov 2014
+
+human vs machine game of optimization
