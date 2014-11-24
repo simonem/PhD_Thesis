@@ -3,3 +3,6 @@ p.108: They describe a process in which design plays a critical role in the deve
 p.108: Through a parallel and retrospective process of reflection upon the design and its outcomes, the design researchers elaborate upon their initial hypotheses and principles, refining, adding, and discarding—gradually knitting together a coherent theory that reflects their understanding of the design experience.  -- Highlighted 21 nov 2014
 
 human vs machine game of optimization
+
+field studies
+user studies

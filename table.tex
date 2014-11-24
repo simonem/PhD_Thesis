@@ -1,12 +1,12 @@
-\documentclass{article}
-\usepackage{tabulary}
-
+\documentclass{article}[10pt]
+\usepackage{longtable}
+\usepackage{lscape}
 
 \begin{document}
 
-
-\begin{tabulary}{\linewidth}{LLLLLLL}
-ID(*=key study) & Date, duration   & Setting  & Participants  & Research MethodsResearch Activity & RQs & Research Papers \\ 
+\begin{landscape}
+\begin{longtable}{p{2cm}p{3cm}p{3cm}p{3cm}p{4cm}p{1cm}p{1cm}}
+ID(*=key study) & Date, duration   & Setting  & Participants  & Research Methods \newline Research Activity & RQs & Research Papers \\ 
 \hline
 1(*)   & March 2011, 2 days     & Real work   & several teams    & Observations, interviews User study.  & 2   & P1  \\
 2(*) & October 2011, 3 days   & Simulated work in a maxi emergency & several teams, 1 manager     & Observations, interviews, video analysis. Formative evaluation of CroMAR v01. & 2   & P1 \\
@@ -18,6 +18,7 @@ ID(*=key study) & Date, duration   & Setting  & Participants  & Research Methods
 8      & September 2013, 1 day  & Focus group    & 8 IT students, 4 HCI experts & Observations, interviews, video analysis, questionnaires. Formative evaluation of Don't Panic v01    & 2   & P4     \\
 9     & December 2013, 30 days & Simulated work      & 8 field workers      & Questionnaires Summative evaluation of WATCHiT v04      & 1   & P2-P3-P7        \\
 10(*)  & April 2014, 2 days     & Simulated work       & 27 field workers, 1 manager  & Observations, Questionnaires Summative evaluation of WATCHiT v04    & 1   & P2-P3-P7  \\ 
-\end{tabulary}
+\end{longtable}
+\end{landscape}
 
 \end{document}
