@@ -13,7 +13,7 @@ Theory in the field of tangible, embodied and embedded interaction [@Dourish:200
 
 [^mirror]: MIRROR Project - http://www.mirror-project.eu
   
-### Research questions
+## Research questions
 
 The main research question for the PhD work is:
 
@@ -29,7 +29,7 @@ To answer the MRQ the work has been broken down into three sub-questions:
 
 While the first two questions aim at investigating the design of systems to support with technology the tasks of capturing and re-creating work experiences; the third question investigates how technology toolkits and open-source communities can ease the prototyping phase, shortening the time for production of working prototypes to be used during evaluations. Prototypes lies at the roots of the user-center design methodology adopted in this PhD work, yet prototyping tangible and embodied user interfaces is a complex task that involves a mix of hardware, software and product design skills.    
 
-### Results and contributions
+## Results and contributions
 
 The research questions RQ1-RQ3 are answered in the following papers:
 
@@ -74,9 +74,9 @@ visualising reflection-useful data?
 
 Table: Mapping between research papers and research quesitions
 
+### Contributions
 
-
-### Context of the work
+## Context of the work
 
 The PhD work is framed within the EU-funded (IST-FP7) project MIRROR. The focus of MIRROR is the creation of a set of technology applications that enable employees to learn lessons from their own and others experiences to perform better in the future. As an associate researcher of MIRROR I took part in shaping the results of the projects by designing and implementing applications, writing deliverables and participating in project meetings. Thanks to MIRROR I cooperated with crisis workers associations partner of the consortium to run user studies and prototype evaluations. I also benefited from discussions and joined works and publications with other project partners. MIRROR has been graded as "Excellent" by the EU commission.
 
@@ -89,3 +89,5 @@ During twelve weeks spent at the MIT SENSEable City Lab I investigated the desig
 TTO, Discovery
 
 Student supervisions
+
+## Structure of the thesis
