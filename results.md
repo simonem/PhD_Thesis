@@ -140,10 +140,46 @@ with digital information can help in engaging reflection processes?” and RQ3, 
 
 *Authors:* Lars Müller, Monica Divitini, Simone Mora, Verónica Rivera-Pelayo and Wilhelm 
 
-*Authors’ contributions:*
+*Authors’ contributions:* Müller led the writing of the paper. Mora designed the systems presented in the second case study of paper. Both Mora and Divitini designed and conducted the evaluation study. Divitini provided feedback throughout the work.
 
 *Published in:* To Appear in IEEE Transactions on Learning Technologies
 
 > *Abstract:* Wearable devices and ambient sensors can monitor a growing number of aspects of daily life and work. We propose to use this context data as content for learning applications in workplace settings to enable employees to reflect on experiences from their work. Learning by reflection is essential for today’s dynamic work environments, as employees have to adapt their behaviour according to their experiences. Building on research on computer-supported reflective learning as well as persuasive technology, and inspired by the Quantified Self community, we present an approach to the design of tools supporting reflective learning at work by turning context information collected through sensors into learning content. The proposed approach has been implemented and evaluated with care staff in a care home and voluntary crisis workers. In both domains, tailored wearable sensors were designed and evaluated. The evaluations show that participants learned by reflecting on their work experiences based on their recorded context. The results highlight the potential of sensors to support learning from context data itself and outline lessons learned for the design of sensor-based capturing methods for reflective learning. 
 
-*Description:*
+*Description:* This paper proposes the use context data as content to support informal learning in workplace settings. An approach to the design of tools supporting reflective learning at work is presented. The approach makes use of technology to turn unstructured context data into learning contents, two case studies are presented. The approach facilitates designers in mapping requirements from reflective learning theory with opportunities provided by technology and within the constraints of the specific workplace environment. 
+
+Three design decisions have to be made to turn context into content: *what context* is relevant to be captured, *how to capture* it and *how to visualise* it to support reflection. The first two decisions were already explored in the design challenges for data capturing tools (P3). In this paper they are further elaborated. 
+
+It is found that the decision of *What context* to be captured is highly situated with the work experience to be acquired. This is made harder by the unpredictability of outcomes and lack of clear definition of learning goals, typical of informal learning; and by the subjectivity and need for interpretation to extract from context data that relates to a specific experience. Yet the paper identifies three types of context that may include relevant data for reflection: task, affective and social. *Task context* relates directly to the work process and is therefore easy to understand. *Affective context* might work as a marker to recognise relevant episodes for reflection since if something  happens during the day, it will trigger an emotional reaction that can be captured with sensors. Finally *social context* is important for many collaborative work practices since interactions with other people (colleague, customers, patients) is constitute an important aspect of experiences to reflect upon.
+
+*How to capture context* is also further elaborated in the paper. Three methods are proposed. Data can be *self-reported* by the users, thus providing a subjective impression on an experience, for example by means of digital diaries. Data can be *self-reported from third parties* in which an external perspective to the reflecting person. Finally data den be captured *automatically* by sensors and application, for example by means of stress and activity trackers.     
+
+Compared to P3 the paper also add third challenge connected to *visualisation of context*. In order to be effective in trigger and sustain a reflection sessions, data should be visualised from multiple perspective, depending on the criterion taken in account. Discrepancies among different view of the same experiences should be outlined as reflection triggers. The social (comparing data over multiple users), spatial (the location data were captured) and historical perspective (evolution of data samples over time) are considered as effective for reflection. The CroMAR app (P1) and Trainer app (P2) were designed to visualise data according with one or more of those perspective.
+
+The three design dimensions are functional to build technology tools that implement the stages of the CSRL cycle (Chapter X). While what context and how to capture it pertains designing of technology to support the *plan and do work* stage of the model, *how to visualise data* provides support for the subsequent stages of *initiate reflection* and *conduct reflection session* (Figure X). To motivate the user in the data collection process methods borrowed persuasive technology and quantified self are presented.
+
+![figure to be reworked](imgs/csrl_mapping.png)
+
+The paper further presents two case studies and their evaluation. One of the cases show the use of WATCHiT (P3) and Trainer (P2) to support reflection on the implementation of protocols (e.g. medical procedures) by workers in the field, immediately after the procedure is performed. The system promotes a quick reflection session with easy triggers that can be done by the worker herself or collaboratively by a team. The second case study is an application designed su support carers in dementia care homes by reflecting on their daily interaction with residents and colleagues. Both case studies address users, carers and crisis workers, that work in highly dynamic environments and therefore benefit the most from on-the-job training.
+
+The system evaluations presented in the two case studies show that participants in both studies were able to learn from the visualised context. Yet, it is confirmed that learning goals and expected outcomes are difficult do define a priori. In this light it is critical when designing tools to find a balance between defining an overall learning goal and provide a structure reflection session, versus a more open-ended one. It is also considered critical to provide an option to record reflection outcomes, so that the gained insight can be user later (and trigger new reflection cycles), as implemented in CroMAR (P1)
+
+Capturing tools should be easy to adapt, in order to allows the users to deal with the unpredictability of relevance of the captured context. This has been implemented in WATCHiT (P3) by means of physical sensor modules.
+
+*Relation to the research questions: * The paper dresses RQ1 “How sensor-based interfaces can enable pervasive and unobtrusive data collection at work?” and RQ2, “How tangible and playful interaction with digital information can help in engaging reflection processes?”  
+
+## Paper 7
+
+*Title:* A Unified Architecture for Supporting Direct Tag-Based and Indirect Network-Based Resource Discovery.
+
+*Authors:* Simone Mora and Babak Farshchian
+
+*Authors’ contribution:* Mora conducted the design work and wrote the paper. Farshchian provided feedbacks throughout both the design and writhing processes. 
+
+*Published in:* Proceedings of the European Conference on Ambient Intelligence (AMI)
+
+> *Abstract:* Discovering and integrating ambient computational resources is a central topic in AmI. There are two major existing approaches: indirect network-based resource selection and direct tag-based resource identification. We motivate the need to integrate the two approaches through a scenario. We then present an architecture for a pluggable discovery system called UbiDisco. We demonstrate how UbiDisco implements a seamless integration of the two approaches at user interaction level through a framework for implementing discovery actions. 
+
+*Description:* This paper presents an modular approach to service discovery in smart environments that blends the benefits of direct tag-based and indirect network-based discovery. The approach has been implemented in a middleware, called *UbiDisco*, that allows for end-user discovery and customisation of computational resources and support data exchange between heterogeneous systems. The system hinder the user from the complexity of dealing with multiple data exchange protocols and in the setup of the first connection between devices.
+
+The works constitute the foundation of the rapid prototyping approach taken by the work in this PhD. Enable users to easily connect and exchange different system is critical to allow ecologies of devices and apps to support the reflection cycle. For example in some scenarios multiple WATCHiT (P3) can be connected to CroMAR (P1) du support debriefing after large events; while the same devices could be connected to Trainer (P2) to support debriefing after procedure training.

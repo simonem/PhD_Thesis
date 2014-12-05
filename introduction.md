@@ -39,15 +39,13 @@ The research questions RQ1-RQ3 are answered in the following papers:
 
 > **P3** Mora, S., & Divitini, M. (2014). WATCHiT: a modular and wearable tool for data collection in crisis management and training. *In Proceeding of the European Conference in Ambient Intelligence, AMI*. 
 
-> **P4** Mora, S., Di Loreto, I., & Divitini, M. A token-constraint approach to interactive board games: the case of “DoomTown”. *To Be Submitted at INTERACT2015*.
+> **P4** Di Loreto, I., Mora, S., & Divitini, M. (2012). Don’t Panic: Enhancing Soft Skills for Civil Protection Workers. *In Proceeding of International Conference on Serious Games Development Applications, SGDA*, 7528(Chapter 1), 1–12. doi:10.1007/978-3-642-33687-4_1
 
-> **P5** Di Loreto, I., Mora, S., & Divitini, M. (2012). Don’t Panic: Enhancing Soft Skills for Civil Protection Workers. *In Proceeding of International Conference on Serious Games Development Applications, SGDA*, 7528(Chapter 1), 1–12. doi:10.1007/978-3-642-33687-4_1
+> **P5** Mora, S., Di Loreto, I., & Divitini, M. A token-constraint approach to interactive board games: the case of “DoomTown”. *To Be Submitted at INTERACT2015*.
 
-> **P6** Sisarica, A., Maiden, N., Mora, S., & Divitini, M. Training Carers of Older People with Dementia Using Digitally Augmented and Creative Serious Games. *Submitted at CHI2015*.
+> **P6** Müller, L., Divitini, M., Mora, S., Rivera-Pelayo, V., & Stork, W. Context Becomes Content: Sensor Data for Computer Supported Reflective Learning. *To Appear in the IEEE Transactions on Learning Technologies*.
 
-> **P7** Müller, L., Divitini, M., Mora, S., Rivera-Pelayo, V., & Stork, W. Context Becomes Content: Sensor Data for Computer Supported Reflective Learning. *To Appear in the IEEE Transactions on Learning Technologies*.
-
-> **P8** Mora, S., & Farshchian, B. A. (2010). A Unified Architecture for Supporting Direct Tag-Based and Indirect Network-Based Resource Discovery. *In Proceeding of the International Conference on Ambient Intelligence, AMI*, 6439(Chapter 20), 197–206. doi:10.1007/978-3-642-16917-5_20
+> **P7** Mora, S., & Farshchian, B. A. (2010). A Unified Architecture for Supporting Direct Tag-Based and Indirect Network-Based Resource Discovery. *In Proceeding of the International Conference on Ambient Intelligence, AMI*, 6439(Chapter 20), 197–206. doi:10.1007/978-3-642-16917-5_20
 
 Table x shows the mapping between research papers and research questions.
 
