@@ -32,7 +32,7 @@ The challenges have informed the design of WATCHiT, a modular data capturing too
 
 Contribution 2 can be a resource for computer scientists aiming at designing technologies for pervasive, quantitative and qualitative data collection. The presented challenges constitute a foundation for a design space for data capturing tools. They are expression of the trade-off between technology-centred quantitative data acquisition and user-centerer qualitative information collection. 
 
-## C3: Novel interaction techniques to support crisis training
+## C3: Novel interaction techniques to support crisis training [for data collection and collaborative serious games]
 
 Contribution 3 of the thesis brings novel interaction techniques to the field of tangible embodied and embedded computing. 
 
