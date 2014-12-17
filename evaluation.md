@@ -20,3 +20,25 @@ This question is answered by Contribution 3. It is found out that theory in the 
 ### RQ3: How technology tools for supporting reflection can be rapid prototyped?
 
 This question is answered by Contribution 4. It is found out that prototyping tools for supporting reflection require a wide range of skills ranging from software and electronic engineering and industrial design. Yet a toolbox for assisting in full the work of designers and engineers in implementing functional requirements in prototypes couldn’t be identified. Despite so recent advances in open source hardware and software, digital manufacturing and technology developed by the author (P7) allowed the author to build working prototypes robust enough to undergo evaluations during simulated crisis work. Still the production of prototypes for supporting reflection require a lot of resources in terms of time, money and skills not usually available among the research communities this PhD work belongs to.
+
+## Evaluation of research approach
+
+The research approach taken has a number of limitations. In this section the overall research approach is evaluated and validity issues are discussed.
+
+### Conclusion validity
+
+Conclusion validity question whether the method used shows a relationship between the variables that are studied.
+
+In this work the efficacy in supporting reflective learning for the technology tools developed was evaluated (as proof of validity for C1). Also due to the novel nature of the user interaction paradigms for the applications developed, technology acceptances tests and usability evaluations have been performed. 
+
+Considering the design research approach taken and the thus the number of human factors involved, methods from qualitative research were used in the evaluations. The methods used included observations, semi-structured interviews, surveys and questionnaires. The adoption of the MIRROR Evaluation Toolbox [@Renner:v4nLmwOk], which provided questionnaires to measure reflective learning at work, straighten the conclusion validity of the research. These questionaries are built on the Kirkpatrick framework [REF] and have been developed through an extensive survey of literature on reflective learning and in cooperation with participants from different workplace settings. 
+
+The number of participants in the studies added up to 56 crisis field workers, 1 disaster manager, 8 IT students and 4 HCI experts. Among the field workers 5 participated in more than one study. The size of data samples used for statistical analysis is therefore limited and it weakens the conclusion validity, especially for the evaluation studies for the applications targeting disaster managers (CroMAR). Furthermore most of evaluation studies lasted only for a few hours. It is therefore not possible to asses long-term learning effects for the solutions developed.
+
+### Internal validity
+
+Internal validity questions whether the method used demonstrates a casual relationship between two variables or not.
+
+By running field studies during rescue work simulated for training purposes and arranged by external organisations, most variables couldn’t be controlled. Access to workers and locations where the work is performed was restrained to avoid obstructing activities and put the training objectives of the events at risk. Despite the good will of simulations attendees and organisers, often it wasn’t possible to fully attend to the evaluation protocol agreed due to both planned and unplanned unpredictibility of such events.  
+
+Yet during field studies, lack of control was traded for realism. Drills attended recreated working conditions as close as possible to real emergencies. Participants were unaware of the type of emergency to face until the very last, human mistakes and failure of technical systems were re-created on purpose by the drill manager. Finally, volunteers acting as injured were made-up with fake wounds and instructed to behave accordingly (e.g. panicking). Considering the very situated nature of crisis work, the widespread layout of activities in space, the coexistence of multiple roles and organisations, choosing field studies over an experimental strategy has strengthen the internal validity of the work. Giving for granted that running field studies during real crisis work is not feasible due to safety and legal issues.
