@@ -35,10 +35,21 @@ Considering the design research approach taken and the thus the number of human 
 
 The number of participants in the studies added up to 56 crisis field workers, 1 disaster manager, 8 IT students and 4 HCI experts. Among the field workers 5 participated in more than one study. The size of data samples used for statistical analysis is therefore limited and it weakens the conclusion validity, especially for the evaluation studies for the applications targeting disaster managers (CroMAR). Furthermore most of evaluation studies lasted only for a few hours. It is therefore not possible to asses long-term learning effects for the solutions developed.
 
+Running user studies in crisi org. requires lot of work to 
+
 ### Internal validity
 
 Internal validity questions whether the method used demonstrates a casual relationship between two variables or not.
 
-By running field studies during rescue work simulated for training purposes and arranged by external organisations, most variables couldn’t be controlled. Access to workers and locations where the work is performed was restrained to avoid obstructing activities and put the training objectives of the events at risk. Despite the good will of simulations attendees and organisers, often it wasn’t possible to fully attend to the evaluation protocol agreed due to both planned and unplanned unpredictibility of such events.  
+By running field studies during rescue work simulated for training purposes and arranged by external organisations, most variables couldn’t be controlled. Access to workers and locations where the work is performed was restrained to avoid obstructing activities and put the training objectives of the events at risk. Despite the good will of simulations attendees and organisers, often it wasn’t possible to fully attend to the evaluation protocol agreed due to both planned and unplanned unpredictability of such events.  
 
 Yet during field studies, lack of control was traded for realism. Drills attended recreated working conditions as close as possible to real emergencies. Participants were unaware of the type of emergency to face until the very last, human mistakes and failure of technical systems were re-created on purpose by the drill manager. Finally, volunteers acting as injured were made-up with fake wounds and instructed to behave accordingly (e.g. panicking). Considering the very situated nature of crisis work, the widespread layout of activities in space, the coexistence of multiple roles and organisations, choosing field studies over an experimental strategy has strengthen the internal validity of the work. Giving for granted that running field studies during real crisis work is not feasible due to safety and legal issues.
+
+### External validity
+
+External validity questions whether the relationship found can be generalised to other settings.
+
+Given the characteristics of the sample of population the research has been evaluated with, it is not possible to draw conclusions about generalisations of results, both within the crisis domain and to other settings. 
+
+First participants in the studies are all affiliated to the same emergency association; the design research has been case studied on the specific needs of that organisation. Although an analysis of literature has proven that needs from our user studies have been found in other organisations from different countries, it is not given to know how the results from this work could be accepted by other organisations. This weakens the results of research. Contacts with other emergency organisations have been established in order to evaluate generalisation of results.
+
