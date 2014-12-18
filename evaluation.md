@@ -51,5 +51,13 @@ External validity questions whether the relationship found can be generalised to
 
 Given the characteristics of the sample of population the research has been evaluated with, it is not possible to draw conclusions about generalisations of results, both within the crisis domain and to other settings. 
 
-First participants in the studies are all affiliated to the same emergency association; the design research has been case studied on the specific needs of that organisation. Although an analysis of literature has proven that needs from our user studies have been found in other organisations from different countries, it is not given to know how the results from this work could be accepted by other organisations. This weakens the results of research. Contacts with other emergency organisations have been established in order to evaluate generalisation of results.
+First participants in the studies are all affiliated to the same emergency association; the design research has been case studied on the specific needs of that organisation. Although literature reviews have shown that technology requirements found in our user studies are common to other organisations in different countries, it is not given to know how the results from this work could be accepted by other organisations. This weakens the results of research. Contacts with other emergency organisations have been established in order to evaluate generalisation of results.
+
+Second it hasn’t been thoroughly investigated how results from this PhD could be translated to work practices different than the crisis domain. The novel interaction techniques and the rapid prototyping approach developed have been employed to create games for training workers in dementia care homes for better care, during a research visit abroad. The same approach drove the design and implementation of tangible interface to promote user engagement and reflection about urban-mobility data , as part of a second research visit abroad.
+
+### Reliability
+
+Reliability is the extend to which another researcher would find  the same answers.
+
+Most of the data were only observed, recorded and analysed by one person, which is subject to interpretation bias. However some of the data were analysed by two or more people. Further, different researchers have been responsible for different studies. 
 
