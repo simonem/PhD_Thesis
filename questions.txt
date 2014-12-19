@@ -1,3 +1,5 @@
 questions
 - publieshers consent in adding the paper to the thesis
 - british or US english?
+- crisis training or crisis learning?
+- crisis workers or disaster workers?

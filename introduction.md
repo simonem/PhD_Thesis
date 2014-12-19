@@ -3,13 +3,25 @@
 # Introduction
 ## Problem Statement
 
-In this thesis I investigate how to employ tools from reflection theory and embedded technology to provide better training to crisis workers. In crisis training, experience-based learning is a powerful tool. Each crisis is likely to be an unique event that will not take place again under the same circumstances. Even simulated crisis events for training purposes are arranged rarely due to high costs. Being able to learn from work experiences of the different roles on field (first responders, team coordinators, disaster managers) can bring learning outcomes to complement traditional formal training. 
+This thesis is about how to improve crisis training with ICT technologies. Crisis training is an umbrella term for complex, collaborative activities aiming at improve the people’s abilities for *preparedness* to human and natural-caused disasters (e.g. a flooding or a terrorist attack). Beside teaching the population what to do when a disaster occurs, it focuses on training crisis workers to efficiently response to a crisis; for example by actuating coping strategies, management of resources and rescue procedures. Each crisis is likely to be a situated, unpredictable event that will not take place again under the same circumstances. Training for crisis preparedness is a wicked problem, but it can positively affect everyone’s lives.
 
-Learning from experiences entails reflection [@boud1985reflection; @Dewey:1998ug; @kolb1974toward]. Reflection on action has been a research topic since the work of Dewey [@dewey1933we] that describes how we learn by comparing our expectations to new and past experiences in order to promote continuous learning. Reflecting on action is critical in order to learn from past experiences and performing better in the future [@boud1985reflection; @Schon:1983ut] and a number of technology tools have been developed to support reflection, as an individual or collaborative activity. The CSRL (Computer Supported Reflective Learning) model developed as part of the MIRROR project[^mirror]  identifies a cycle of four stages of reflection [@Krogstie:2013kf]: *do work*, *initiate reflection session*, *conduct reflection session* and *apply reflection outcomes*. 
+There are two main tools to crisis training: tabletop exercises and physical simulations, on top of that real crises also offer triggers for learning [REF]. The main venue crisis training is small to large scale simulations of disasters, e.g. events recreated to resemble at best real crises in terms of the physical environment (e.g. debrief, broken trees), but also reproducing feelings of real life crisis events such as stress, tension, time pressure, uncertainty [@Borodzicz:2002em]. Yet these training events are arranged rarely due to high costs, and some conditions cannot be simulated. Often the impact of those events is limited by …
 
-In the context of crisis training, technology support for the reflective learning cycle addresses two activities: (i) *capturing work experiences* (ii) *re-creating work experiences*. While *capturing work experiences* is done *in-action*, *re-creating work experience* allow for initiating and sustaining a reflection session *on-action*. Technology provides help in different ways. Sensors can capture aspects of work experiences; data which can be visualised on a computer interface to provide triggers for re-evaluating an experience towards a learning outcome, or that can be used to plan new training work. Yet current technology tools don’t consider the very particular, situated nature of crisis work. While data capturing tools lack of interaction paradigms suitable to be used in-action, interfaces to visualise and manipulate data for reflection purposes struggle in providing the users with context information needed to ground the reflection process towards a learning outcome. 
+> *Hence, how it is possible to maximise crisis training learning outcomes*?
+ 
+The training practices already in place can be enhanced by advances in reflective learning theories and ICT.
 
-Theory in the field of tangible, embodied and embedded interaction [@Dourish:2001vc] can inform the design of technologies to better assist reflection processes for crisis training. Tangible and embodied user interfaces are a recent trend in HCI aiming at enabling interaction with digital information exploiting the affordances that everyday objects provide, rather than traditional input devices such as keyboard, mouse or touchscreens. Using sensor-based technology, conventional object can be augmented and turned in “physical handles” to digital operations [@Ishii:1997ur], linking their traditional affordances to new digital meanings. Embodied interaction techniques can be implemented in computer interfaces to allow *capturing work experiences* disrupting as little as possible the rescue work, to *re-create work experiences* in a physical context for debriefing purposes and to *generate new work experiences* for continuous training characterised by engaging, playful interaction and reduced cost compared to traditional physical simulations.
+Experience-based learning, is a powerful tool. Being able to learn from work experiences of the different roles on field (first responders, team coordinators, disaster managers) can bring learning outcomes to complement the traditional formal training already adopted during training events. Learning from experiences entails reflection [@boud1985reflection; @Dewey:1998ug; @kolb1974toward]. Reflection on action has been a research topic since the work of Dewey [@dewey1933we] that describes how we learn by comparing our expectations to new and past experiences in order to promote continuous learning. Reflecting on action is critical in order to learn from past experiences and performing better in the future [@boud1985reflection; @Schon:1983ut] and a number of technology tools have been developed to support reflection, as an individual or collaborative activity. The CSRL (Computer Supported Reflective Learning) model developed as part of the MIRROR project[^mirror]  identifies a cycle of four stages of reflection [@Krogstie:2013kf]: *do work*, *initiate reflection session*, *conduct reflection session* and *apply reflection outcomes*. 
+
+> *Therefore how can ICT technology to support the reflection cycle?”*
+
+In the context of crisis training, technology support for the reflective learning cycle addresses two activities: (i) *capturing work experiences* (ii) *re-creating work experiences*. While *capturing work experiences* is done *in-action*, *re-creating work experience* allow for initiating and sustaining a reflection session *on-action*. 
+
+Technology provides help in different ways. Sensors can capture aspects of work experiences; data which can be visualised on a computer interface to provide triggers for re-evaluating an experience towards a learning outcome, or that can be used to plan new training work. Yet current technology tools don’t consider the very particular, situated nature of crisis work. While data capturing tools lack of interaction paradigms suitable to be used in-action, interfaces to interact with the data for reflection purposes struggle in providing the users with context information needed to ground the reflection process towards a learning outcome. 
+
+Theory in the field of tangible, embodied and embedded interaction [@Dourish:2001vc] can inform the design of technologies to better assist reflection processes for crisis training. Tangible and embodied user interfaces are a recent trend in HCI aiming at enabling interaction with digital information exploiting the affordances that everyday objects provide, rather than traditional input devices such as keyboard, mouse or touchscreens. Using sensor-based technology, conventional object can be augmented and turned in “physical handles” to digital operations [@Ishii:1997ur], linking their traditional affordances to new digital meanings. 
+
+Embodied interaction techniques can be implemented in computer interfaces to allow *capturing work experiences* disrupting as little as possible the rescue work, to *re-create work experiences* in a physical context for debriefing purposes and to *generate new work experiences* for continuous training characterised by engaging, playful interaction and reduced cost compared to traditional physical simulations.
 
 [^mirror]: MIRROR Project - http://www.mirror-project.eu
   
@@ -17,62 +29,75 @@ Theory in the field of tangible, embodied and embedded interaction [@Dourish:200
 
 The main research question for the PhD work is:
 
-> MRQ: How systems featuring embodied and sensor-based interaction techniques can introduce new opportunities to promote reflection on work experiences?
+> MRQ: How ICT technologies can introduce new opportunities to promote reflection on work experiences? 
 
 To answer the MRQ the work has been broken down into three sub-questions:
 
-> RQ1: How sensor-based interfaces can enable pervasive and unobtrusive data collection at work?
+> RQ1: How computer interfaces can be designed to enable unobtrusive data collection during crisis work? 
 
-> RQ2: How tangible and playful interaction with digital information can help in engaging reflection processes?
+> RQ2: How interaction techniques can be designed to facilitate the different phases of a reflection processes? 
 
-> RQ3: How digital manufacturing and open source hardware and software can inform rapid prototyping of sensor-based human-computer interfaces for capturing and visualising reflection-useful data?
+> RQ3: How technology tools for supporting reflection can be rapid prototyped? 
 
-While the first two questions aim at investigating the design of systems to support with technology the tasks of capturing and re-creating work experiences; the third question investigates how technology toolkits and open-source communities can ease the prototyping phase, shortening the time for production of working prototypes to be used during evaluations. Prototypes lies at the roots of the user-center design methodology adopted in this PhD work, yet prototyping tangible and embodied user interfaces is a complex task that involves a mix of hardware, software and product design skills.    
+While the first two questions aim at investigating the design of systems to support with technology the tasks of capturing and re-creating work experiences; the third question investigates how toolkits and open-source communities can ease the implementation of designs into prototypes. Prototypes lies at the roots of the design science methodology adopted in this PhD work, yet prototyping tangible and embodied user interfaces is a complex task that involves a mix of hardware, software and product design skills.    
 
 ## Results and contributions
 
 The research questions RQ1-RQ3 are answered in the following papers:
 
-> **P1** Mora, S., Boron, A., & Divitini, M. (2012). CroMAR: Mobile Augmented Reality for Supporting Reflection on Crowd Management. *International Journal of Mobile Human Computer Interaction*, 4(2), 88–101. doi:10.4018/jmhci.2012040107
+> **P1** Mora, S., Boron, A., & Divitini, M. (2012). CroMAR: Mobile Augmented Reality for Supporting Reflection on Crowd Management. *International Journal of Mobile Human Computer Interaction*, 4(2), 88–101. 
 
-> **P2** Mora, S., & Divitini, M. (2014). Supporting Debriefing with Sensor Data: A Reflective Approach to Crisis Training. *In Proceeding of Information Systems for Crisis Response and Management in Mediterranean Countries, ISCRAM-MED*, 196(Chapter 7), 71–84. doi:10.1007/978-3-319-11818-5_7
+> **P2** Mora, S., & Divitini, M. (2014). Supporting Debriefing with Sensor Data: A Reflective Approach to Crisis Training. *In Proceeding of Information Systems for Crisis Response and Management in Mediterranean Countries, ISCRAM-MED*, 196(Chapter 7), 71–84. 
 
 > **P3** Mora, S., & Divitini, M. (2014). WATCHiT: a modular and wearable tool for data collection in crisis management and training. *In Proceeding of the European Conference in Ambient Intelligence, AMI*. 
 
-> **P4** Di Loreto, I., Mora, S., & Divitini, M. (2012). Don’t Panic: Enhancing Soft Skills for Civil Protection Workers. *In Proceeding of International Conference on Serious Games Development Applications, SGDA*, 7528(Chapter 1), 1–12. doi:10.1007/978-3-642-33687-4_1
+> **P4** Di Loreto, I., Mora, S., & Divitini, M. (2012). Don’t Panic: Enhancing Soft Skills for Civil Protection Workers. *In Proceeding of International Conference on Serious Games Development Applications, SGDA*, 7528(Chapter 1), 1–12. 
 
-> **P5** Mora, S., Di Loreto, I., & Divitini, M. A token-constraint approach to interactive board games: the case of “DoomTown”. *To Be Submitted at INTERACT2015*.
+> **P5** Mora, S., Di Loreto, I., & Divitini, M. A token-constraint approach to interactive board games: the case of “Don’t Panic!”. *To Be Submitted at INTERACT2015*.
 
 > **P6** Müller, L., Divitini, M., Mora, S., Rivera-Pelayo, V., & Stork, W. Context Becomes Content: Sensor Data for Computer Supported Reflective Learning. *To Appear in the IEEE Transactions on Learning Technologies*.
 
-> **P7** Mora, S., & Farshchian, B. A. (2010). A Unified Architecture for Supporting Direct Tag-Based and Indirect Network-Based Resource Discovery. *In Proceeding of the International Conference on Ambient Intelligence, AMI*, 6439(Chapter 20), 197–206. doi:10.1007/978-3-642-16917-5_20
+> **P7** Mora, S., & Farshchian, B. A. (2010). A Unified Architecture for Supporting Direct Tag-Based and Indirect Network-Based Resource Discovery. *In Proceeding of the International Conference on Ambient Intelligence, AMI*, 6439(Chapter 20), 197–206. 
 
 Table x shows the mapping between research papers and research questions.
 
 -------------------------------------------------------------------------
 Research questions                 P1   P2   P3   P4   P5   P6   P7   P8  
 -------------------------------   ---- ---- ---- ---- ---- ---- ---- ----
-(1) How sensor-based interfaces        *    *                   *
-can enable pervasive and 
-unobtrusive data collection 
-at work?
+(1) How computer interfaces can 
+be designed to enable unobtrusive 
+data collection during 
+crisis work? 
 
-(2) How tangible and playful      *    *          *    *    *   *
-interaction with digital 
-information can help in engaging 
-reflection processes?           
- 
-(3) How digital manufacturing and *    *    *     *         *         *
-open source hardware and software 
-can inform rapid prototyping of 
-sensor-based human-computer 
-interfaces for capturing and 
-visualising reflection-useful data?
+(2) How interaction techniques 
+can be designed to facilitate 
+the different phases of a 
+reflection processes? 
+
+(3) How technology tools for 
+supporting reflection 
+can be rapid prototyped?
 --------------------------------------------------------------------------
 
-Table: Mapping between research papers and research quesitions
+Table: Mapping between research papers and research questions
 
-### Contributions
+## Research design
+
+This research work uses Crisis training as case study to evaluate the efficacy of theory tools from reflection learning and embodied and embedded technology to provide learning outcomes.
+
+Several research strategies have supported the work done, such as field studies, focus groups, surveys and interviews. These activities were functional to the main method adopted which is design research. Consistently with this methodology, grounded on the research activities of *building* artefacts for a specific purpose and of *evaluating* how well the artefacts perform [@March:1995gm], a number of prototyping iterations and evaluation studies have been performed.
+
+Prototyping involved the construction of complex hardware and software systems to support reflection processes. The design of prototypes was driven both by literature in computer supported reflective learning and user studies performed by the author. Simple prototypes were initially used to build a deeper understanding of the crisis domain, for which I didn't have any previous knowledge. They acted as technology probes [@Hutchinson:2003il] and facilitate building and understanding of the crisis domain by engaging users in focus groups. Later, multiple iterations implemented a growing set of requirements in fully working prototypes robust enough to be used during simulated rescue work.
+
+User evaluations followed each prototyping iteration. The aim was both in assessing usability and reflection outcomes. Prototypes were evaluated both during focus groups or during large simulations of crisis response works involving multiple organisations. Results from evaluations have both fed following design iterations and the validation of theory models in reflective learning. 
+
+Some of the above-mentioned evaluations studies were performed during simulation of crisis response work organised by third parties, for other purposes than the aim of this thesis. For this reason it hasn't been always possible to control all the variables of the experiments and have full access to peoples and locations. Data collected during the studies, including video and audio streams, researcher's note and surveys were analysed using qualitative research methods [REF].
+
+
+
+## Contributions
+
+
 
 ## Context of the work
 
