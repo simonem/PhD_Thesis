@@ -5,3 +5,14 @@ p.108: Through a parallel and retrospective process of reflection upon the desig
 human vs machine game of optimization
 
 In this thesis I investigate how to employ tools from reflection theory and embedded technology to provide better training to crisis workers.
+
+Students:
+
+Alessandro Boron
+Emanuele Di Santo
+Anders Kristiansen
+Andreas Storlien
+Maria Møller 
+Ingrid Tarøy
+Dusan Stefanovich
+Pawan Chamling

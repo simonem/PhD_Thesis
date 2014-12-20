@@ -1,6 +1,9 @@
 \mainmatter
 
 # Introduction
+
+[Revision 1]
+
 ## Problem Statement
 
 This thesis is about how to improve crisis training with ICT technologies. Crisis training is an umbrella term for complex, collaborative activities aiming at improve the people’s abilities for *preparedness* to human and natural-caused disasters (e.g. a flooding or a terrorist attack). Beside teaching the population what to do when a disaster occurs, it focuses on training crisis workers to efficiently response to a crisis; for example by actuating coping strategies, management of resources and rescue procedures. Each crisis is likely to be a situated, unpredictable event that will not take place again under the same circumstances. Training for crisis preparedness is a wicked problem, but it can positively affect everyone’s lives.
@@ -40,6 +43,20 @@ To answer the MRQ the work has been broken down into three sub-questions:
 > RQ3: How technology tools for supporting reflection can be rapid prototyped? 
 
 While the first two questions aim at investigating the design of systems to support with technology the tasks of capturing and re-creating work experiences; the third question investigates how toolkits and open-source communities can ease the implementation of designs into prototypes. Prototypes lies at the roots of the design science methodology adopted in this PhD work, yet prototyping tangible and embodied user interfaces is a complex task that involves a mix of hardware, software and product design skills.    
+
+## Research design
+
+This research work uses Crisis training as case study to evaluate the efficacy of theory tools from reflection learning and embodied and embedded technology to provide learning outcomes.
+
+Several research strategies have supported the work done, such as field studies, focus groups, surveys and interviews. These activities were functional to the main method adopted which is design research. Consistently with this methodology, grounded on the research activities of *building* artefacts for a specific purpose and of *evaluating* how well the artefacts perform [@March:1995gm], a number of prototyping iterations and evaluation studies have been performed.
+
+Prototyping involved the construction of complex hardware and software systems to support reflection processes. The design of prototypes was driven both by literature in computer supported reflective learning and user studies performed by the author. Simple prototypes were initially used to build a deeper understanding of the crisis domain, for which I didn't have any previous knowledge. They acted as technology probes [@Hutchinson:2003il] and facilitate building and understanding of the crisis domain by engaging users in focus groups. Later, multiple iterations implemented a growing set of requirements in fully working prototypes robust enough to be used during simulated rescue work.
+
+User evaluations followed each prototyping iteration. The aim was both in assessing usability and reflection outcomes. Prototypes were evaluated both during focus groups or during large simulations of crisis response works involving multiple organisations. Results from evaluations have both fed following design iterations and the validation of theory models in reflective learning. 
+
+Some of the above-mentioned evaluations studies were performed during simulation of crisis response work organised by third parties, for other purposes than the aim of this thesis. For this reason it hasn't been always possible to control all the variables of the experiments and have full access to peoples and locations. Data collected during the studies, including video and audio streams, researcher's note and surveys were analysed using qualitative research methods [REF].
+
+![Figre X: One of the evaluation studies performed](imgs/introduction_cromar.jpg)
 
 ## Results and contributions
 
@@ -81,27 +98,26 @@ can be rapid prototyped?
 
 Table: Mapping between research papers and research questions
 
-## Research design
-
-This research work uses Crisis training as case study to evaluate the efficacy of theory tools from reflection learning and embodied and embedded technology to provide learning outcomes.
-
-Several research strategies have supported the work done, such as field studies, focus groups, surveys and interviews. These activities were functional to the main method adopted which is design research. Consistently with this methodology, grounded on the research activities of *building* artefacts for a specific purpose and of *evaluating* how well the artefacts perform [@March:1995gm], a number of prototyping iterations and evaluation studies have been performed.
-
-Prototyping involved the construction of complex hardware and software systems to support reflection processes. The design of prototypes was driven both by literature in computer supported reflective learning and user studies performed by the author. Simple prototypes were initially used to build a deeper understanding of the crisis domain, for which I didn't have any previous knowledge. They acted as technology probes [@Hutchinson:2003il] and facilitate building and understanding of the crisis domain by engaging users in focus groups. Later, multiple iterations implemented a growing set of requirements in fully working prototypes robust enough to be used during simulated rescue work.
-
-User evaluations followed each prototyping iteration. The aim was both in assessing usability and reflection outcomes. Prototypes were evaluated both during focus groups or during large simulations of crisis response works involving multiple organisations. Results from evaluations have both fed following design iterations and the validation of theory models in reflective learning. 
-
-Some of the above-mentioned evaluations studies were performed during simulation of crisis response work organised by third parties, for other purposes than the aim of this thesis. For this reason it hasn't been always possible to control all the variables of the experiments and have full access to peoples and locations. Data collected during the studies, including video and audio streams, researcher's note and surveys were analysed using qualitative research methods [REF].
-
-
-
 ## Contributions
 
+The seven paper published added to the following contributions of this research work.
 
+> **C1:** Implementation and evaluation of the Computer Supporter Reflective Learning model
+> **C2:** Challenges in designing data capturing tools for crisis workers
+> **C3:** Novel interaction techniques to support crisis training
+> **C4:** Challenges in implementing prototypes deployed into the wild
+
+These contributions are relevant for several research communities including Technology Enhanced Learning (C1), Tangible Embodied Embedded Computing (C3, C4), Information systems for Crisis Response (C1,C2)
+
+[Figure: relation among RQ, Cs and papers]
+
+## Innovation and commercialisation of results
+
+During the late phases of the research work I investigated opportunities for innovation works and commercialisation of results 
 
 ## Context of the work
 
-The PhD work is framed within the EU-funded (IST-FP7) project MIRROR. The focus of MIRROR is the creation of a set of technology applications that enable employees to learn lessons from their own and others experiences to perform better in the future. As an associate researcher of MIRROR I took part in shaping the results of the projects by designing and implementing applications, writing deliverables and participating in project meetings. Thanks to MIRROR I cooperated with crisis workers associations partner of the consortium to run user studies and prototype evaluations. I also benefited from discussions and joined works and publications with other project partners. MIRROR has been graded as "Excellent" by the EU commission.
+The research work is framed within the EU-funded (IST-FP7) project MIRROR. The focus of MIRROR is the creation of a set of technology applications that enable employees to learn lessons from their own and others experiences to perform better in the future. As an associate researcher of MIRROR I took part in shaping the results of the projects by designing and implementing ICT systems, writing deliverables and participating in project meetings. Thanks to MIRROR I cooperated with crisis workers associations partner of the consortium to run user studies and prototype evaluations. I also benefited from discussions and joined works and publications with other project partners. After the scheduled final review in September 2014, MIRROR has been graded as "Excellent" by the EU commission.
 
 During the PhD I was a visiting researcher in two foreign institutions: City London University and MIT SENSEable City Lab. The purpose of the two visits was to investigate whether the technologies developed during the PhD could be generalised to application domains that share similarities with crisis training. 
 
@@ -109,8 +125,6 @@ During fourteen weeks spent at City University (also partner of MIRROR) I invest
 
 During twelve weeks spent at the MIT SENSEable City Lab I investigated the design and production of a tangible interface to promote user engagement and reflection about urban-mobility data under the supervision of professor Carlo Ratti. The work has been has been displayed to the public in two exhibitions: “Wave”  currently held in Paris and “CNR Internet Festival” held in Pisa, Italy.
 
-TTO, Discovery
-
-Student supervisions
+I also co-advised thesis work of eight master student who have contributed in the development of prototypes. One of them also co-authored P1.
 
 ## Structure of the thesis
