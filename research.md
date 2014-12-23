@@ -15,7 +15,7 @@ Throughout the duration of the work discussion with members of the MIRROR consor
 Besides academic research the work in this thesis is characterised by an innovation approach. I co-authored five *declaration of inventions* registered at the NTNU Technology Transfer AS[^tto], an idea accelerator affiliated with NTNU. Those inventions are outcome of the work in P1, P3, P4. In order to asses the market value for the *inventions* I met several companies which showed interest, in different ways, in bringing a contribution for the commercialisation of my PhD work results. In November 2014 one of the invention won 150.00NOK (~22.000USD)  from NTNU Discovery [^discovery] fund as initial seed to commercialise the idea.
 
 [^tto]: NTNU Technology Transfer - http://tto.ntnu.no
-[^discovery]: NTNU Disovery - http://ntnudiscovery.no
+[^discovery]: NTNU Discovery - http://ntnudiscovery.no
 
 The timeline of the different activity performed during the PhD work is depicted in Figure X. In the following I provide a description of settings, methods and techniques for the user studies performed and for the design and prototype iterations.
 
