@@ -1,25 +1,30 @@
-# Crises, Work and Learning
 
-In this section, I provide a brief introduction to the field of crisis management, crisis preparedness and learning.
+# Crises: management, preparedness and training
 
-## Crisis work and preparedness
+In this section, I provide a brief introduction to the field of crisis management, preparedness and training.
 
-The terms *crisis*, *emergency* and *disaster* are often used as synonyms. As pointed out by [@Boin:2007wt] and [@hewit] they deal with events that belong in the “un-ness” category: unexpected, undesirable, unimaginable, and often unmanageable situations. 
+## Crisis management 
 
-We can refer to *crisis* as an event that is expected to lead to a dangerous situation, whether it’s an emergency or a disaster. While an *emergency* is a episode that requires immediate attention, but usually on a small scale, it can turn in a *disaster* if left unattended. For example high rainfall could lead to several emergencies (e.g. car crashes, flooded bridges) and might eventually turn in a disaster (e.g. a massive flooding or an hurricane). Disaster can be caused by nature or human-made and show or not show early signals that allow the disaster to be avoided. Over the last 35 years, the frequency of disasters has increased five-fold and the damage caused has multiplied by approximately eight times [^eudisaster].
+The terms *crisis*, *emergency* and *disaster* are often used as synonyms. They deal with events that belong to the “un-ness” category: unexpected, undesirable, unimaginable, and often unmanageable situations [@Boin:2007wt; @hewit]. 
+
+In this thesis the term *crisis* refers to a single or sequence of problematic events that may lead to a dangerous situation, whether that is an emergency or a disaster. While an *emergency* is a episode that requires immediate attention, but usually on a small scale, it can turn in a *disaster* if left unattended. For example high rainfall could lead to several emergencies (e.g. car crashes, flooded bridges) and might eventually turn into a disaster (e.g. a massive flooding or an hurricane). Disaster can be caused by nature or humans and might show or not show early signals that allow the disaster to be avoided or mitigated. Disaster have a huge impact on societies, in terms of loss of human lives and costs: over the last 35 years, the frequency of disasters has increased five-fold and the damage caused, has multiplied by approximately eight times [^eudisaster]. 
+
+Yet, although troubles are getting more frequent, people’s capacity of dealing with adverse events is also growing [@Boin:2009bv]. Activating effective crisis management strategies during a crisis, can avoid or reduce the extent of an emergency or a disaster; save lives and reduce costs for managing and recovering from a disaster. For this reason improving crisis management practices is a priority for many countries, including the European ones [^eudisaster].   
+
+Providing better crisis management is not easy task. This is due to the nature of crisis work as a complex, inter-organisational activity without clear start or end and involving many different roles. Examples of roles and activities typical of crisis management are police forces to constrain access to a disaster scene, firefighters to explore and map undisclosed areas, paramedics to activate triage and hospitalise injured, fellow citizen to report information and stay out of dangers. Crisis management requires coordination on multiple levels, from team leaders (intra-organisation) up to disaster managers (inter-organisation).    
+
+## Crisis preparedness 
+
+The collective effort to provide better crisis management is known as *crisis preparedness*. It is a continuos process aiming at either preventing a crisis from happening or to be able to overtake it with little damages as possible. Crisis preparedness focuses on two activities, both essential for organisational resilience: *prevention* and *response* [@Deverell:2009fk], in order to:
+(i) prevent a crisis from happening, ~~with risk mitigation activities, monitoring the environment and raising awareness in the population~~
+(ii) getting prepared about what to do when a crisis occurs, in order to prevent disasters or to mitigate their impact on the population. ~~It includes activities related to protocol formalisation and training of crisis workers or crisis training.  Learning and training are core activities to achieve better  crisis preparedness~~.
+
+In order to be prepared about what to do it is critical to train formal procedures about what to do, learn from owns an other’s experiences during crises…
 
 [^eudisaster]: “Council adopts new Union Civil Protection
 Mechanism” Available at: www.consilium.europa.eu/uedocs/cmsdata/docs/pressdata/en/jha/140108.pdf.
 
-Yet, although disasters are getting more frequent, people’s capacity of dealing with adverse events is also growing [@Boin:2009bv] and this is thanks to the advances in crisis preparedness and management, which are a priority for many countries, including the European ones [^eudisaster].   
-
-Crisis management is a complex, inter-organisational activity to provide help to the persons in need during crises. Examples of roles and activities typical of crisis management are police forces to constrain access to a disaster scene, firefighters to explore and map undisclosed areas, paramedics to activate triage and hospitalise injured, fellow citizen to report information and stay out of dangers. Crisis management requires coordination on multiple levels, from team leaders (intra-organisation) up to disaster managers (inter-organisation).    
-
-Meanwhile crisis management is activated only when a crisis occurs, crisis preparedness is a continuos process aiming at improving crisis management practices using training activities to induce learning outcomes. Crisis-induced learning (hereafter crisis learning) focuses on two main activities, both essential for organisational resilience: *prevention* and *response* [@Deverell:2009fk], in order to
-(i) prevent a crisis from happening, ~~with risk mitigation activities, monitoring the environment and raising awareness in the population~~
-(ii) getting prepared about what to do when a crisis occurs, in order to prevent disasters or to mitigate their impact on the population. ~~It includes activities related to protocol formalisation and training of crisis workers or crisis training.  Learning and training are core activities to achieve better  crisis preparedness~~.
-
-## Crisis learning
+## Crisis Traiing
 
 Crisis learning refers to many activities spanning different lengths of time, targeting two user groups: crisis worker and the population. While training the population addresses activities to spread awareness about what to do to avoid, or to better cope with disasters; training of crisis workers refer to activities both to teach rescue protocols and to enhance “*soft skills*”: communication styles, stress management and coping strategies [@Sagun:2009ks]. In this thesis we focus on the latter user group: crisis workers.
 
