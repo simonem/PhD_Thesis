@@ -16,3 +16,6 @@ Maria Møller
 Ingrid Tarøy
 Dusan Stefanovich
 Pawan Chamling
+
+
+Crisis training refers to many activities spanning different lengths of time, targeting two user groups: crisis worker and the population. While training the population addresses activities to spread awareness about what to do to avoid, or to better cope with disasters; training of crisis workers refer to activities both to teach rescue protocols, e.g. medical procedures, and to enhance “*soft skills*”, e.g. communication styles, stress management and coping strategies. In this thesis we focus on the latter user group: crisis workers.
