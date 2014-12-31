@@ -47,7 +47,6 @@ Four approaches to crisis training have been identified. They share the goal to 
     \includegraphics[width=0.48\textwidth]{dp.jpg}
   \end{centering}
 \end{wrapfigure}
-
 *Protocol training* - Those are activities related to teaching of procedures, protocols and best practices. This is often the first type of training given to newcomers. \todo{Technology can…}
 
 *Tabletop exercises* -  Often performed at the strategic level, it usually involves disaster managers to gather together and talk through a simulated disaster. Usually there’s little realism in a tabletop exercise[^epa]: equipments are not used, resources are not deployed in space and time constraints are not introduced. Usually tabletop exercises run for few hours, the limited scale of the exercises make them a cost-effective tool to validate plans and activities.
@@ -64,27 +63,31 @@ With the first approach presented relying on formal learning, the last approache
 
 Experiences from real and simulated crises can be used as triggers to achieve organisational learning [@Deverell:2009fk]. Organisational learning may occur “when experience systematically alter behaviour or knowledge” [@Schwab:2007iw, p.233]; as an effort to gain knowledge from the past (e.g. an earlier crisis exercise) and use it when managing a new crisis, to correct previous mistakes [@Larsson:2010jr]. As stated by Hillyard [-@Hillyard:SYlJRQLN], organisational learning is one of the basic objective of crisis management, which is to accumulated wisdom by “learning together from the event in order to prevent, lessen the severity of, or improve upon responses to future crises”. In CM the correct action to take often can only be derived from experience. e.g. handling of the events in similar situations.
 
-Yet, learning from experiences of crisis management work is not easy. While learning during a crisis, or *intra-crisis*, is very difficult due to time pressure, stress and demands for rapid action [@Deverell:2009fk] and because learning is typically a retrospective exercise [@jasanoff1994learning]; *inter-crisis* learning is also challenging. Moynihan [-@Moynihan:2008gq] identify ten barriers to effective crisis learning. Among those the high consequentiality of crises makes experiential learning costly [@LaPorte:1991gk], moreover the specificity of each crisis event makes hard to apply learning outcomes from one crisis to another. ~~Yet crises also offer learning opportunities, “Experience from previous events can be usefully applied to similar crises and represent a form of learning from the past” [@Moynihan:2008gq~~].
+Yet, learning from experiences of crisis management work is not easy. While learning during a crisis, or *intra-crisis*, is very difficult due to time pressure, stress and demands for rapid action [@Deverell:2009fk] and because learning is typically a retrospective exercise [@jasanoff1994learning]; *inter-crisis* learning is also challenging. Moynihan [-@Moynihan:2008gq] identify ten barriers to effective crisis learning. Among those the high consequentiality of crises makes experiential learning costly [@LaPorte:1991gk], moreover the specificity of each crisis event makes hard to apply learning outcomes from one crisis to another. ~~Yet crises also offer learning opportunities, “Experience from previous events can be usefully applied to similar crises and represent a form of learning from the past” [@Moynihan:2008gq].~~
 
 *Therefore, how work experiences can produce a learning outcome? And what are those learning outcomes? How they will impact on crisis management*?
 
 Work experiences can be turned into knowledge thanks to the reflective practice. Reflecting on action allows workers to learn from past experiences with the goal of performing better in the future [@boud1985reflection; @Schon:1983ut].
 
-Theory in reflective learning and mobile and embedded computing are two key elements to make crisis training based on reflection on work experiences effective. The two domains are interrelated, with the role of theory to inform the design of technology.
+**Theory in reflective learning and mobile and advances in embedded computing and tangible interfaces are two key elements to make crisis training based on reflection on work experiences effective. The two domains are interrelated, with the role of theory to inform the design of technology**.
 
-In the remaining of this thesis, theoretical frameworks presented in the next chapter describe on how to assist reflection by identifying relevant activities and *cycles* of activities. SectionX show how technology can assist those activities, for example providing sensors for capturing different aspects of experiences, user interfaces facilitate the practitioner in reflecting the information captured and infrastructures to share data and reflection outcomes among practitioners.
-——————
+In the remaining of this thesis, theoretical frameworks presented in the next chapter describe on how to assist reflection by identifying relevant activities and *cycles* of activities. Section [sensing--based-interaction] show how technology can assist those activities, for example providing sensors for capturing different aspects of experiences, user interfaces facilitate the practitioner in reflecting the information captured and infrastructures to share data and reflection outcomes among practitioners.
+——————————————————————————————————
 
 ## Debriefing
 In order to turn experiences into knowledge debriefing after real or simulated crisis-work offers important learning opportunities [@Boin:2007wt]. Debriefing involves “reviewing a difficult episode from a constructive point of view … the goal is to extract fundamental lessons learned from the way the event was handled” [@Lagadec:1997js]. It is a collaborative activity involving multiple roles. 
 
 The outcome which debriefing seeks to obtain is lesson drawing. Previous work experiences provide a good source of lesson-drawing which may potentially affect managing, planning and training for future crises. Yet lessons-drawing is often one of the most neglected aspects of crisis management [@Lagadec:1997js; @Stern:1997eb]. Studies [@Lagadec:1997js] has show that the introduction of debriefings meet resistance. This might be due to lack of commitment but also to barriers like costs, lack of data to feed the debriefing, lack of tools to provide meaningful visualisation or to recreate a work experience. In the following I describe out technology can help in lowering those barriers.
 
-A outlined by Boud et al. [-@boud1985reflection] debriefing is a form of collaborative reflection. During debriefings, a re-evaluation of experience takes place, with explicit attention to emotions, ideas and behaviours. Reflection is therefore a critical activity to achieve experiential learning. It can be augmented with technology…
+A outlined by Boud et al. [-@boud1985reflection] debriefing is a form of collaborative reflection. During debriefings, a re-evaluation of experience takes place, with explicit attention to emotions, ideas and behaviours. 
+
+Reflection is therefore a critical activity to achieve experiential learning. It can be augmented with technology…
 
 ### Technology support for crisis training 
 
-Technology can provide support to experiential learning in many ways. For example it can be used to capture a work experience, to simulate or re-create a specific crisis, to provide support to coordination, for data collection or to assist debriefings. The common denominator is that technology can add realism to exercises, in order to re-create experiences that are as close as possible to real crisis, and allow trainees to experience emotions (e.g. stress) of a similar nature and intensity as the ones experience under a real emergency [@MacKinnon:2012wz]. Adding realism to the training experience is recognised to be a key for achieving learning outcomes [@Asproth:2013vs].  
+Technology can provide support to experiential learning in many ways. For example it can be used to capture a work experience, to simulate or re-create a specific crisis, to provide support to coordination, for data collection or to assist debriefings. 
+
+The common denominator is that technology can add realism to exercises, in order to re-create experiences that are as close as possible to real crisis, and allow trainees to experience emotions (e.g. stress) of a similar nature and intensity as the ones experience under a real emergency [@MacKinnon:2012wz]. Adding realism to the training experience is recognised to be a key for achieving learning outcomes [@Asproth:2013vs].  
 
 In this thesis I focus on using technology to:
 
