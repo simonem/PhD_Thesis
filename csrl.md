@@ -1,7 +1,9 @@
 
 # Computer Supported Reflective Learning
 
-In order to inform the design of technology to support crisis training, I employed the Computer Supported Reflective Learning model (hereafter CSRL model) developed by the MIRROR project. The model identify requirements to design technology to support reflective learning [@Krogstie:2013kf]. The CSRL model has worked as theoretical underpinning for the development of applications of technology presented in this PhD work, providing a language for guiding the understanding of reflection and drafting requirements for the technology.
+[Revision 1]
+
+In order to inform the design of technology to support experiential crisis training, I adopted the Computer Supported Reflective Learning model (hereafter CSRL model) developed by the MIRROR project. The model identify requirements to design technology to support reflective learning [@Krogstie:2013kf]. The CSRL model has worked as theoretical underpinning for the development of applications of technology presented in this PhD work, providing a language for guiding the understanding of reflection and drafting requirements for the technology.
 
 In this thesis the CSRL model has driven the development of technology in P1, P2 and P3.
 
@@ -9,7 +11,9 @@ After a brief introduction about reflection theory I describe the CSRL model and
 
 ## Reflection as a tool for learning from experiences
 
-Boud [-@boud1985reflection] defines reflective learning as “a generic term for those intellectual and affective activities in which individuals [...] explore their experiences in order to lead to new understandings and appreciations”, it is both an individual and collective mental process that turns past experiences into new knowledge. This is also in line with the work of Schön [-@Schon:1983ut] who further distinguish between *reflection-in-action* and *reflection-on-action*. Reflection consists in a three-steps process during which the learner re-evaluate her experiences inspecting behaviours, ideas and feelings; eventually deriving conclusions and lessons learned to that guide future behaviours (Figure x). The process can be iterated multiple times and might influence the learner behaviours only in the long term. 
+Boud [-@boud1985reflection] defines reflective learning as “a generic term for those intellectual and affective activities in which individuals [...] explore their experiences in order to lead to new understandings and appreciations”, it is both an individual and collective mental process that turns past experiences into new knowledge. This is also in line with the work of Schön [-@Schon:1983ut] who further distinguish between *reflection-in-action* and *reflection-on-action*. 
+
+Reflection consists in a three-steps process during which the learner re-evaluate her experiences inspecting behaviours, ideas and feelings; eventually deriving conclusions and lessons learned to that guide future behaviours (Figure x). The process can be iterated multiple times and might influence the learner behaviours only in the long term. 
 
 ![The reflection process according with Boud [-@boud1985reflection]](imgs/boud.png)
 
@@ -17,13 +21,21 @@ A key aspect in making a reflective process to happen is the presence of trigger
 
 Similar to the work of Boud, Kolb describes experiential learning as a cyclic process named “the Kolb Cycle” (Figure x). 
 
-![The Kolb cycle](imgs/kolb.png)
+![The Kolb cycle](imgs/kolb.png)\todo{figure must be improved}
 
 According with Kolb [-@kolb1984experiential] reflection is a process that involves not only reinterpreting existing experiences, but also initial perception and interpretation of the raw experience. For a description of other existing theories in reflective learning see [@WoodDaudelin199636].
 
-### Post-crisis debriefing as an example of collaborative reflection
+### Debriefing crisis management work, an example of collaborative reflection 
 
-## MIRROR Computer Supported Reflective Learning model 
+An example of collaborative reflection in crisis management is *debriefing*. As outlined by Boud et al. [-@boud1985reflection] debriefing is a form of collaborative reflection because during debriefings, a re-evaluation of experience takes place, with explicit attention to emotions, ideas and behaviours. 
+
+Debriefing involves “reviewing a difficult episode from a constructive point of view … the goal is to extract fundamental lessons learned from the way the event was handled” [@Lagadec:1997js]. It is a collaborative activity involving multiple roles, usually run after simulated crisis events. FigureX shows one of the debriefing observed during user studies. After a 3-days physical simulation of crisis management operations, the chief manager discusses with team leaders and field workers what went wrong and how to avoid the same issues in the future. Technology is used to visualise location of operations on a digital map. Data were previously manually entered during the training event.
+
+![A debriefing after a physical simulation of crisis management](imgs/debriefing.jpg)
+
+The outcome which debriefing seeks to obtain is lesson drawing. Previous work experiences provide a good source of lesson-drawing which may potentially affect managing, planning and training for future crises. Yet lessons-drawing is often one of the most neglected aspects of crisis management [@Lagadec:1997js; @Stern:1997eb]. Studies [@Lagadec:1997js] has show that the introduction of debriefings meet resistance. This might be due to lack of commitment, costs, but also the lack of technologies to make the debriefing more effective. For example of computer tools to capture data and to provide meaningful visualisation or to recreate a work experience.
+
+## Computer Supported Reflective Learning, a model 
 
 Building on the presented theories and on empirical studies, the MIRROR project has iteratively developed a model for Computer Supported Reflective Learning. The CSRL model has been designed to identify requirement, design and implement technology support for reflective learning as detailed in [@Krogstie:2013kf]. It is meant to understand and analyse reflection in the workplace, and it suggests how technology can support those activity rather than providing formal guidelines or pre-defined processes.  
 
@@ -43,12 +55,14 @@ For each stage, the CSRL model identifies support that can be provided through t
 
 The model can be used by designers to choose which technology to use to support reflection activities or do derive requirements for the design of new technologies [@Krogstie:2013kf]. The model has driven the development of several software and hardware applications within the MIRROR project; to address reflective learning in the fields of social care, health care, business and emergency aid. For a description of the applications see [@Schwantzer:2014we]. Several works [@Krogstie:2013kf; @Krogstie:fo; @Krogstie:2012ki] have shown how the four stages in the model can me mapped against technologies to support individual and collaborative reflection. 
 
-The mapping can be framed within three macro areas:
+In the case of crisis training I identified that the mapping between the activities described by the CSRL model and technology can be placed into three stages:
   
 - technology to **capture** work experiences (for example by means of automatic sensors, a personal diary application, or timeline visualisation) 
-- technology to **re-create** work experiences based on data captured to trigger and assist a reflection session with relevant information (for example by allowing to re-evaluate a past experiences from multiple point of views, in a context that help making sense processes) 
+- technology to **re-create** work experiences based on data captured to trigger and assist a reflection session with relevant information (for example by allowing to re-evaluate a past experiences from multiple point of views, in a context that help making sense processes during debriefing) 
 - technology to **generate** new, realistic work experiences for training purposes (for example via virtual worlds, serious games, or tabletop exercises)  
 
-The three areas have in common the need for interfaces between people and technology. The design of such user interfaces aims at different goals: while during *capturing* the interface need to allow to capture both automatic data and user-submitted information without interrupting crisis work, *re-creating* experiences need for tools for data visualisation and manipulation capable to re-create a work experience in a context that promote reflection; finally *generating* experiences needs interface to bring realism and engagement or real crises into a simulated environment.  
+\missingfigure{relation between CSRL model and the three macro areas}
+
+The three areas have in common the need for innovative interfaces between people and technology. Yet the design of such user interfaces aims at different goals: while during *capturing* the interface need to allow to capture both automatic data and user-submitted information without interrupting crisis work, *re-creating* experiences need for tools for data visualisation and manipulation capable to re-create a work experience in a context that promote reflection; finally *generating* experiences needs interfaces to bring realism and engagement of real crises into a simulated environment. Notably, the *capture* of experiences is done during the crisis work, which is subject to strict protocols that limit the design space for the technology.
   
 In the following chapter I will investigate how recent advances in the field of tangible, embodied and embedded interaction can provide theoretical tools from human-computer interaction theory and rapid prototyping techniques for the creation of user interfaces for capturing, re-creating and generating experiences.
