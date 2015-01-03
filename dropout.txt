@@ -21,3 +21,5 @@ Pawan Chamling
 Crisis training refers to many activities spanning different lengths of time, targeting two user groups: crisis worker and the population. While training the population addresses activities to spread awareness about what to do to avoid, or to better cope with disasters; training of crisis workers refer to activities both to teach rescue protocols, e.g. medical procedures, and to enhance “*soft skills*”, e.g. communication styles, stress management and coping strategies. In this thesis we focus on the latter user group: crisis workers.
 
 In order to ground the design of technology into theory on reflective learning I adopted the MIRROR CSRL model [@Krogstie:2013kf] and the MIRROR toolbox [@Knipfer:2012vi] to evaluate the learning outcomes produced. 
+
+~~The role of physicality assumes a different tone in each of the three identified stages of reflection~~

@@ -2,23 +2,17 @@
 
 [Revision 1]
 
-This chapter reviews HCI theories to inform the design of computer interfaces to *capture*, *re-create* and *generate* crisis training experiences. 
+This chapter reviews HCI theories to inform the design of computer interfaces to *capture*, *re-create* and *generate* crisis training experiences. User studies conducted during this research have identified core requirements for the technology for each of the three stages. Focus groups with workers and experts highlighted the need for simple and intuitive user interfaces. While for the capture stage the sought objective was to minimise distraction, to not put rescue work at risk, during re-creation and generation of experiences the goal was to provide user experiences which are situated, and highly interactive. 
 
-User studies conducted during this research have identified core requirements for the technology for each of the three stages. Focus groups with workers and experts highlighted the need for simple and intuitive user interfaces. While for the capture stage the sought objective was to minimise distraction, in order to not put rescue work at risk, during re-creation and generation of experiences the goal was to provide user experiences which are situated, and highly interactive. 
+During the field studies the intrinsic physicality of crisis work was very visibile. Contrarily to traditional office work, crisis work is often performed in harsh environments; workers deal with fire extinguishers, medical equipments, they break into crashed cars and houses falling apart to rescue people. The physical environment is at the same time source of dangers, challenges and learning opportunities. Most of the activities are collaborative, e.g. carrying someone injured on a stretcher. Interviews about workers everyday use of ICT technology, revealed little acquaintance with traditional user interfaces (point-and-click, touch-based, etc..).
 
-During the studies the importance of physicality of crisis work was very visibile. Many of the roles in crisis work deal with Workers deal with  The relation with the physical environment which in crisis management is source of risk, challenges because is where the work and training experiences take place  
- 
+When it came to design ICT systems to support reflection for this very peculiar target group, it seemed to me clever to preserve some extent of *physicality* into their user-experiences with technology, with some distinction. While to assist the *capture* of work experiences the goal is to create technology which is unobtrusive because it blends into the work practice to become part of it; to support *re-creation* and *generation* of experiences technology should enable physical exploration of space and tangible interaction with digital information.
 
-The design of systems to support reflection on crisis work experiences can be informed by the HCI and sensing-based interaction [@Benford:2005bo]. 
+After surveying HCI literature for theoretical frameworks to facilitate integrating *physicality* into computer interfaces I focused on the aspects of *embodiment* and *tangibility*. Those are characterising traits of sensing-based interfaces [@Benford:2005bo]. 
 
-Sensing-based interfaces is rather a broad term referring to user interfaces that rely on sensor technology to make interaction between people and computers more intuitive and effective [@Zhai:2005jm]. Those are important characteristics
+Sensing-based interfaces is rather a broad term referring to user interfaces that rely on sensor technology to make interaction between people and computers more intuitive and effective [@Zhai:2005jm]. They allow for post-WIMP [@VanDam:1997tz] interaction paradigms, to design user interfaces not relying on traditional **W**indows, **I**cons, **M**ouse and **P**ointers methapors. Instead, sensing-based interfaces promote “embodied interaction, tangible manipulation, physical representation of data and embeddedness in real space” [@Hornecker:2006uq]. According with Rogers and Muller [-@Rogers:2006te] sensing-based interaction allows for designing systems capable to deliver relevant information at appropriate times, which is critical to trigger and sustain reflection; and enable “hands-free control”, which is fundamental for unobtrusively capturing data in action. 
 
-
-Sensor interfaces allows for post-WIMP [@VanDam:1997tz] interaction paradigms, to design user interfaces not relying on traditional **W**indows, **I**cons, **M**ouse and **P**ointers methapors. 
-
-Instead, sensing-based interfaces promote “embodied interaction, tangible manipulation, physical representation of data and embeddedness in real space” [@Hornecker:2006uq]. 
-
-According with Rogers and Muller [-@Rogers:2006te] sensing-based interaction allows for designing systems capable to deliver relevant information at appropriate times, which is critical to trigger and sustain reflection; and enable “hands-free control”, which is fundamental for unobtrusively capturing data in action. *Embodied* and *Tangible* are characterising tracts of sensing-based interfaces that will be investigated in the next section.
+*Embodied* and *Tangible* are characterising tracts of sensing-based interfaces that will be investigated in the next section.
 
 ## Tangible interfaces and Embodied interaction
 
