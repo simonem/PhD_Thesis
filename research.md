@@ -1,18 +1,22 @@
 # Research design
 
-The aims of this chapter are to present the research design, to describe methods and tools adopted and how data are analysed. Altough not all of these methods and results have been explicitly reported in the papers, they have been important to understand the users, the domain and the needs.
+The aims of this chapter are to present the research design, to describe methods and tools adopted and how data are analysed. Although not all of these methods and results have been explicitly reported in the papers, they have been important to understand the users, the domain and the needs. The adopted methods weren’t given a priori but rather they emerged over time. 
 
-## Research method
+## Research methodology
 
-The work in this thesis is based on design research [@Hevner:2010fy] and interpretative case study [@Klein:1999bm; @Walsham:2006bo]. Using a case study approach is motivated by the two first research questions (RQ1-RQ2) which motivate a deep understanding of a specific area -the crisis domain- for which I didn’t have any previous knowledge. Design research was chosen for its rapidity to turn requirements and ideas into prototypes, in accordance with RQ3. Indeed the goal of this research work, lies not just in building an understanding of the domain but also in contributing to the field with the design of technologies for better crisis training. 
+The work in this thesis is based on interpretative case study [@Klein:1999bm; @Walsham:2006bo] and design research [@Hevner:2010fy]. The research followed a *user centred approach* process [@MAGUIRE:2001dp; Gulliksen:2003hd], with exploratory studies and design work following in multiple iterations. 
 
-The research followed a *user centred approach* [@MAGUIRE:2001dp; Gulliksen:2003hd], where the design work followed in multiple iterations. The adopted methods weren’t given a priori but rather they emerged over time. 
+Adopting an interpretative case study approach is motivated by the two first research questions (RQ1-RQ2) which demand to develop un understanding of the crisis domains, for which I didn’t have any previous knowledge. To this goal the primary method adopted was *field study*. Running user studies into the wild, during full scale simulation of crisis response work, was essential in order to build an understanding the settings to design for.
+
+Design research was chosen for its aim at turning requirements  gathered from field studies into prototypes by rapid and incremental iterations, as required by RQ3. Design work was strategic to the aim of this research work, which lies not only in building an understanding of the domain but also in contributing with the design of technologies for better crisis training. Low-fidelity prototypes were evaluated during focus groups with experts, while working prototypes were evaluated during physical simulation of crisis work. 
+
+Qualitative research methods were largely adopted. Observations, interviews and researchers’ notes were the primary means to collect data during field studies. Data analysis methods included video and utterance analysis.\todo{add…}
 
 ## Research approach
 
 The research work has been articulated around four activities:
 
-- Understand the crisis domain, its needs and challenges
+- Understand the crisis domain, its needs and challenges: this has been achieved by exploratory field sutides
 - Design technology to provide better crisis training
 - Generalise research results to other domains 
 - Evaluate the innovation potential for the results
