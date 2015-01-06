@@ -10,7 +10,13 @@ Adopting an interpretative case study approach is motivated by the two first res
 
 Design research was chosen for its aim at turning requirements  gathered from field studies into prototypes by rapid and incremental iterations, as required by RQ3. Design work was strategic to the aim of this research work, which lies not only in building an understanding of the domain but also in contributing with the design of technologies for better crisis training. Low-fidelity prototypes were evaluated during focus groups with experts, while working prototypes were evaluated during physical simulation of crisis work. 
 
-Qualitative research methods were largely adopted. Observations, interviews and researchers’ notes were the primary means to collect data during field studies. Data analysis methods included video and utterance analysis.\todo{add…}
+Qualitative research methods were largely adopted. Observations, interviews and researchers’ notes were the primary means to collect data during field studies. Beside so quantitate data coming from apps logs and formal documents about rescue protocols were also provided. Data analysis methods included video and utterance analysis.\todo{add…}
+
+Field studies methods
+
+Design methods
+
+THEORY + METHODS = CONSTRUCTS
 
 ## Research approach
 
@@ -24,6 +30,8 @@ The research work has been articulated around four activities:
 While the first two activities aimed at answering the research questions, the latter provided 
 
 The first objective was to answer the research questions, to this end  Secondary objectives were to assess the innovation and market potential for the results and to investigate generalisation to domains that share similarities with crisis training.
+
+Innovation benchmark how innovation has influenced other roles 
 
 ## Research process
 
