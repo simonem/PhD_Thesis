@@ -6,6 +6,17 @@ human vs machine game of optimization
 
 In this thesis I investigate how to employ tools from reflection theory and embedded technology to provide better training to crisis workers.
 
+Crisis training refers to many activities spanning different lengths of time, targeting two user groups: crisis worker and the population. While training the population addresses activities to spread awareness about what to do to avoid, or to better cope with disasters; training of crisis workers refer to activities both to teach rescue protocols, e.g. medical procedures, and to enhance “*soft skills*”, e.g. communication styles, stress management and coping strategies. In this thesis we focus on the latter user group: crisis workers.
+
+In order to ground the design of technology into theory on reflective learning I adopted the MIRROR CSRL model [@Krogstie:2013kf] and the MIRROR toolbox [@Knipfer:2012vi] to evaluate the learning outcomes produced. 
+
+~~The role of physicality assumes a different tone in each of the three identified stages of reflection~~
+
+The system presented in P1 is based on mobile augmented reality (MAR). Whereas *virtual reality* aims at immersing the user into a world of virtual artefacts, *augmented reality* aims at enhancing (not re-creating) the real world with information from the digital space which technology allows to overlay to the physical space. Besides augmented reality is not always considered as an embodied interaction paradigm, the system developed in P1  requires the user to move the interface in the physical space in order to interact with the system. This interaction technique, shares with tangible systems the goal of supporting an exploration of the physical space. In general the boundaries between ubiquitous computing, embodied interaction, tangible interfaces and augmented reality are blurry. Dourish [-@Dourish:2001vc], for example, refers to them all as tangible computing.
+
+RESEARCH CHAP
+During the studies I employed several ethnographic methods [@Blomberg:2009tm] including observations, interviews, questionnaires, videotaping, scenarios and personas. Doing ethnography during crisis work exercises presented many challenges. First, exercises unfold in a uncontrolled environment, for example a landfill set up to resemble a real emergency (broken cars, fires, people actings as they are injured or in panic), both at day and night time. The area involved in operations often spans over tens of square kilometers; which makes hard to maintain an overview of activities and observe relevant work episodes.
+
 Students:
 
 Alessandro Boron
@@ -16,12 +27,3 @@ Maria Møller
 Ingrid Tarøy
 Dusan Stefanovich
 Pawan Chamling
-
-
-Crisis training refers to many activities spanning different lengths of time, targeting two user groups: crisis worker and the population. While training the population addresses activities to spread awareness about what to do to avoid, or to better cope with disasters; training of crisis workers refer to activities both to teach rescue protocols, e.g. medical procedures, and to enhance “*soft skills*”, e.g. communication styles, stress management and coping strategies. In this thesis we focus on the latter user group: crisis workers.
-
-In order to ground the design of technology into theory on reflective learning I adopted the MIRROR CSRL model [@Krogstie:2013kf] and the MIRROR toolbox [@Knipfer:2012vi] to evaluate the learning outcomes produced. 
-
-~~The role of physicality assumes a different tone in each of the three identified stages of reflection~~
-
-The system presented in P1 is based on mobile augmented reality (MAR). Whereas *virtual reality* aims at immersing the user into a world of virtual artefacts, *augmented reality* aims at enhancing (not re-creating) the real world with information from the digital space which technology allows to overlay to the physical space. Besides augmented reality is not always considered as an embodied interaction paradigm, the system developed in P1  requires the user to move the interface in the physical space in order to interact with the system. This interaction technique, shares with tangible systems the goal of supporting an exploration of the physical space. In general the boundaries between ubiquitous computing, embodied interaction, tangible interfaces and augmented reality are blurry. Dourish [-@Dourish:2001vc], for example, refers to them all as tangible computing.

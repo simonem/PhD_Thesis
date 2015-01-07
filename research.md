@@ -1,8 +1,8 @@
 # Research design
 
-The aims of this chapter are to present the research design, to describe methods and tools adopted and how data have been analysed. Although not all of these methods and results have been explicitly reported in the papers, they have been important to understand the users, the domain and the needs. The adopted methods weren’t given a priori but rather they emerged over time. 
+The aims of this chapter are to present the research design, to describe methods and tools adopted and how data have been analysed. Although not all of these methods and results have been explicitly reported in the papers, they have been important to understand the users, the domain and the needs. The adopted methods weren’t given a priori but rather they emerged over time. \todo{what’s the role of literature review in this chapter?}
 
-## Research methodology
+## Research overview
 
 The work in this thesis is based on interpretative case study [@Klein:1999bm; @Walsham:2006bo] and design research [@Hevner:2010fy; @March:1995gm]. The research followed a *user centred approach* process [@MAGUIRE:2001dp; Gulliksen:2003hd], based on exploratory studies and design work following in multiple iterations. 
 
@@ -13,10 +13,6 @@ Design research was chosen for its aim at turning requirements  gathered from fi
 Qualitative research methods were largely adopted. Observations, interviews and researchers’ notes were the primary means to collect data during field studies. Personas, scenarios, mockups helped the design phase. Open source hardware and software tools were largely adopted to turn mockups into working prototypes. Finally questionnaires, interviews and descriptive statistics were used during formative and summative evaluations. Beside so quantitate data coming from apps logs and formal documents about rescue protocols were also provided. Data analysis methods included video and utterance analysis.\todo{add…}
 
 The choice of these methods, require wide access to people, knowledge and protocols of organisation working in the crisis domain. Therefore this research strategy was also justified and made possible by having those organisation as member of the MIRROR project.
-
-Field studies methods
-Design methods
-THEORY + METHODS = CONSTRUCTS
 
 ## Research approach
 
@@ -34,7 +30,7 @@ While the primary activities aimed at answering the research questions, the latt
 
 The next section will details on activities.
 
-## Research process
+## Research process and methods
 
 This section details research activities. A chronological account of the research process is provided in FigureX
 
@@ -42,41 +38,50 @@ This section details research activities. A chronological account of the researc
 
 ### Field studies
 
-In this research work the research field work acted both as exploratory study to inform the design of technology and as evaluation study.
+In this research work field studies had a twofold objective. Some studies acted both as exploratory study to inform the design of technology, some other as evaluation study, or both. An overview of the field studies performed between years 2011-2014, in relation with research questions and papers, is presented in Table X.
 
-What is observed, methods for observations -direct observations
+\begin{table}[l]
+\begin{tabular}{@{}p{0.3cm}p{2cm}p{1.5cm}p{2cm}p{3cm}p{0.5cm}p{0.5cm}}
+\toprule
+ID & Date, duration     & Type            & Participants                 & Methods                                                 & RQs &  Papers \\ \midrule
+1  & Mar. 2011, 2 days  & Real work       & Several teams                & Observations, interviews                                & 2   &  P1,P4   \\
+2  & Oct. 2011, 3 days  & Simulated work  & Several teams, 1 manager     & Observations, interviews, video analysis                & 2   & P1        \\
+3  & Oct. 2012, 2 days  & Simulated work  & 5 field workers, 1 manager   & Observations, interviews, video analysis                & 1,2 & P1, P2    \\ 
+4  & Apr. 2013, 3 days  & Simulated work  & 4 field workers, 1 manager   & Observation, interviews, video analysis, questionnaires & 1-2 & P1, P3   \\
+5  & Dec. 2013, 30 days & Simulated work  & 8 field workers              & Questionnaires                                          & 1   & P2, P3, P7    \\
+6  & Apr. 2014, 2 days  & Simulated work  & 27 field workers, 1 manager  & Observations, Questionnaires                             & 1   & P2, P3, P7 \\ \bottomrule
+\end{tabular}
+\caption{My caption}
+\label{my-label}
+\end{table}
 
-The empirical results in this thesis are based on ten studies: six focus groups and 
-I worked with crisis association in northern Italy, they were affiliated to MIRROR. Most of the field workers are volunteers. 
+#### The setting
 
-I was able to run user studies and evaluate prototypes during protocol training exercises (e.g. in classroom settings) and small to massive drills involving up to hundred of workers and a dozen of organisations. Although traditional field studies claim that a work practice is best understood observing a real environment [@Beyer:1995:AC:203356.203365], there are issues associated with doing ethnography and testing technology in settings characterised by traumas and emergencies [@Brown:1998:DDM:274644.274723], such as hospitals and crisis scenes. Moreover real crisis poses researchers’ safety at risks and are largely unforeseeable in time and space. The drills the presented field study are based on are organised to provide a high degree of realism, they recreate working conditions that are close as possible to real crises. I was there like
+The setting for the studies was medium to large scale physical simulation of crisis work. The objectives of those events were to train workers against protocols, including rescue procedures, coordination and test of equipments. Notably, they were also designed to offer opportunities for team building and sharing of experiences, as part of official an unofficial social events. 
 
-How a typical simulation unfolds + pics
- 
-An overview of the field studies performed between years 2011-2014, in relation with research questions and papers, is presented in Table X. Field studies acted both as user studies and for evaluating the systems developed. During the studies I employed several ethnographic methods [@Blomberg:2009tm] including observations, interviews, questionnaires, videotaping, scenarios and personas. Doing ethnography during crisis work exercises presented many challenges. First, exercises unfold in a uncontrolled environment, for example a landfill set up to resemble a real emergency (broken cars, fires, people actings as they are injured or in panic), both at day and night time. The area involved in operations often spans over tens of square kilometers; which makes hard to maintain an overview of activities and observe relevant work episodes. Second, gather access to people for interviews and questionnaires has proven to be challenging. Indeed, training exercises also aim at re-creating aspects of stress and unpredictability typical of real emergencies, therefore worker are often not prone or allowed to share information with researchers. Even more, sometimes the presence of ethnographers has been seen as disruptive for the training activities. The time of the events set for debriefing and collaborative reflection is also very limited. Despite those challenges I was able to gather enough information to drive the design work. This is mostly thanks to the number of studies performed and to the relationship maintained throughout the years with a heterogeneous group of five workers who I deeply thank. 
+~~Although traditional field studies claim that a work practice is best understood observing a real environment [@Beyer:1995:AC:203356.203365], there are issues associated with doing ethnography and testing technology in settings characterised by traumas and emergencies [@Brown:1998:DDM:274644.274723], such as hospitals and crisis scenes. Moreover real crisis poses researchers’ safety at risks and are largely unforeseeable in time and space.~~ \todo{to be deleted?}
 
-Data captured during the studies were handled in observance of NTNU and MIRROR policies, consent forms from all the participants in the study were collected.
+Physical simulation were arranged by and involved personnel of a range of crisis management organisations operating in northern Italy coordinated by ANPAS Cuneo and SEIRS Parma\todo{verify names}. Those institutions were selected because of being affiliated to the MIRROR consortium, which facilitate access to resources and gathering of ethical approval for the research done. Simulated events included participants from a wide range of roles including field workers (firefighters, paramedics, police agents), team coordinators, disaster manager, technical and radio operators. Attendance to the events varied in the range of tens of works, coordinated by one chief manager.
 
-\begin{landscape}
-\begin{tabulary}{\linewidth}{LLLLLLL}
-ID(*=key study) & Date, duration   & Setting  & Participants  & Research Methods \newline Research Activity & RQs & Research Papers \\ 
-\hline
-1(*)   & March 2011, 2 days     & Real work   & several teams    & Observations, interviews User study.  & 2   & P1  \\
-2(*) & October 2011, 3 days   & Simulated work in a maxi emergency & several teams, 1 manager     & Observations, interviews, video analysis. Formative evaluation of CroMAR v01. & 2   & P1 \\
-3  & April 2012, 1 day      & Focus group    & 9 field workers, 1 manager   & Interviews. Evaluation of WATCHiT v01 and Don't Panic paper mockup. & 1-2 & P3-P5     \\
-4  & May 2012, 1 day        & Focus group      & 1 manager     & Observation, Interview. Formative evaluation of WATCHiT v02 and CroMAR v02  & 1-2 & P1-P3  \\
-5(*) & October 2012, 2 days   & Simulated work    & 5 field workers, 1 manager   & Observation, interviews, video analysis. Formative Evaluation of WATCHiT v03 and CroMAR v02  & 1-2 & P1-P3   \\
-6   & April 2013, 3 days     & Simulated work in a maxi emergency & 4 field workers, 1 manager   & Observation, interviews, video analysis, questionnaires. Summative evaluation of CroMAR v02, formative evaluation of WATCHiT v03 & 1-2 & P1-P3    \\
-7(*) & July 2013, 1 day       & Focus group    & 3 field workers, 1 manager   & Observations, interviews, video analysis, questionnaires. Formative evaluation of Don't Panic v01  & 2   & P4  \\
-8      & September 2013, 1 day  & Focus group    & 8 IT students, 4 HCI experts & Observations, interviews, video analysis, questionnaires. Formative evaluation of Don't Panic v01    & 2   & P4 \\
-9     & December 2013, 30 days & Simulated work      & 8 field workers      & Questionnaires Summative evaluation of WATCHiT v04      & 1   & P2-P3-P7 \\
-10(*)  & April 2014, 2 days     & Simulated work       & 27 field workers, 1 manager  & Observations, Questionnaires Summative evaluation of WATCHiT v04    & 1   & P2-P3-P7  \\ 
-\end{tabulary}
-\end{landscape}
+The simulated events tried to follow as much as possible real crisis in terms of physical context and activities. Events span between one to three days, simulating different scenarios including flooding, earthquake and chemical spills. The drills usually took place remote areas, unaccessible to the public, which were set up to recreate harsh conditions like the presence of debris, flooded terrains, fire ashes and broken cars. In this setting, volunteers impersonating the the injureds to be rescued were located in places undisclosed to the trainee (Figure X-a).
+\missingfigure{phases of a typical simulation}
+Each simulated crisis event included a briefing, action and debriefing phase. During briefing the simulation manager described the settings, and distributed orders to teams of rescue workers. During simulation workers were implementing rescue protocols (Figure X-b). The work involved cooperation among: police forces, to handle traffic and fence the operational area, firefighters to explore and secure undisclosed areas, civil protection workers to build field hospitals, dog handlers to search for survivors and teams of paramedics to activate triage, threat of injured and transportation to the nearest field hospital. A collaborative debriefing of the events followed, with focus on time completion for rescue procedure and issues that might have been reported during the practice (Figure X-c).
+
+#### Methods
+
+Observations, researcher notes and interviews were the primary means to collect data on the field. Workers were shadowed during the simulation. To this respect, my role as *observer* strived to be, as defined by [-@Walsham:2006bo], *neutral*; meaning that people being shadowed shouldn’t perceive the researcher as being biased by previous views on people, processes or organisations. Video recording, performed with both handheld and wearable cameras provided multiple point of views on the observed events. Finally key people selected during observations were interviewed. Questions asked were selected from the toolbox reported in [@Knipfer:2012vi], which has been specifically developed to run user studies within the MIRROR project. Data captured during the studies were handled in observance of NTNU and MIRROR policies, consent forms from all the participants in the study were collected. Qualitative data collection methods were supplemented by formal protocols, procedures and best practices provided by the organisations involved in the studies.
+
+Being simulations arranged rarely due to the high organisational and financial efforts required; focus groups with workers were also employed. They were especially useful during formative evaluations of the prototypes developed.
+
+Gather access to people for the studies has proven to be challenging. Indeed, training exercises also aim at re-creating aspects of stress and unpredictability typical of real emergencies, therefore worker are often not prone or allowed to share information with researchers. Even more, sometimes the presence of ethnographers has been seen as disruptive for the training activities. The time of the events set for debriefing and collaborative reflection is also very limited. Despite those challenges I was able to gather enough information to drive the design work. This is mostly thanks to the number of studies performed and to the relationship maintained throughout the years with a heterogeneous group of five workers who I deeply thank.\todo{should I move this paragraph to the evaluation chapter?}
+
+Next, researchers’ notes, interviews and video tapes were then analysed.\todo{add which methods to analyse data} The focus of the analysis was twofold. During the action, attention was on how practitioners capture aspects of their work experience, trying to identifies what information is relevant for reflection and how (if) is captured in the current practice. During debriefing, focus was on identifying tools to aid the workers in reconstructing those experiences in a way that can be meaningful to support reflection. 
+
+The data analysis produced a set of artefacts to drive the design of technology; including challenges, system requirements, scenarios and personas.
 
 ### Design technology
 
-At beginning of the research work I used the design of technology as an approach to build a deeper understanding of the crisis domain. As pointed out by Edelson [-@Edelson:2002kp] “design plays a critical role in the development of theories, not just their evaluation”. In this phase, most of the time was dedicated to user studies during crisis drills and literature review. Early design ideas were turned into low-to-high fidelity prototypes in short iterations. Prototypes presented in focus groups with crisis workers facilitated discussions, triggering a better understanding of the domain, which in turn brought to new ideas. The specific design choices I took, implemented in prototypes, generated lots of suggestions and critics among crisis workers. Furthermore, prototypes facilitated the reminiscence of their personal work experiences, which brought new perspectives into the study. This first phase produced a set of design challenges for the use of technology in crisis work reported in P4. Those challenges evolved in a redefined design space over the course of the work thanks to new user studies.
+At beginning of the research work I used the design of technology as an approach to build a deeper understanding of the crisis domain. As pointed out by Edelson [-@Edelson:2002kp] “design plays a critical role in the development of theories, not just their evaluation”. In this phase, early design ideas were turned into low-to-high fidelity prototypes in short iterations. Prototypes presented in focus groups with crisis workers facilitated discussions, triggering a better understanding of the domain, which in turn brought to new ideas. The specific design choices I took, implemented in prototypes, generated lots of suggestions and critics among crisis workers. Furthermore, prototypes facilitated the reminiscence of their personal work experiences, which brought new perspectives into the study. This first phase produced a set of design challenges for the use of technology in crisis work reported in P4. Those challenges evolved in a redefined design space over the course of the work thanks to new user studies.
 
 After a literature review\todo{add a chapter with the literature review}, the design challenges identified in P3 were combined with theories from reflection (Chapter 3) and conceptual tools from embodied interaction (Chapter 4) to drive the design of systems presented in P1, P3, P4. Designs were implemented in prototypes throughout multiple iterations. Formative evaluations were performed after each iteration during focus groups and drills. The systems presented in P1, P3, P4, and P6 involve a combination of software development, hardware (electronics) engineering, product design and manufacturing techniques. Building prototyping pushed me towards improving my technical skills, also it highlighted challenges for rapid prototyping of hardware inventions (RQ3). Also it made clear that traditional prototyping techniques might not be suitable to be used in the crisis domain.
 
