@@ -2,7 +2,7 @@
 
 [Revision 1]
 
-The aims of this chapter are to present the research design, to describe methods and tools adopted and how data have been analysed. Although not all of these methods and results have been explicitly reported in the papers, they have been important to understand the users, the domain and the needs. The adopted methods weren’t given a priori but rather they emerged over time.\todo{What’s the role of literature review in this chapter?}
+The aims of this chapter are to present the research design, to describe methods and tools adopted and how data have been analysed. Although not all of these methods and results have been explicitly reported in the papers, they have been important to understand the users, the domain and the needs. The adopted methods weren’t given a priori but rather they emerged over time.
 
 ## Research overview
 
@@ -98,6 +98,8 @@ A large amount of time was dedicated to the construction of technology artefacts
 
 The construction process involved a mix of hardware and software development. I adopted a rapid prototyping techniques in order to keep design iterations shorts and make incremental improvements based on frequent feedbacks exchanges with end users. To this end a wide range of open source hardware and software toolkit were used, including Arduino[^arduino] and RaspberryPi[^raspberry] hardware development platforms. Dealing with hybrid hardware/software artefacts, digital manufacturing techniques were largely adopted, including 3D printing and laser-cut production. These activities were essential to develop knowledge to answer RQ3.
 
+A few students have contributed to construction of prototypes as part of their master thesis.
+
 ##### Evaluate
 
 Formative evaluations were performed after each design iteration during focus groups and drills. Evaluations methods used were, focus groups and semi-structured interviews.
@@ -122,32 +124,14 @@ During fourteen weeks spent at City University (one of the partners of the MIRRO
 
 During twelve weeks spent at the MIT SENSEable City Lab I investigated the design and production of a tangible interface to promote user engagement and reflection about urban-mobility data under the supervision of professor Carlo Ratti. The work has been has been displayed to the public in two exhibitions: “Wave” currently held in Paris and “CNR Internet Festival” held in Pisa, Italy.\todo{these two paragraphs report on results. should be moved to another chapter?}  
 
-
 ### Innovation
 Innovation benchmark how innovation has influenced other roles 
 
-Besides academic research the work in this thesis is characterised by an innovation approach. I co-authored five *declaration of inventions* registered at the NTNU Technology Transfer AS[^tto], an idea accelerator affiliated with NTNU. Those inventions are outcome of the work in P1, P3, P4. In order to asses the market value for the *inventions* I met several companies which showed interest, in different ways, in bringing a contribution for the commercialisation of my PhD work results. In November 2014 one of the invention won 150.00NOK (~22.000USD)  from NTNU Discovery [^discovery] fund as initial seed to commercialise the idea.
+Besides academic research the work in this thesis is characterised by an innovation approach. I co-authored five *declaration of inventions* registered by NTNU Technology Transfer AS[^tto], an innovation facilitator affiliated with NTNU. The documents, formalising description and contributors for the inventions, poses the grounds for considering patenting and commercialising the research outcome of this PhD work. 
 
+In order to asses the market value for the *inventions* I ran technology benchmarks reported in Appendix X\todo{should I add benchmarks and DOFIs in appendix?}. Benchmark results were also useful for selecting specific technologies and tools to be employed in the production of prototypes. I also met several representatives from the interests, showing research outcomes and demoing prototypes. Moreover I run technology benchmarks
 
-The timeline of the different activity performed during the PhD work is depicted in Figure X. In the following I provide a description of settings, methods and techniques for the user studies performed and for the design and prototype iterations.
-
-
-### Description of key field studies
-The design process began with an ethnographic study performed during a simulation la maxi emergency held in October 2011.
-
-## Prototypes
-
-current methods hardily applicable: cannot observe real emergencies, prototypes must robust, hard to have access to users, different roles and politics
-
-research activities:
-* literature review
-* user studies
-* design
-* hw/sw prototypes development
-* evaluations
-* dissemination of research
-* commercialisation of results
-* project meetings and management
+In November 2014 one of the invention won 150.00NOK (~22.000USD)  from NTNU Discovery [^discovery] fund to continue innovation work after the completion the PhD.
 
 
 [^tto]: NTNU Technology Transfer - http://tto.ntnu.no
