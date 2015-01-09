@@ -1,5 +1,7 @@
 # Research design
 
+[Revision 1]
+
 The aims of this chapter are to present the research design, to describe methods and tools adopted and how data have been analysed. Although not all of these methods and results have been explicitly reported in the papers, they have been important to understand the users, the domain and the needs. The adopted methods weren’t given a priori but rather they emerged over time.\todo{What’s the role of literature review in this chapter?}
 
 ## Research overview
@@ -21,14 +23,14 @@ After research questions were drafted, and research methods were selected; the w
 - **Design and running field studies**, in order to understand the crisis domain, needs and challenges. In line with with interpretative case study research [@yin2013case], activities performed were *design of the study*, *data collection*, *data analysis*, *reports of results*. 
 - **Design, build and evaluate technology**, in order to provide better crisis training. In accord with design science methodology [@March:1995gm], activities performed were *build*, *evaluate*, *theorise* and *justify*.
 
-After an understanding of the domain and a set of technology applications were estabilished, the work included two secondary activities:
+After an understanding of the domain and a set of technology applications were established, the work included two secondary activities:
 
 - **Generalisation of research results** to other domains. It involved doing design work inspired by research results as part of academic visits at City London University and MIT.\todo{this is not clear}
 - **Evaluation of innovation potential of results**. It involved doing market surveys and technology benchmarks, presenting the research work and demoing prototypes to representatives from the industry. This activity has been performed in collaboration with NTNU Technology Transfer AS, an innovation facilitator within NTNU.
 
-While the primary activities aimed at answering the research questions, the latter provided further knowledge to the third research question. Moreover the generalisation and innovation work set the grounds for future works (Chapter X). 
+While the primary activities aimed at answering the research questions, the latter provided further knowledge to the third research question. Moreover generalisation and innovation work set the grounds for future works (Chapter X). 
 
-Throughout the duration of the work discussion with members of the MIRROR consortium helped in shaping design choices and partially influenced the work.
+Throughout the duration of the work discussion with members of the MIRROR consortium helped in shaping design choices and partially influenced the work. This activity as been carried on as part of project meetings and workshops.
 
 ## Research process
 
@@ -74,7 +76,7 @@ Each simulated event included *briefing*, *simulation* and *debriefing* phases. 
 
 Observations, researcher notes and interviews were the primary means to collect data from the field. Workers were shadowed during the simulation. To this respect, my role as observer strived to be, as defined by [-@Walsham:2006bo], *neutral*; meaning that people being shadowed shouldn’t perceive the researcher as biased by previous views on people, processes or organisations. Video recording, performed with both handheld and head-mounted cameras provided multiple point of views on the observed events. After debriefings, key people selected during observations were interviewed. Questions asked were selected from the toolbox reported in [@Knipfer:2012vi], which has been specifically developed to run user studies within the MIRROR project. Data captured during the studies were handled in observance of NTNU and MIRROR policies, consent forms from all the participants in the study were collected. Finally, qualitative data collection methods were supplemented by formal protocols, procedures and best practices provided by the organisations involved in the studies.
 
-Being the simulations arranged rarely due to the high organisational and financial efforts required; focus groups with workers were also employed. They involved workers who have perviously attended simulations and seek to discuss specific episodes observed during field studies or propose design ideas.    Focus groups were especially employed to run formative evaluations of the prototypes developed.\todo{consider adding summary table for the focus grousp}
+Being the simulations arranged rarely due to the high organisational and financial efforts required; focus groups with workers were also employed. They involved workers who have perviously attended simulations and seek to discuss specific episodes observed during field studies or propose design ideas.    Focus groups were especially employed to run formative evaluations of the prototypes developed.\todo{consider adding summary table for the focus groups}
 
 Gather access to people for the studies has proven to be challenging. Training exercises aimed at re-creating aspects of stress and unpredictability typical of real emergencies, for this reason workers were not always prone to share information with researchers. Even more, sometimes the presence of researchers has been seen as disruptive for the training activities. The time of the events set for debriefing and collaborative reflection was also very limited. Despite those challenges I was able to gather enough information to drive the design work. This is mostly thanks to the number of studies performed and to the relationship maintained throughout the years with a group of five workers who I deeply thank.\todo{should I move this paragraph to the evaluation chapter?}
 
@@ -84,32 +86,42 @@ The data analysis produced a set of artefacts to drive the design of technology;
 
 ### Design research
 
-Interchanged? with field study, technology to assist reflective learning cycle was created and introduced into the organisations. Design work had multiple aims. At beginning of the study design work helped building an understanding of the crisis domain. As pointed out by Edelson [-@Edelson:2002kp] “design plays a critical role in the development of theories, not just their evaluation”. In this phase, early ideas were turned into mockups and low-fidelity prototypes in short iterations. Prototypes presented in focus groups\todo{need to define better the role of focus groups, are they part of field studies or design research?} with workers facilitated discussions, triggering a better understanding of the domain, which in turn brought to new ideas. Furthermore, prototypes facilitated the reminiscence of work experiences, which brought new perspectives into the study. Later on, prototypes acted 
+Concurrently with field study work, I introduced into the organisations technology to assist reflective learning cycle. Design work had multiple aims. At beginning of the study building things helped forging an understanding of the crisis domain. As pointed out by Edelson [-@Edelson:2002kp] “design plays a critical role in the development of theories, not just their evaluation”. In this phase, mockups were turned into low-fidelity prototypes in short iterations. Prototypes presented in focus groups\todo{need to define better the role of focus groups, are they part of field studies or design research?} with workers facilitated discussions, triggering a better understanding of the domain, which in turn led to new ideas. Furthermore, prototypes facilitated the reminiscence of work experiences, brining new perspectives into the study. Finally, in the final stage of the work, prototypes acted as means to validate the CSRL model presented in Chapter X, focusing on the activities of capturing, re-creating and generating work experiences.
 
+Following a design research approach I organised the work on the stages of build, evaluate, theorise and justify [@March:1995gm]. *Build* refers to the process of constructing a (technology) artifact for a specific purpose, according with identified requirements. *Evaluate* is the process of how well the artifact performs against metrics previously established. *Theorise* refers to building conceptual models that explain how and why artifacts affected a certain environment. Finally *justify* requires gathering evidences that supports or refuse the theory.
 
-Following a design research approach I articulated the work on the stages of build, evaluate, theorise and justify. *Build* refers to the process of constructing a (technology) artifact for a specific purpose, according with identified requirements. *Evaluate* is the process of how well the artifact performs against metrics previously established. *Theorise* refers to building conceptual models that explain how and why artifacts affected a certain environment. Finally *justify* requires gathering evidences that supports or refuse the theory.
+##### Build
 
-#### Build
+A large amount of time was dedicated to the construction of technology artefacts. A total of eight prototypes were produced, including mobile apps, wearable sensors and technology-augmented board games. Table X overviews the different prototypes developed and their relation with the RQs Prototypes design were inspired the field studies performed. Literature in sensor-based interfaces (Chapter X) and in Computer supported reflective learning (Chapter X) provided ground to design technology that is intuitive and provide reflection outcomes.
 
-Across the research effort a large amount of time was dedicated to the construction of technology artefacts. A total of eight prototypes were produced, including mobile apps, wearable sensors and technology-augmented board games. Prototypes were inspired by literature in sensor-based interfaces presented in Chapter X. 
+\missingfigure{Overview table of the prototypes developed.}
 
-The construction process involved a mix of hardware and software development. I adopted a rapid prototyping methodology in order to keep design iterations shorts and make incremental improvements based on frequent feedbacks exchanges with end users. To this end a wide range of open source hardware and software toolkit were used, including Arduino[^arduino] and RaspberryPi[^raspberry] hardware development platforms. This activity was essential to develop knowledge for RQ3.
+The construction process involved a mix of hardware and software development. I adopted a rapid prototyping techniques in order to keep design iterations shorts and make incremental improvements based on frequent feedbacks exchanges with end users. To this end a wide range of open source hardware and software toolkit were used, including Arduino[^arduino] and RaspberryPi[^raspberry] hardware development platforms. Dealing with hybrid hardware/software artefacts, digital manufacturing techniques were largely adopted, including 3D printing and laser-cut production. These activities were essential to develop knowledge to answer RQ3.
 
- 
+##### Evaluate
 
-This first phase produced a set of design challenges for data collection tools reported in P4. Those challenges evolved in a redefined design space over the course of the work thanks to new user studies.
+Formative evaluations were performed after each design iteration during focus groups and drills. Evaluations methods used were, focus groups and semi-structured interviews.
 
-After a literature review\todo{add a chapter with the literature review??}, the design challenges identified in P3 were combined with theories from reflection (Chapter X) and conceptual tools from embodied interaction (Chapter X) to drive the design of systems presented in P1, P3, P4. Designs were implemented in prototypes throughout multiple iterations. Building prototyping pushed me towards improving my technical skills, also it highlighted challenges for rapid prototyping of hardware inventions (RQ3). Also it made clear that traditional prototyping techniques might not be suitable to be used in the crisis domain.
+The final version of the prototypes underwent summative evaluations using the toolbox reported in [@Knipfer:2012vi]. Summative evaluations took place in conjunction with field studies arranged during simulation of crisis work. Methods used were interviews and surveys. Results are reported in full in [@Renner:v4nLmwOk].
 
-#### Evaluate
+##### Theorise
 
-Formative evaluations were performed after each iteration during focus groups and drills. The systems presented in P1, P3, P4, and P6 involve a combination of software development, hardware (electronics) engineering, product design and manufacturing techniques. 
+The design work contributed in defining new theories about how technology can support reflective learning. Those come as an output of combining the experience from the design of prototypes and results from their summative evaluations, with the knowledge developed during field studies. Theories developed aim at facilitating the work of designer in building technology tools to facilitate data collection during crisis management work (P3) and in turning context-data into learning contents (P6). 
 
-The final part of the research consisted in summative evaluations, theory mapping and investigation of new application domains. The systems developed underwent summative evaluations using the toolbox reported in [@Knipfer:2012vi]. Results are reported in full in [@Renner:v4nLmwOk], highlights are described in P2 and P7. The systems developed were mapped against the CSRL model in P2, bringing a new understating on the use of sensor data for supporting debriefing. In P4 two of the system developed were used as case studies to present a design approach to turn context data into learning contents.
+##### Justify
+
+The design work was driven by the CSRL model described in Chapter X. Specific activities described in the model were selected and supported by the systems developed. After the developed was conclude, empirical data collected during prototypes’ summative evaluations were fed back to the model and used to validate its conceptual elements (P2).
 
 ### Generalisation
 
-As final activity I focused on generalising the results obtained towards building a better understanding of the design and prototyping process of tangible interfaces for supporting reflection. This goal has been accomplished during research visits at City London University, which work is partially covered in P6, and MIT. 
+Generalising the results obtained aimed at understating how results from this PhD work could be transferred to other domains that might benefit from novel interaction techniques to support reflection. To accomplish this goal, I conducted research abroad, as guest researcher, at City London University and MIT. During a total of twenty-six weeks time abroad, I joined projects run by the respective institutions doing design and prototypes construction work inspired by the results of this PhD (Figure X).
+
+\missingfigure{a photo of the prototypes developed during research abroad.}  
+
+During fourteen weeks spent at City University (one of the partners of the MIRROR consortium) I investigated the design and production of a digitally augmented serious game for better training of dementia carers, under the supervision of professor Neil Maiden. The game has been implemented and evaluated in eight care homes in the greater London area, and is reported in a joined publication to be submitted. 
+
+During twelve weeks spent at the MIT SENSEable City Lab I investigated the design and production of a tangible interface to promote user engagement and reflection about urban-mobility data under the supervision of professor Carlo Ratti. The work has been has been displayed to the public in two exhibitions: “Wave” currently held in Paris and “CNR Internet Festival” held in Pisa, Italy.\todo{these two paragraphs report on results. should be moved to another chapter?}  
+
 
 ### Innovation
 Innovation benchmark how innovation has influenced other roles 
