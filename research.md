@@ -6,7 +6,7 @@ The aims of this chapter are to present the research design, to describe methods
 
 ## Research overview
 
-The work in this thesis is based on interpretative case study [@Klein:1999bm; @Walsham:2006bo] and design research [@Hevner:2010fy; @March:1995gm]. The research followed a *user centred approach* process [@MAGUIRE:2001dp; @Gulliksen:2003hd], based on exploratory studies and design work following in multiple iterations. 
+The work in this thesis is based on interpretative case study [@Klein:1999bm; @Walsham:2006bo] and design research [@Hevner:2010fy; @March:1995gm]. The work followed a *user centred approach* [@MAGUIRE:2001dp; @Gulliksen:2003hd], based on exploratory studies and design work following in multiple iterations. 
 
 Adopting an interpretative case study approach is motivated by the two first research questions (RQ1-RQ2): it is demanded to develop un understanding of the crisis domains, for which I didn’t have any previous knowledge. To this goal the primary method adopted was *field study*. Running user studies into the wild, during full scale simulation of crisis response work, was essential in order to build an understanding the settings to design for.
 
@@ -124,12 +124,13 @@ During fourteen weeks spent at City University (one of the partners of the MIRRO
 
 During twelve weeks spent at the MIT SENSEable City Lab I investigated the design and production of a tangible interface to promote user engagement and reflection about urban-mobility data under the supervision of professor Carlo Ratti. The work has been has been displayed to the public in two exhibitions: “Wave” currently held in Paris and “CNR Internet Festival” held in Pisa, Italy.\todo{these two paragraphs report on results. should be moved to another chapter?}  
 
-### Innovation
-Innovation benchmark how innovation has influenced other roles 
+### Innovation and market research
 
-Besides academic research the work in this thesis is characterised by an innovation approach. I co-authored five *declaration of inventions* registered by NTNU Technology Transfer AS[^tto], an innovation facilitator affiliated with NTNU. The documents, formalising description and contributors for the inventions, poses the grounds for considering patenting and commercialising the research outcome of this PhD work. 
+During the late phase of the research, the innovativeness of the research performed has been evaluated and basis for a future commercialisation of results have been settled. To this end, I joined forces with NTNU Technology Transfer AS, a business facilitator affiliated with NTNU. I also cooperated with the NTNU School of Entrepreneurship [^es] evaluating the market potential for the technology tools developed.
 
-In order to asses the market value for the *inventions* I ran technology benchmarks reported in Appendix X\todo{should I add benchmarks and DOFIs in appendix?}. Benchmark results were also useful for selecting specific technologies and tools to be employed in the production of prototypes. I also met several representatives from the interests, showing research outcomes and demoing prototypes. Moreover I run technology benchmarks
+I co-authored five *declaration of inventions*. The documents, formalising description and contributors for the inventions, poses the grounds for considering patenting and commercialising research results. 
+
+In order to asses the market value for the *inventions* I ran technology benchmarks reported in Appendix X\todo{should I add benchmarks and DOFIs in appendix?}. Benchmark results were useful for selecting specific technologies and tools to be employed in the production of prototypes. I also met several representatives from the interests, showing research outcomes and demoing prototypes. I took part in a design challenge at the MIT Media Lab.
 
 In November 2014 one of the invention won 150.00NOK (~22.000USD)  from NTNU Discovery [^discovery] fund to continue innovation work after the completion the PhD.
 

@@ -1,12 +1,13 @@
 
 # The case of Crisis Training
 
-[Revision 1]
+[Revision 2]
 
-In this chapter I provide an introduction to Crisis Training. 
+In this chapter I provide an overview of crisis management and training, highlighting how experiential learning can improve training practices.
+ 
 \missingfigure{Relation among training, preparedness and management}
 
-## Crises: preparedness and management
+## Crises: management and preparedness
 
 In this section, I provide a brief introduction to the field of crisis management and preparedness. The two areas are related  better preparedness to a crisis event expected to produce better management.
 
@@ -14,9 +15,9 @@ In this section, I provide a brief introduction to the field of crisis managemen
 
 The terms *crisis*, *emergency* and *disaster* are often used as synonyms. They deal with events that belong to the “un-ness” category: unexpected, undesirable, unimaginable, and often unmanageable situations [@Boin:2007wt; @hewit]. In this space made up of both foreseeable and unexpected elements, crisis management works anticipating the former in order to minimise the latter[^blog].
 
-In this thesis the term *crisis* refers to a single or sequence of problematic events that may lead to a dangerous situation, whether that is an emergency or a disaster. While an *emergency* is a episode that requires immediate attention, but usually on a small scale, it can turn in a *disaster* if left unattended. For example high rainfall could lead to several emergencies (e.g. car crashes, flooded bridges) and might eventually turn into a disaster (e.g. a massive flooding or an hurricane). Disaster can be caused by nature or humans and might show or not show early signals that allow the disaster to be avoided or mitigated. Disasters have a huge impact on societies, in terms of loss of human lives and costs: over the last 35 years, the frequency of disasters has increased five-fold and the damage caused, has multiplied by approximately eight times [^eudisaster]. 
+In this thesis the term *crisis* refers to a single or sequence of problematic events that may lead to a dangerous situation, whether that is an emergency or a disaster. While an *emergency* is a episode that requires immediate attention, but usually on a small scale, it can turn in a *disaster* if left unattended. For example high rainfall could lead to several emergencies (e.g. car crashes, flooded bridges) and might eventually turn into a disaster (e.g. a massive flooding or an hurricane). Disaster can be caused by nature or humans and might show or not show early signals that allow the disaster to be avoided or mitigated. Disasters have a huge impact on societies, in terms of loss of human lives and costs: over the last 35 years, the frequency of disasters has increased five-fold and the damage caused, has multiplied by approximately eight times[^eudisaster]. 
 
-Yet, although troubles are getting more frequent, people’s ability of dealing with adverse events is also growing [@Boin:2009bv]. Activating effective management strategies during a crisis, can avoid or reduce the extent of an emergency or a disaster; save human lives and reduce costs for managing and recovering from a disaster. For this reason improving crisis management practices is a priority for many countries, including the European ones [^eudisaster].   
+Yet, although troubles are getting more frequent, people’s ability of dealing with adverse events is also growing [@Boin:2009bv]. Activating effective management strategies during a crisis, can avoid or reduce the extent of an emergency or a disaster; save human lives and reduce costs for managing and recovering from a disaster. For this reason improving crisis management practices is a priority for many countries, including the European ones[^eudisaster].   
 
 Examples of roles and activities typical of crisis management are police forces to constrain access to a disaster scene, firefighters to explore and map undisclosed areas, paramedics to activate triage and hospitalise injured, fellow citizen to report information and stay out of dangers. Crisis management requires coordination on multiple levels, from team leaders (intra-organisation) up to disaster managers (inter-organisation). \todo{This paragraph needs to be improved, add reference}
 \todo[inline]{Example of crisis management scenario}
