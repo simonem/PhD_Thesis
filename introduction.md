@@ -8,9 +8,10 @@
 
 This thesis is about how to improve crisis training with ICT technologies. Crisis training is an umbrella term for complex, collaborative activities aiming at improving people’s ability for *preparedness* to human and natural-caused disasters (e.g. a flooding or a terrorist attack). Beside teaching the population what to do when a disaster occurs, it focuses on training crisis workers (e.g. firefighters, paramedics) to efficiently response to a crisis; for example by actuating coping strategies and implementing rescue procedures (crisis management). Each crisis is likely to be a situated, unpredictable event that will not take place again under the same circumstances. Training for crisis preparedness is a wicked problem, however better crisis management can positively affect everyone’s lives.
 
-There are three main approaches to crisis training: protocol training, tabletop exercises and physical simulations; on top of that real crises also offer triggers for learning [@Deverell:2009fk]. In this research work we look at medium to large scale physical simulations of crisis management as a key training practice. Physical simulations recreate at best real crises in terms of environment (e.g. presence of debris, collapsed buildings), and in reproducing feelings experienced by crisis worker such as stress, tension, time pressure and uncertainty [@Borodzicz:2002em]. Yet these events are arranged rarely. This due to the high set-up costs and the large efforts required to coordinate multiple organisation and dozens of field workers. Moreover it has been observed that the impact of those events is limited by lack of technologies, for example for capturing data to maintain an overview of rescue efforts [@Kyng:2006he] and to support post-simulation debriefing [@Mora:2012vc]. 
+There are four main approaches to crisis training: protocol training, tabletop exercises, physical simulations and serious games; on top of that real crises also offer triggers for learning [@Deverell:2009fk]. In this research work we look at medium to large scale physical simulations of crisis management and serious games as key training practices. Physical simulations recreate at best real crises in terms of environment (e.g. presence of debris, collapsed buildings), and in reproducing feelings experienced by crisis worker such as stress, tension, time pressure and uncertainty [@Borodzicz:2002em]. Yet these events are arranged rarely. This due to the high set-up costs and the large efforts required to coordinate multiple organisation and dozens of field workers. Moreover it has been observed that the impact of those events is limited by lack of technologies, for example for capturing data to maintain an overview of rescue efforts [@Kyng:2006he] and to support post-simulation debriefing [@Mora:2012vc]. On the other end, serious games trade the realism of physical simulations to provide a more lightweight training experience which can be reproduced frequently by single workers or teams; adding the “fun” element as motivator to engage workers in frequent play [@DiLoreto:2012jj].
 
 \reversemarginpar
+
 > *Hence, how it is possible to maximise crisis training learning outcomes*? \todo{This is the practical problem} 
  
 The training practices already in place can be enhanced by reflective, experience-based learning practices and advances in ICT.
@@ -75,23 +76,23 @@ The research questions RQ1-RQ3 are answered in the following research papers:
 
 Table x shows the mapping between research papers and research questions.
 
--------------------------------------------------------------------------
-Research questions                 P1   P2   P3   P4   P5   P6   P7   P8  
--------------------------------   ---- ---- ---- ---- ---- ---- ---- ----
-(1) How computer interfaces can 
+--------------------------------------------------------------------
+Research questions                 P1   P2   P3   P4   P5   P6   P7    
+-------------------------------   ---- ---- ---- ---- ---- ---- ---- 
+(1) How computer interfaces can          *    *              *
 be designed to enable unobtrusive 
 data collection during 
 crisis work? 
 
-(2) How interaction techniques 
+(2) How interaction techniques      *    *         *    *    *
 can be designed to facilitate 
 the different phases of a 
 reflection processes? 
 
-(3) How technology tools for 
+(3) How technology tools for                  *         *         *
 supporting reflection 
 can be rapid prototyped?
---------------------------------------------------------------------------
+--------------------------------------------------------------------- 
 
 Table: Mapping between research papers and research questions
 

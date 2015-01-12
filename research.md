@@ -1,6 +1,6 @@
 # Research design
 
-[Revision 1]
+[Revision 2]
 
 The aims of this chapter are to present the research design, to describe methods and tools adopted and how data have been analysed. Although not all of these methods and results have been explicitly reported in the papers, they have been important to understand the users, the domain and the needs. The adopted methods weren’t given a priori but rather they emerged over time.
 

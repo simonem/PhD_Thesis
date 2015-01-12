@@ -20,6 +20,12 @@ Some of the above-mentioned evaluations studies were performed during simulation
 RESEARCH CHAP
 During the studies I employed several ethnographic methods [@Blomberg:2009tm] including observations, interviews, questionnaires, videotaping, scenarios and personas. Doing ethnography during crisis work exercises presented many challenges. First, exercises unfold in a uncontrolled environment, for example a landfill set up to resemble a real emergency (broken cars, fires, people actings as they are injured or in panic), both at day and night time. The area involved in operations often spans over tens of square kilometers; which makes hard to maintain an overview of activities and observe relevant work episodes.
 
+<!— \begin{wrapfigure}{l}{0.5\textwidth}
+%  \begin{centering}
+%    \includegraphics[width=0.48\textwidth]{dp.jpg}
+%  \end{centering}
+%\end{wrapfigure} —>
+
 Students:
 
 Alessandro Boron

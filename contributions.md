@@ -1,6 +1,8 @@
 
 # Contributions 
 
+[Revision 1]
+
 The contributions of this PhD work are presented according to four areas. The contribution of my PhD work are:
 
 1. Implementation and evaluation of the CSRL theory model into a set of applications of technology

@@ -1,6 +1,8 @@
 
 # Results
 
+[Revision 1]
+
 In the previous chapter the research approach and methodology adopted during the work were presented. This chapter summarises the papers that added to the contributions of my work. 
 
 ## Papers
@@ -44,8 +46,7 @@ During our evaluation, the overall user experience with the prototype is hampere
 
 The results from this paper have fed new design iterations for CroMAR. The design of new functionalities has followed more closely the guidelines provided by the CSRL model that was being developed. At the same time lighter and smaller version of the iPad came to the market which allowed an extended use for our system. A new prototype of CroMAR and its closer mapping to the CSRL model is described in P2.
 
-*Relation to the research questions: * The paper started the investigation of RQ2, “How tangible and playful interaction
-with digital information can help in engaging reflection processes?”  
+*Relation to the research questions: * The paper started the investigation of RQ2, “How interaction techniques can be designed to facilitate the different phases of a reflection processes?”  
 
 ## Paper 2
 
@@ -69,7 +70,7 @@ The paper contributes presenting lesson learnt about the use of sensor data for 
 
 *Third*, the proposed technologies aim at bringing debriefings out of the traditional office setting but not as substituting, rather to complement the current practices by creating smooth transitions among different debriefing (and thus reflection) cycles. These propositions will guide future research to leverage sensor data in debriefings.
 
-*Relation to the research questions:* The paper covers aspects of RQ1 “How sensor-based interfaces can enable pervasive and unobtrusive data collection at work?” and RQ2, “How tangible and playful interaction with digital information can help in engaging reflection processes?”  
+*Relation to the research questions:* The paper covers aspects of RQ1 “How computer interfaces can be designed to enable unobtrusive data collection during crisis work?” and RQ2, “How interaction techniques can be designed to facilitate the different phases of a reflection processes?”  
 
 ## Paper 3
 
@@ -95,7 +96,7 @@ The requirement for distraction-free user interfaces has been implemented with t
 
 WATCHiT has been used to capture data in order to feed technology assisted debriefings thanks to the integration with the CroMAR and Trainer app, as described in P2. A new prototype and summative evaluation for the tool is described in P6.
 
-*Relation to research questions:* The paper covers aspects of RQ1 “How sensor-based interfaces can enable pervasive and unobtrusive data collection at work?” 
+*Relation to research questions:* The paper covers aspects of RQ1 “How computer interfaces can be designed to enable unobtrusive data collection during crisis work?” 
 
 ## Paper 4
 
@@ -123,8 +124,7 @@ Don’t Panic aims at generating a realistic work experience…
 
 The pilot study and the derived implication for design have driven the design of an technology-enhanced version of the game presented in P5.
 
-*Relation to the research questions: * The paper contributes to the investigation of RQ2, “How tangible and playful interaction
-with digital information can help in engaging reflection processes?” 
+*Relation to the research questions: * The paper contributes to the investigation of RQ2, “How interaction techniques can be designed to facilitate the different phases of a reflection processes?” 
 
 ## Paper 5 
 
@@ -148,8 +148,7 @@ DoomTown has been implemented in a working prototype (Figure X), expression of t
 
 The prototype has been evaluated against usability with 16 players who played the game in groups of four. Results from the experiment contribute in shedding the light on opportunities and challenges offered by the presented approach.
 
-*Relation to the research questions: * The paper contributes to the investigation of RQ2, “How tangible and playful interaction
-with digital information can help in engaging reflection processes?” and RQ3, “How digital manufacturing and open source hardware and software can inform rapid prototyping of sensor-based human-computer interfaces for capturing and visualising reflection-useful data?”
+*Relation to the research questions: * The paper contributes to the investigation of RQ2, “HHow interaction techniques can be designed to facilitate the different phases of a reflection processes?” and RQ3, “How technology tools for supporting reflection can be rapid prototyped?”
 
 ## Paper 6
 
@@ -183,7 +182,7 @@ The system evaluations presented in the two case studies show that participants 
 
 Capturing tools should be easy to adapt, in order to allows the users to deal with the unpredictability of relevance of the captured context. This has been implemented in WATCHiT (P3) by means of physical sensor modules.
 
-*Relation to the research questions: * The paper dresses RQ1 “How sensor-based interfaces can enable pervasive and unobtrusive data collection at work?” and RQ2, “How tangible and playful interaction with digital information can help in engaging reflection processes?”  
+*Relation to the research questions: * The paper dresses RQ1 “How computer interfaces can be designed to enable unobtrusive data collection during crisis work?” and RQ2, “How interaction techniques can be designed to facilitate the different phases of a reflection processes?”  
 
 ## Paper 7
 
@@ -203,4 +202,4 @@ The work constitute a foundation of the rapid prototyping approach pursued in th
 
 UbiDisco hinders the user from the complexity of configuring technical details by means of *discovery actions*. The user can link two systems by reading a barcode or RFID tag which identifies the device/service and provide technical details for the configuration of the link. For example CroMAR running on a iPad can be linked to WATCHiT, by reading a barcode printed on the device hardware. In this way WATCHiT and CroMAR network addresses and protocols in use are exchanged between the two systems. WATCHiT becomes a data provider for CroMAR until a new *discovery action* links WATCHiT to a new system (e.g. another instance of CroMAR or Trainer).
 
-*Relation to the research questions: * The paper contributes to  RQ3, “How digital manufacturing and open source hardware and software can inform rapid prototyping of sensor-based human-computer interfaces for capturing and visualising reflection-useful data?”
+*Relation to the research questions: * The paper contributes to  RQ3, “How technology tools for supporting reflection can be rapid prototyped?”

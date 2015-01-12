@@ -1,0 +1,17 @@
+RQs
+
+RQ1: How computer interfaces can be designed to enable unobtrusive data collection during crisis work? 
+
+How interaction techniques can be designed to facilitate the different phases of a reflection processes? 
+
+How technology tools for supporting reflection can be rapid prototyped?
+
+CONTRIBUTIONS
+
+**C1:** Implementation and evaluation of MIRROR Computer Supported Reflective Learning theory
+
+**C2:** Challenges in designing data capturing tools for crisis workers
+
+**C3:** Novel interaction techniques to support re-creation and generation of work experiences in crisis training
+
+**C4:** Challenges in implementing prototypes to be deployed into the wild
