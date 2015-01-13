@@ -4,10 +4,8 @@
 [Revision 2]
 
 In this chapter I provide an overview of crisis management and training, highlighting how experiential learning can improve training practices.
- 
-\missingfigure{Relation among training, preparedness and management}
 
-## Crises: management and preparedness
+![Three stages to better deal with a crisis](imgs/3steps.pdf)
 
 In this section, I provide a brief introduction to the field of crisis management and preparedness. The two areas are related  better preparedness to a crisis event expected to produce better management.
 

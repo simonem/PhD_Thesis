@@ -110,7 +110,7 @@ The seven paper published added to the following contributions of this research 
 
 These contributions are relevant for several research communities including Technology Enhanced Learning (C1), Tangible Embodied Embedded Computing (C3, C4), Information systems for Crisis Response (C1,C2) 
 
-\missingfigure{Relation among RQ, Contributions and papers}
+![Relation between papers and contributions](imgs/papers-contributions-mapping.pdf)
 
 ## Innovation and market research
 
