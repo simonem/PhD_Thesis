@@ -28,7 +28,7 @@ The effort to provide better crisis management is known as *crisis preparedness*
 
 Getting prepared to a crisis is a continuos process focusing on two areas, *prevention* and *response* [@Deverell:2009fk]
 
-\missingfigure{timeline before-during crisis}
+![Phases of a crisis](imgs/crisis_timeline.pdf)
 
 **Prevention** refers to activities aiming at avoiding a crisis from happening; e.g. mitigating risks by monitoring the environment and raising awareness in the population about how to recognise early warnings. 
 
@@ -50,7 +50,7 @@ Four approaches to crisis training have been identified. They share the goal to 
 
 *Serious games* - The aim is at teaching useful skills for crisis management leveraging the “fun” aspect of games as a motivator to play repeatedly and therefore gain multiple perspectives [@DiLoreto:2012bj]. Rather than seeking to teach *hard skills*  like protocols and best practices, serious games work best at enhancing *soft skills* e.g. communication styles, stress management and coping strategies [@Sagun:2009ks]. Those skills are useful both for prevention and for response to a crisis. Serious games bridge the gap between tabletop exercises and physical simulations: they are more realistic than the former yet without the huge costs of the latter. They can be played multiple times, both by individuals and collaboratively by teams. An ecology of serious games can address a variety of roles and tasks: being a lightweight training tool, each games can have learning objective tailored on a specific learning objective. Games varies from board game to highly immersive virtual environments, for a review see [@DiLoreto:2012bj].
 
-\missingfigure{example photos of different types of training}
+![Different training activities](imgs/training_examples.pdf)
  
 With the first approach presented relying on formal learning (e.g. classroom teaching), the other approaches can benefit from *informal learning* techniques (experiential learning, tacit knowledge, …)\todo{reference about formal and informal learning approaches?}; being focused workers training hard and soft skills by doing some extent of real work. 
 
