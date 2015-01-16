@@ -2,17 +2,23 @@
 
 # Introduction
 
-[Revision 2]
+[Revision 3 changelog]
+* grounded the problem with numbers on disasters
+* re-grouped results in to research paper, contributions and exploitations
+* added a table with the list of invention registered at TTO
+* added a brief explanation of each contribution
+* results section is renamed "research outcomes"
+* improved the research questions
+* added figures
 
 ## Problem Statement
+\reversemarginpar
 
 This thesis is about how to improve crisis training with ICT technologies. Crisis training is an umbrella term for complex, collaborative activities aiming at improving people’s ability for *preparedness* to human and natural-caused disasters (e.g. a flooding or a terrorist attack) [@Lagadec:1997js]. Disasters have a huge impact on societies, both in terms of human lives and costs: over the last 35 years, the frequency of disasters have increased five-fold and the damage caused, has multiplied by approximately eight times[^disaster]. Only accounting the years 1992-2012, disasters have affected 4.4 billion people and caused 2 trillion USD in damages worldwide[^unitednations]. For this reason training for better crisis management is a priority for many countries, including the European ones[^disaster]. 
 
 Beside teaching the population what to do when a disaster occurs, crisis training focuses on teach workers (e.g. firefighters, paramedics) how to efficiently respond to a crisis; for example by actuating coping strategies and implementing rescue procedures (crisis management). Each crisis is likely to be a specific, unpredictable event that will not take place again under the same circumstances. Training for crisis preparedness is a wicked problem, however better crisis management can positively affect everyone’s lives.
 
 There are four main approaches to crisis training: protocol training, tabletop exercises, physical simulations and serious games; on top of that real crises also offer triggers for learning [@Deverell:2009fk]. In this research work we look at medium to large scale physical simulations of crisis management and serious games as key training practices.\todo{box with example simulation} Physical simulations recreate at best real crises in terms of environment (e.g. presence of debris, collapsed buildings), and in reproducing feelings experienced by crisis worker such as stress, tension, time pressure and uncertainty [@Borodzicz:2002em]. Yet these events are arranged rarely. This due to the high set-up costs and the large efforts required to coordinate multiple organisation and dozens of field workers. Moreover it has been observed that the impact of those events is limited by lack of technologies, for example for capturing data to maintain an overview of rescue efforts [@Kyng:2006he] and to support post-simulation debriefing [@Mora:2012vc]. On the other end, serious games trade the realism of physical simulations to provide a more lightweight training experience which can be reproduced frequently by single workers or teams; adding the “fun” element as motivator to engage workers in frequent play [@DiLoreto:2012jj].
-
-\reversemarginpar
 
 > *Hence, how is it possible to maximise crisis training learning outcomes*? 
  
@@ -32,6 +38,18 @@ Theories in the field of sensing-based interaction [@Zhai:2005jm], can inform th
 
 Embodied interaction techniques can be implemented in computer interfaces to allow *capturing work experiences* disrupting as little as possible the rescue work, to *re-create work experiences* in a physical context for debriefing purposes and to *generate new work experiences* for continuous training characterised by engaging, playful interaction and reduced cost compared to traditional physical simulations.\todo{This is the research result, need to add research contributions as well?}
 
+## Research methodology
+
+The work in this thesis is based on design research [@Hevner:2010fy; @March:1995gm]. The work followed a *user centred approach* [@MAGUIRE:2001dp; @Gulliksen:2003hd], based on exploratory studies and design work following in multiple iterations. 
+
+Several qualitative research methods methods [@robson1993real] have been adopted, including field studies, focus groups, observations, interviews and video analysis. Scenarios, personas and mockups aided the user-centred design work. These activities were functional to the *design research* approach. Consistently with this methodology, grounded on the activities of *building* artefacts for a specific purpose and of *evaluating* how well the artefacts perform [@March:1995gm], a number of prototyping iterations and evaluation studies have been performed.
+
+Prototyping involved the construction of hardware and software systems to support reflection processes. The design of prototypes was driven by field studies during physical simulations of crisis I attended. Simple prototypes were initially used to build a deeper understanding of the crisis domain, for which I didn't have a previous knowledge. They acted as technology probes [@Hutchinson:2003il] and facilitate building and understanding of the crisis domain by engaging users in focus groups. Later, multiple iterations implemented a growing set of requirements in fully working prototypes robust enough to be deployed during simulated rescue work.
+
+User evaluations followed each design iteration. The aim was both in assessing usability of the prototypes and relevance of reflection outcomes they might produce. Prototypes were evaluated both during focus groups and during large simulations of crisis response works. Results from evaluations have fed following design iterations, contributed in the validation of theory models on reflective learning and into the development of new conceptual works.
+
+![Figure X: One of the evaluation studies performed](imgs/introduction_cromar.jpg)
+
 ## Research questions
 
 The main research question for the PhD work is:
@@ -48,19 +66,11 @@ To answer the main research question the work has been broken down into three su
 
 While the first two questions aim at investigating the design of systems to support with technology the tasks of capturing, re-creating and generating work experiences; the third question investigates how toolkits and open-source communities can ease the implementation of design ideas into prototypes. Prototypes lies at the roots of the methodology adopted in this PhD work. Prototyping tangible and embodied user interfaces is a complex task that involves a mix of hardware, software and product design skills.    
 
-## Research methodology
+## Research outcomes
 
-The work in this thesis is based on interpretative case study [@Klein:1999bm; @Walsham:2006bo] and design research [@Hevner:2010fy; @March:1995gm]. The work followed a *user centred approach* [@MAGUIRE:2001dp; @Gulliksen:2003hd], based on exploratory studies and design work following in multiple iterations. 
+Three are the main outcomes of this PhD work. Research papers in peer-reviewed conferences and journal answered the research questions. A body of knowledge in the field of technology enhanced learning 
 
-Several qualitative research methods methods [@robson1993real] have been adopted, including field studies, focus groups, observations, interviews and video analysis. Scenarios, personas and mockups aided the user-centred design work. These activities were functional to the *design research* approach. Consistently with this methodology, grounded on the activities of *building* artefacts for a specific purpose and of *evaluating* how well the artefacts perform [@March:1995gm], a number of prototyping iterations and evaluation studies have been performed.
-
-Prototyping involved the construction of hardware and software systems to support reflection processes. The design of prototypes was driven by field studies during physical simulations of crisis I attended. Simple prototypes were initially used to build a deeper understanding of the crisis domain, for which I didn't have a previous knowledge. They acted as technology probes [@Hutchinson:2003il] and facilitate building and understanding of the crisis domain by engaging users in focus groups. Later, multiple iterations implemented a growing set of requirements in fully working prototypes robust enough to be deployed during simulated rescue work.
-
-User evaluations followed each design iteration. The aim was both in assessing usability of the prototypes and relevance of reflection outcomes they might produce. Prototypes were evaluated both during focus groups and during large simulations of crisis response works. Results from evaluations have fed following design iterations, contributed in the validation of theory models on reflective learning and into the development of new conceptual works.
-
-![Figure X: One of the evaluation studies performed](imgs/introduction_cromar.jpg)
-
-## Results
+### Research papers
 
 The research questions RQ1-RQ3 are addressed in the following research papers:
 
@@ -100,27 +110,44 @@ can be rapid prototyped?
 
 Table: Mapping between research papers and research questions
 
-## Contributions
+Results were exploited in two directions. On one end they forged the research contributions of this PhD work. On the other end the drove an investigation of commercial relevance for the technologies developed. 
+
+### Research contributions
 
 The seven paper published added to the following contributions of this research work.
 
-> **C1:** Implementation and evaluation of MIRROR Computer Supported Reflective Learning theory
+> ***C1:** Implementation and evaluation of MIRROR Computer Supported Reflective Learning theory.* It includes a validation of previous theoretical models available in literature and in the formulation of new theories
 
-> **C2:** Knowledge about designing data capturing tools for crisis workers
+> ***C2:** Knowledge about designing data capturing tools for crisis workers.* It provides a definition of the design paces as well as design challenges for helping designers and engineers in building computer-based data capturing tools.
 
-> **C3:** Novel sensing-based  interaction techniques to support re-creation and generation of work experiences in crisis training
+> ***C3:** Novel sensing-based interaction techniques to support re-creation and generation of work experiences in crisis training* It describes novel user interfaces for the visualisation and manipulation of data captured from working experiences.
 
-> **C4:** Knowledge about  implementing prototypes to be deployed into the wild
-
-These contributions are relevant for several research communities including Technology Enhanced Learning (C1), Tangible Embodied Embedded Computing (C3, C4), Information systems for Crisis Response (C1,C2) 
+> ***C4:** Knowledge about implementing prototypes to be deployed into the wild.* It presents information about software and hardware tools, techniques and frameworks to ease the manufacture of sensing-based interfaces prototypes.
 
 ![Relation between papers and contributions](imgs/papers-contributions-mapping.pdf)
 
-## Exploitation of results
+These contributions are relevant for several research communities including Technology Enhanced Learning (C1), Tangible Embodied Embedded Computing (C3, C4), Information systems for Crisis Response (C1,C2) 
 
-During the late phase of the research, commercial exploitation of research results has been investigated. To this end, I joined forces with NTNU Technology Transfer AS, a business facilitator affiliated with NTNU; and I cooperated with the NTNU School of entrepreneurship [^es] evaluating the market potential for the technology tools developed. 
+### Exploitation of research results
 
-Several are the outcomes of this work. I presented research results to several subjects from the industries working in the emergency management field, raising positive and supportive feedbacks. I further refined rapid prototyped ideas during an Hackaton at MIT Media Lab. Finally in November 2014 I was granted by NTNU Discovery [^discovery] a 150.000NOK (~22.000USD) seed for further developing actualise research ideas into prototypes after the completion of my PhD.  
+During the final phase of the investigation, commercial exploitation of research results has been investigated. The focus was in assessing efforts needed and path of actions to evolve the prototypes developed as theory demonstrator into commercial products. To this end, I co-authored five *Disclosure of invention* (DOFI): technical documents that capture the description of the technologies created and establish inventor-ship. DOFIs were drafted based on information published in research paper (Table X)
+
+\begin{table}[h]
+\begin{tabular}{p{\dimexpr 0.30\linewidth-2\tabcolsep}p{\dimexpr 0.50\linewidth-2\tabcolsep}p{\dimexpr 0.20\linewidth-2\tabcolsep}}
+\toprule
+Inventors                              & Invention  & Relation to Research papers  \\ \midrule
+Mora, S., Boron, A. and Divitini, M.   & CroMAR. Situated reflection and training in crisis management.   & P1, P2    \\
+Mora, A. and Divitini, M. & WATCHiT. Wearable data collection in crisis management and training & P2, P3 \\
+Di Loreto, I., Mora, S. and Divitini, M. & “Don’t Panic!” A serious game for enhancing soft skills for Civil Protection workers & P4, P5 \\
+Mora, S., Di Loreto, I. and Divitini, N. & Anyboard: a platform for creating and play digital board games & P5 \\
+Mora, S. and Divitini, M. & TILES Toolkit. Building seamless interfaces between people and the Internet of Things & P3, P5 \\
+\bottomrule
+\end{tabular}
+\caption{My caption}
+\label{my-label}
+\end{table}
+
+Disclosure of inventions were registered at NTNU Technology Transfer office, a business facilitator affiliated with NTNU, in accordance with the Norwegian law[^law]. They were used by technology transfer managers to assess patent applicability and establishment of commercial activities. To this effort, I presented research results to several subjects from the industries working in the emergency management field, raising positive and supportive feedbacks. ~~I further refined rapid prototyped ideas during an Hackaton at MIT Media Lab~~ In November 2014 I was granted by NTNU Discovery [^discovery] a 150.000NOK (~22.000USD) seed for financing further commercial exploration of the research results after the completion of my PhD.  
 
 ## Context of the work
 
@@ -168,3 +195,4 @@ The thesis is structured as follows:
 [^senseable]: MIT SENSEable City Laboratory - http://senseable.mit.edu
 [^disaster]: Source: “Council adopts new Union Civil Protection Mechanism” Available at: www.consilium.europa.eu/uedocs/cmsdata/docs/pressdata/en/jha/140108.pdf. 
 [^unitednations]: Source: The United Nation Office for Disaster Risk Reduction (http://unisdr.org) 
+[^law]: In accordance with “Arbeidstakeroppfinnelsesloven”, “Universitets og høgskoleloven” and NTNU’s internal Guidelines for innovation 
