@@ -60,7 +60,7 @@ User evaluations followed each design iteration. The aim was both in assessing u
 
 ![Figure X: One of the evaluation studies performed](imgs/introduction_cromar.jpg)
 
-## Results and contributions
+## Results
 
 The research questions RQ1-RQ3 are addressed in the following research papers:
 
@@ -108,7 +108,7 @@ The seven paper published added to the following contributions of this research 
 
 > **C2:** Knowledge about designing data capturing tools for crisis workers
 
-> **C3:** Novel sensing-based interaction techniques to support re-creation and generation of work experiences in crisis training
+> **C3:** Novel sensing-based  interaction techniques to support re-creation and generation of work experiences in crisis training
 
 > **C4:** Knowledge about  implementing prototypes to be deployed into the wild
 
@@ -116,9 +116,9 @@ These contributions are relevant for several research communities including Tech
 
 ![Relation between papers and contributions](imgs/papers-contributions-mapping.pdf)
 
-## Innovation and market research
+## Exploitation of results
 
-During the late phase of the research, the innovativeness of the research has been evaluated and basis for a future commercialisation of results have been settled. To this end, I joined forces with NTNU Technology Transfer AS, a business facilitator affiliated with NTNU; and I cooperated with the NTNU School of entrepreneurship [^es] evaluating the market potential for the technology tools developed. 
+During the late phase of the research, commercial exploitation of research results has been investigated. To this end, I joined forces with NTNU Technology Transfer AS, a business facilitator affiliated with NTNU; and I cooperated with the NTNU School of entrepreneurship [^es] evaluating the market potential for the technology tools developed. 
 
 Several are the outcomes of this work. I presented research results to several subjects from the industries working in the emergency management field, raising positive and supportive feedbacks. I further refined rapid prototyped ideas during an Hackaton at MIT Media Lab. Finally in November 2014 I was granted by NTNU Discovery [^discovery] a 150.000NOK (~22.000USD) seed for further developing actualise research ideas into prototypes after the completion of my PhD.  
 
