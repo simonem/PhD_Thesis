@@ -58,7 +58,7 @@ The main research question for the PhD work is:
 
 To answer the main research question the work has been broken down into three sub-questions:
 
-> RQ1: How sensing-based interfaces can be designed to enable unobtrusive data collection during crisis work? 
+> RQ1: How sensing-based interfaces can be designed to enable unobtrusive data collection during crisis work? \todo{should refocus RQ1 with more attention to understanding the domain?}
 
 > RQ2: How interaction techniques can be designed to facilitate the different phases of a reflection processes? 
 
