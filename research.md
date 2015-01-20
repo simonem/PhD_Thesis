@@ -90,7 +90,7 @@ Gather access to people for the studies has proven to be challenging, and no com
 
 Concurrently and inspired by field study work, I introduced into the organisations technology to assist the CSRL model (Chapter X). Design work followed a *user centred approach* [@MAGUIRE:2001dp; @Gulliksen:2003hd]. 
 
-At beginning of the study building things helped forging an understanding of the crisis domain. As pointed out by Edelson [-@Edelson:2002kp] “design plays a critical role in the development of theories, not just their evaluation”. In this phase, mockups were turned into low-fidelity prototypes in short iterations. Prototypes presented in focus groups with workers facilitated discussions, triggering a better understanding of the domain, which in turn led to new ideas. Furthermore, prototypes facilitated the reminiscence of work experiences, brining new perspectives into the study. Finally, in the final stage of the work, prototypes acted as means to validate the CSRL model presented in Chapter X, focusing on the activities of capturing, re-creating and generating work experiences.
+At beginning of the study building things helped forging an understanding of the crisis domain. In this phase, mockups were turned into low-fidelity prototypes in short iterations. Prototypes presented in focus groups with workers facilitated discussions, triggering a better understanding of the domain, which in turn led to new ideas. Furthermore, prototypes facilitated the reminiscence of work experiences, brining new perspectives into the study. Finally, in the final stage of the work, prototypes acted as means to validate the CSRL model presented in Chapter X, focusing on the activities of capturing, re-creating and generating work experiences.
 
 The design cycle involved two activities: build and evaluate. *Build* refers to the process of constructing a (technology) artifact for a specific purpose, according with requirements identified by the relevance cycle. *Evaluate* is the process of how well the artifact performs against metrics previously established [@simon1996sciences]. 
 
@@ -106,32 +106,19 @@ The construction process involved a mix hardware and software engineering. I lar
 
 #### Evaluate
 
-After each prototype built, a formative evaluation followed. The intention was to keep the design process user-centered, to introduce new ideas into the design process, and to test prototypes in a laboratory setting before releasing them into field testing along the relevance cycle [@Hevner:2010gc].
+After each prototype was built, a formative evaluation followed. Frequent user testing allowed for maintaining a user-centered design perspective, to introduce new ideas into the process, and to test prototypes in a controlled setting before releasing them into field testing along the relevance cycle [@Hevner:2010gc].
 
-To this intent focus groups with crisis workers were performed. Being the drills described in the *relevance cycle* arranged rarely due to the high organisational and financial efforts required; focus groups with workers were essential for fueling the design activity. Moreover, the meetings involved workers who have perviously attended physical simulations attended (Table X). It was therefore possible to ground discussions into specific episodes previously observed during field studies.
+To this intent, focus groups with crisis workers were performed. Being the drills described in the *relevance cycle* arranged rarely due to the high organisational and financial efforts required; focus groups with workers were essential for fueling the design activity. Moreover, meetings often involved the same workers who have perviously attended the physical simulations (Table X). It was therefore possible to ground discussions into specific episodes previously observed during field studies.
 
-During focus groups low and high fidelity prototypes were presented. Low-fidelity prototypes acted as technology probes [@Hutchinson:2003il]. Despite their evident usability issues, they were essential for us and for users to create new scenarios of use and identify technological and usage challenges. 
-
-
-Evaluations methods used were, focus groups and semi-structured interviews.
-
+During focus groups low and high fidelity prototypes were evaluated. Low-fidelity prototypes acted as technology probes [@Hutchinson:2003il]. Despite their evident usability issues, they were essential to create new scenarios of use and identify technological and usage challenges. High-fidelity prototypes were usability tested [@Dumas:2009th], using a SUS scale [@jordan1996usability pag.189]. 
  
-
 ### The rigor cycle
 
-a process in which design plays a critical role in the development of theories, not just their evaluation 
+The design work was grounded in literature about computer supported reflective learning (Chapter X) and in sensing-based interaction (Chapter Y). While the former identified *what* activities and processes to trigger reflection where to be enhanced with technology; the latter provided guidelines on *how* to design user interfaces for the technologies created.  
 
-*Theorise* refers to building conceptual models that explain how and why artifacts affected a certain environment. Finally *justify* requires gathering evidences that supports or refuse the theory.
+Yet, as pointed out by Edelson [-@Edelson:2002kp], “design plays a critical role in the development of theories, not just their evaluation”. The work in this thesis contributed with knowledge useful for validating the CSRL model described in [@Krogstie:fo] (as in P2), in defining new theories about how technology can support reflective learning (P6) and in drafting design challenges to develop data capturing tools (P3). 
 
-The design work contributed in defining new theories about how technology can support reflective learning. Those come as an output of combining the experience from the design of prototypes and results from their summative evaluations, with the knowledge developed during field studies. Theories developed aim at facilitating the work of designer in building technology tools to facilitate data collection during crisis management work (P3) and in turning context-data into learning contents (P6). 
-
-##### Justify
-
-The design work was driven by the CSRL model described in Chapter X. Specific activities described in the model were selected and supported by the systems developed. After the developed was conclude, empirical data collected during prototypes’ summative evaluations were fed back to the model and used to validate its conceptual elements (P2).
-
-### Generalisation
-
-Generalising the results obtained aimed at understating how results from this PhD work could be transferred to other domains that might benefit from novel interaction techniques to support reflection. To accomplish this goal, I conducted research abroad, as guest researcher, at City London University and MIT. During a total of twenty-six weeks time abroad, I joined projects run by the respective institutions doing design and prototypes construction work inspired by the results of this PhD (Figure X).
+Those constructs came as output of an effort towards generalising the experience earned with the design and construction of prototypes, and knowledge that surfaced from field studies to other application domains. Research results were hence brought to domains that might benefit from the novel interaction techniques to support reflection developed in this research work. To accomplish this goal, I compared research results with other case studies in the MIRROR project and I conducted research abroad, as guest researcher, at City London University and MIT. During a total of twenty-six weeks time abroad, I joined projects run by the respective institutions doing design and prototypes construction work inspired by the results of this PhD (Figure X).
 
 \missingfigure{a photo of the prototypes developed during research abroad.}  
 
@@ -139,7 +126,7 @@ During fourteen weeks spent at City University (one of the partners of the MIRRO
 
 During twelve weeks spent at the MIT SENSEable City Lab I investigated the design and production of a tangible interface to promote user engagement and reflection about urban-mobility data under the supervision of professor Carlo Ratti. The work has been has been displayed to the public in two exhibitions: “Wave” currently held in Paris and “CNR Internet Festival” held in Pisa, Italy.\todo{these two paragraphs report on results. should be moved to another chapter?}  
 
-### Innovation and market research
+## Exploitation of research results
 
 During the late phase of the research, the innovativeness of the research performed has been evaluated and basis for a future commercialisation of results have been settled. To this end, I joined forces with NTNU Technology Transfer AS, a business facilitator affiliated with NTNU. I also cooperated with the NTNU School of Entrepreneurship [^es] evaluating the market potential for the technology tools developed.
 
