@@ -1,8 +1,35 @@
 \documentclass{article}[10pt]
 \usepackage{longtable}
 \usepackage{lscape}
-
+\usepackage{booktabs}
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+	% \specialcell{Date,\\duration}
+\usepackage{rotating}
+	
 \begin{document}
+
+
+\begin{table}[h]
+\begin{tabular}{@{}lllllllll}	
+%\begin{tabular}{@{}p{0.3cm}p{3cm}p{0.3cm}p{0.3cm}p{3cm}p{0.25cm}p{0.25cm}p{0.25cm}p{1.5cm}}
+\toprule
+   &                             & \multicolumn{2}{c}{Aim}                    &          & \multicolumn{3}{c}{Methods}            &    \\ \cline{3-4} \cline{6-8}  \noalign{\smallskip}
+ID & Date, duration & \begin{turn}{90}Exploratory\end{turn} & \begin{turn}{90}Evaluation\end{turn} & Participants & \begin{turn}{90}Observations\end{turn} & \begin{turn}{90}Interviews\end{turn} & \begin{turn}{90}Questionnaires\end{turn}   & Papers \\ \midrule \noalign{\smallskip}
+
+F1  & Mar. 2011, 2 days            & \textbullet &   & Several teams                & \textbullet                          & \textbullet                         &                                         &  P1   \\
+F2  & Oct. 2011, 3 days            & \textbullet & & \specialcell[t]{several teams,\\1 manager}      & \textbullet                          & \textbullet                         &                                          & P1, P3        \\
+F3  & Oct. 2012, 2 days            & \textbullet & \textbullet & \specialcell[t]{5 field workers,\\1 manager}   & \textbullet                          & \textbullet                         &                                          &  P1, P3  \\ 
+F4  & Apr. 2013, 3 days            & \textbullet & \textbullet & \specialcell[t]{4 field workers,\\1 manager}   & \textbullet                          & \textbullet                         & \textbullet                              & P1, P3, P2   \\
+F5*  & Dec. 2013, 30 days          & & \textbullet & 8 field workers              &                                      &                                     & \textbullet                               & P2, P3, P6    \\
+F6  & Apr. 2014, 2 days            & & \textbullet & \specialcell[t]{27 field workers,\\1 manager} & \textbullet                          &                                     & \textbullet                               &  P2, P3, P6   \\ \noalign{\smallskip} \hline \noalign{\smallskip}
+\multicolumn{9}{l}{*The author was not present during the study} \\ \bottomrule
+\end{tabular}
+\caption{My caption}
+\label{my-label}
+\end{table}
+
+
 
 \begin{landscape}
 \begin{longtable}{p{2cm}p{3cm}p{3cm}p{3cm}p{4cm}p{1cm}p{1cm}}
@@ -20,5 +47,6 @@ ID(*=key study) & Date, duration   & Setting  & Participants  & Research Methods
 10(*)  & April 2014, 2 days     & Simulated work       & 27 field workers, 1 manager  & Observations, Questionnaires Summative evaluation of WATCHiT v04    & 1   & P2-P3-P7  \\ 
 \end{longtable}
 \end{landscape}
+
 
 \end{document}
