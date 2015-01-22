@@ -5,19 +5,21 @@
 \newcommand{\specialcell}[2][c]{%
   \begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
 	% \specialcell{Date,\\duration}
-\usepackage{rotating}
+\usepackage{rotating, multirow}
+\usepackage[flushleft]{threeparttable}
+\usepackage{graphicx}% http://ctan.org/pkg/graphicx
 	
 \begin{document}
 
 
 \begin{table}[h]
-\begin{tabular}{@{}lllllllll}	
+\begin{tabular}{@{}lllllllll@{}}	
 %\begin{tabular}{@{}p{0.3cm}p{3cm}p{0.3cm}p{0.3cm}p{3cm}p{0.25cm}p{0.25cm}p{0.25cm}p{1.5cm}}
 \toprule
    &                             & \multicolumn{2}{c}{Aim}                    &          & \multicolumn{3}{c}{Methods}            &    \\ \cline{3-4} \cline{6-8}  \noalign{\smallskip}
 ID & Date, duration & \begin{turn}{90}Exploratory\end{turn} & \begin{turn}{90}Evaluation\end{turn} & Participants & \begin{turn}{90}Observations\end{turn} & \begin{turn}{90}Interviews\end{turn} & \begin{turn}{90}Questionnaires\end{turn}   & Papers \\ \midrule \noalign{\smallskip}
 
-F1  & Mar. 2011, 2 days            & \textbullet &   & Several teams                & \textbullet                          & \textbullet                         &                                         &  P1   \\
+F1  & Mar. 2011, 2 days            & \textbullet &   & several teams                & \textbullet                          & \textbullet                         &                                         &  P1   \\
 F2  & Oct. 2011, 3 days            & \textbullet & & \specialcell[t]{several teams,\\1 manager}      & \textbullet                          & \textbullet                         &                                          & P1, P3        \\
 F3  & Oct. 2012, 2 days            & \textbullet & \textbullet & \specialcell[t]{5 field workers,\\1 manager}   & \textbullet                          & \textbullet                         &                                          &  P1, P3  \\ 
 F4  & Apr. 2013, 3 days            & \textbullet & \textbullet & \specialcell[t]{4 field workers,\\1 manager}   & \textbullet                          & \textbullet                         & \textbullet                              & P1, P3, P2   \\
@@ -28,6 +30,39 @@ F6  & Apr. 2014, 2 days            & & \textbullet & \specialcell[t]{27 field wo
 \caption{My caption}
 \label{my-label}
 \end{table}
+
+
+\begin{table}[h]
+	  \begin{threeparttable}
+\begin{tabular}{@{}lllllllll@{}}	
+	\toprule
+	       &               &               &                         & \multicolumn{3}{c}{Development}      &           &              \\ \cline{5-7}  \noalign{\smallskip}
+	\specialcell[b]{ID\\Ver.}     & Name           & Released     & Prototyping tools  & \begin{turn}{90}Software\end{turn} & \begin{turn}{90}Hardware\end{turn} & \begin{turn}{90}Construction\end{turn}   & Papers     & \specialcell[b]{Field\\studies} \\
+	\midrule \noalign{\smallskip}
+    C1     & CroMAR         & Jul. 2011    & iOS,    & \textbullet &       &                & P1,P2      & F1,F2 \\
+    C2     &                 & Jul. 2012    & Augmented Reality                        & \textbullet &           &              & P2        & F3, F4 \\
+	\hline \noalign{\smallskip}
+	W1     & WATCHiT         & Jan. 2012    & Arduino, Textiles         & \textbullet & \textbullet &          & P3         & F2 \\
+    W2     &                 & Aug. 2012    & ZigBee, Bluetooth           & \textbullet & \textbullet &          & P3         & F2 \\
+    W3     &                 & Sept. 2012   &          & \textbullet  & \textbullet &          & P3         & F3, F4 \\
+    W4     &                 & Aug. 2012    &            & \textbullet & \textbullet & \textbullet  & P2, P3   & F5, F6 \\
+    \hline \noalign{\smallskip}
+    D1     & Don't Panic     & Mar. 2013    & Paper, wood     & & & \textbullet  & P4, P5   & F1 \\
+    D2     &                 & Aug. 2013    & Sifteo, RaspberryPi  & \textbullet & \textbullet & \textbullet & P5 & F1 \\
+	\bottomrule
+
+\end{tabular}
+
+\begin{tablenotes}
+     \item
+    \includegraphics[width=\linewidth]{prototypes}
+   \end{tablenotes}
+ \end{threeparttable}
+
+\caption{My caption}
+\label{my-label}
+\end{table}
+
 
 
 
