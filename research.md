@@ -2,9 +2,13 @@
 
 [Revision 3]
 
+changelog
+
 - removed interpretative case studies as methodologies
 - removed instantiation of (March, 1995) framework
 - Added instantiation of (Havner, 2007) framework, a better fit for the type of work done
+- Added tables for field studies, prototypes and focus grousp
+- added figures 
 
 The aims of this chapter are to present the research design, to describe methods and tools adopted and how data have been analysed. Although not all of these methods and results have been explicitly reported in the papers, they have been important to understand the users, the domain and the needs. The adopted methods weren’t given a priori but rather they emerged over time.
 
@@ -43,18 +47,21 @@ The primary investigation method adopted to understand the crisis domain and to 
 An overview of the field studies performed between years 2011-2014, in relation with research questions and papers, is presented in Table X.
 
 \begin{table}[h]
-\begin{tabular}{@{}p{0.3cm}p{2cm}p{1.5cm}p{2cm}p{3cm}p{0.5cm}p{0.5cm}}
+\begin{tabular}{@{}lllllllll@{}}	
+%\begin{tabular}{@{}p{0.3cm}p{3cm}p{0.3cm}p{0.3cm}p{3cm}p{0.25cm}p{0.25cm}p{0.25cm}p{1.5cm}}
 \toprule
-ID & Date, duration     & Type            & Participants                 & Methods                                                 & RQs &  Papers \\ \midrule
-1  & Mar. 2011, 2 days  & Real work       & Several teams                & Observations, interviews                                & 2   &  P1,P4   \\
-2  & Oct. 2011, 3 days  & Simulated work  & Several teams, 1 manager     & Observations, interviews, video analysis                & 2   & P1        \\
-3  & Oct. 2012, 2 days  & Simulated work  & 5 field workers, 1 manager   & Observations, interviews, video analysis                & 1,2 & P1, P2    \\ 
-4  & Apr. 2013, 3 days  & Simulated work  & 4 field workers, 1 manager   & Observation, interviews, video analysis, questionnaires & 1-2 & P1, P3   \\
-5  & Dec. 2013, 30 days & Simulated work  & 8 field workers              & Questionnaires                                          & 1   & P2, P3, P7    \\
-6  & Apr. 2014, 2 days  & Simulated work  & 27 field workers, 1 manager  & Observations, Questionnaires                             & 1   & P2, P3, P7 \\ \bottomrule
+   &                             & \multicolumn{2}{c}{Aim}                    &          & \multicolumn{3}{c}{Methods}            &    \\ \cline{3-4} \cline{6-8}  \noalign{\smallskip}
+ID & Date, duration & \begin{turn}{90}Exploratory\end{turn} & \begin{turn}{90}Evaluation\end{turn} & Participants & \begin{turn}{90}Observations\end{turn} & \begin{turn}{90}Interviews\end{turn} & \begin{turn}{90}Questionnaires\end{turn}   & Papers \\ \midrule \noalign{\smallskip}
+F1  & Mar. 2011, 2 days            & \textbullet &   & several teams                & \textbullet                          & \textbullet                         &                                         &  P1   \\
+F2  & Oct. 2011, 3 days            & \textbullet & & \specialcell[t]{several teams,\\1 manager}      & \textbullet                          & \textbullet                         &                                          & P1, P3        \\
+F3  & Oct. 2012, 2 days            & \textbullet & \textbullet & \specialcell[t]{5 field workers,\\1 manager}   & \textbullet                          & \textbullet                         &                                          &  P1, P3  \\ 
+F4  & Apr. 2013, 3 days            & \textbullet & \textbullet & \specialcell[t]{4 field workers,\\1 manager}   & \textbullet                          & \textbullet                         & \textbullet                              & P1, P3, P2   \\
+F5*  & Dec. 2013, 30 days          & & \textbullet & 8 field workers              &                                      &                                     & \textbullet                               & P2, P3, P6    \\
+F6  & Apr. 2014, 2 days            & & \textbullet & \specialcell[t]{27 field workers,\\1 manager} & \textbullet                          &                                     & \textbullet                               &  P2, P3, P6   \\ \noalign{\smallskip} \hline \noalign{\smallskip}
+\multicolumn{9}{l}{*The author was not present during the study} \\ \bottomrule
 \end{tabular}
-\caption{My caption}
-\label{my-label}
+\caption{Description of field studies performed}
+\label{field-studies}
 \end{table}
 
 #### The setting
@@ -102,29 +109,73 @@ The design cycle involved two activities: build and evaluate. *Build* refers to 
 
 During this PhD work, a large amount of time was dedicated to the construction of technology artefacts, implementing systems’ requirements, scenarios and personas generated in the *relevance cycle* into prototypes.  
 
-A total of eight prototypes were produced, including mobile apps, wearable sensors and technology-augmented board games. Table X overviews the different prototypes developed and their relation with the papers.
+A total of eight prototypes were produced, including mobile apps, wearable sensors and technology-augmented board games. Table X overviews the different prototypes developed, tools used and and relation with the papers. Each prototype involved the development of software, hardware (electronics) and construction  (Casing).
 
-\missingfigure{Overview table of the prototypes developed.}
+\begin{table}[h]
+	  \begin{threeparttable}
+\begin{tabular}{@{}lllllllll@{}}	
+	\toprule
+	       &               &               &                         & \multicolumn{3}{c}{Development}      &           &              \\ \cline{5-7}  \noalign{\smallskip}
+	\specialcell[b]{ID\\Ver.}     & Name           & Released     & Prototyping tools  & \begin{turn}{90}Software\end{turn} & \begin{turn}{90}Hardware\end{turn} & \begin{turn}{90}Construction\end{turn}   & Papers     & \specialcell[b]{Field\\studies} \\
+	\midrule \noalign{\smallskip}
+    C1     & CroMAR         & Jul. 2011    & iOS,    & \textbullet &       &                & P1,P2      & F1,F2 \\
+    C2     &                 & Jul. 2012    & Augmented Reality                        & \textbullet &           &              & P2        & F3, F4 \\
+	\hline \noalign{\smallskip}
+	W1     & WATCHiT         & Jan. 2012    & Arduino, Textiles         & \textbullet & \textbullet &          & P3         & F2 \\
+    W2     &                 & Aug. 2012    & ZigBee, Bluetooth           & \textbullet & \textbullet &          & P3         & F2 \\
+    W3     &                 & Sept. 2012   &          & \textbullet  & \textbullet &          & P3         & F3, F4 \\
+    W4     &                 & Aug. 2013    &            & \textbullet & \textbullet & \textbullet  & P2, P3   & F5, F6 \\
+    \hline \noalign{\smallskip}
+    D1     & Don't Panic     & Mar. 2013    & Paper, wood     & & & \textbullet  & P4, P5   & F1 \\
+    D2     &                 & Aug. 2013    & \specialcell[t]{Sifteo, RapsberryPi\\Laser cut}  & \textbullet & \textbullet & \textbullet & P5 & F1 \\
+	\bottomrule
+\end{tabular}
+\begin{tablenotes}
+     \item
+    \includegraphics[width=\linewidth]{prototypes}
+   \end{tablenotes}
+ \end{threeparttable}
+\caption{Description of prototypes implemented}
+\label{prototypes}
+\end{table}
 
-The construction process involved a mix hardware and software engineering. I largely adopted a rapid prototyping techniques in order to keep design iterations shorts and make incremental improvements based on frequent feedbacks exchanges with end users. To this end a wide range of open source toolkit were used, including Arduino[^arduino] and RaspberryPi[^raspberry] hardware development platforms. Dealing with hybrid hardware/software artefacts, digital manufacturing techniques were largely adopted, including 3D printing and laser-cut production. These activities were essential to develop knowledge to answer RQ3. Building prototypes I was often helped by a few students who have written master theses related to the topics presented in this thesis.
+I largely adopted a rapid prototyping techniques in order to keep design iterations shorts and make incremental improvements based on frequent feedbacks exchanges with end users. To this end a wide range of open source toolkit were used, including Arduino[^arduino] and RaspberryPi[^raspberry] hardware development platforms. Dealing with hybrid hardware/software artefacts, digital manufacturing techniques were largely adopted, including 3D printing and laser-cut production. These activities were essential to develop knowledge to answer RQ3. Building prototypes I was often helped by a few students who have written master theses related to the topics presented in this thesis.
 
 #### Evaluate
 
 After each prototype was built, a formative evaluation followed. Frequent user testing allowed for maintaining a user-centered design perspective, to introduce new ideas into the process, and to test prototypes in a controlled setting before releasing them into field testing along the relevance cycle [@Hevner:2010gc].
 
-To this intent, focus groups with crisis workers were performed. Being the drills described in the *relevance cycle* arranged rarely due to the high organisational and financial efforts required; focus groups with workers were essential for fueling the design activity. Moreover, meetings often involved the same workers who have perviously attended the physical simulations (Table X). It was therefore possible to ground discussions into specific episodes previously observed during field studies.
+\begin{table}[h]
+\begin{tabular}{@{}lllllllll@{}}	
+\toprule
+ID  & Date        & Participants      & Prototypes tested \\
+\midrule
+G1  & Apr. 2012  & 9 filed workers     & W1, D1 \\
+G2  & May 2012   & 1 disaster manager  & C1, W1 \\
+G3  & Jul. 2013  & 3 field workers, 1 manager & D2 \\
+G4  & Sept. 2013 & 8 IT students, 4 HCI experts & D2 \\
+\bottomrule
+\end{tabular}
+\caption{Description of focus groups performed}
+\label{prototypes}
+\end{table}
 
-During focus groups low and high fidelity prototypes were evaluated. Low-fidelity prototypes acted as technology probes [@Hutchinson:2003il]. Despite their evident usability issues, they were essential to create new scenarios of use and identify technological and usage challenges. High-fidelity prototypes were usability tested [@Dumas:2009th], using a SUS scale [@jordan1996usability pag.189]. 
- 
+To this intent, focus groups with crisis workers were performed. 
+A list of focus groups performed, and prototypes tested is depicted in Table X. Being the drills described in the *relevance cycle* arranged rarely due to the high organisational and financial efforts required; focus groups with workers were essential for fueling the design activity. Moreover, meetings often involved the same workers who have perviously attended the physical simulations. It was therefore possible to ground discussions into specific episodes previously observed during field studies.
+
+![Participants of the G3 group filling in SUS questionnaires, after the test of D2 prototype](imgs/d2_prototype.jpg)
+
+During focus groups low and high fidelity prototypes were evaluated. Low-fidelity prototypes acted as technology probes [@Hutchinson:2003il]. The typical setting of focus groups performed is represented in Figure X. Despite their evident usability issues, they were essential to create new scenarios of use and identify technological and usage challenges. High-fidelity prototypes were usability tested [@Dumas:2009th], using a SUS scale [@jordan1996usability pag.189]. 
+
 ### The rigor cycle
 
-The design work was grounded in literature about computer supported reflective learning (Chapter X) and in sensing-based interaction (Chapter Y). While the former identified *what* activities and processes to trigger reflection where to be enhanced with technology; the latter provided guidelines on *how* to design user interfaces for the technologies created.  
+The design work was grounded in literature about computer supported reflective learning (Chapter X) and in sensing-based interaction (Chapter Y). While the former identified *what* activities and processes to trigger reflection can be enhanced with technology; the latter provided guidelines on *how* to design user interfaces for the technologies created.  
 
 Yet, as pointed out by Edelson [-@Edelson:2002kp], “design plays a critical role in the development of theories, not just their evaluation”. The work in this thesis contributed with knowledge useful for validating the CSRL model described in [@Krogstie:fo] (as in P2), in defining new theories about how technology can support reflective learning (P6) and in drafting design challenges to develop data capturing tools (P3). 
 
 Those constructs came as output of an effort towards generalising the experience earned with the design and construction of prototypes, and knowledge that surfaced from field studies to other application domains. Research results were hence brought to domains that might benefit from the novel interaction techniques to support reflection developed in this research work. To accomplish this goal, I compared research results with other case studies in the MIRROR project and I conducted research abroad, as guest researcher, at City London University and MIT. During a total of twenty-six weeks time abroad, I joined projects run by the respective institutions doing design and prototypes construction work inspired by the results of this PhD (Figure X).
 
-\missingfigure{a photo of the prototypes developed during research abroad.}  
+![Prototypes developed during research visit abroad](imgs/london+mit.pdf)  
 
 During fourteen weeks spent at City University (one of the partners of the MIRROR consortium) I investigated the design and production of a digitally augmented serious game for better training of dementia carers, under the supervision of professor Neil Maiden. The game has been implemented and evaluated in eight care homes in the greater London area, and is reported in a joined publication to be submitted. 
 
