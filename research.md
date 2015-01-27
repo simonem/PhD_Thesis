@@ -1,4 +1,4 @@
-# Research methodology
+# Research methodology {#research}
 
 [Revision 3]
 
@@ -21,9 +21,14 @@ The work in this thesis is based on design science research [@Hevner:2010fy; @Ma
 
 The design science approach meets the aim of this research work, which lies not only in building an understanding of the crisis domain but also in contributing with the design of technologies for better crisis training (RQ1-RQ2). The focus of design science on rapid iterations between the construction of artefacts and their evaluation [@Hevner:2010gc] makes also a good strategy for the investigation of RQ3.
 
-Hevner [-@Havner2004; -@hevner2007three] describes design research as a sequence of three tightly coupled cycles of activities (Figure X). Each of the three cycles must be present and visible in a design science research project [@Hevner:2010gc]. In the following I briefly describe the  cycles and how they have been addressed in this work.
+Hevner [-@Havner2004; -@hevner2007three] describes design research as a sequence of three tightly coupled cycles of activities (Figure \ref{fig:design-cycles}). Each of the three cycles must be present and visible in a design science research project [@Hevner:2010gc]. In the following I briefly describe the  cycles and how they have been addressed in this work.
 
-![The design cycles, figure adapted from [@hevner2007three]](imgs/design_cycles.png)
+\begin{figure}[tbh]
+	\centering
+	\includegraphics[width=1\textwidth]{design_cycles}
+	\caption{The design cycles, figure adapted from \protect\cite{hevner2007three}}
+	\label{fig:design-cycles}
+\end{figure}
 
 The *relevance cycle* initiates the research by identifying opportunities and problems for a specific domain and deriving requirements for the design of technology to address those. Once the requirements are implemented in design artefacts, acceptance criteria for the summative evaluation are defined and artefacts are introduced into the environment for field testing. Results from field evaluations inform new cycle iterations until research goals are met. **This cycle involves designing running field studies with exploratory or evaluation purposes**.
 
@@ -37,9 +42,14 @@ The choice of these methods required the researchers to have large access to peo
 
 ## Research activities
 
-This section details on activities performed and methods adopted in each of the three cycle. A chronological account of the research process is provided in Figure X.
+This section details on activities performed and methods adopted in each of the three cycle. A chronological account of the research process is provided in Figure \ref{fig:research-activities}.
 
-![Timeline of research activities](imgs/timeline.pdf)
+\begin{figure}[tbh]
+	\centering
+	\includegraphics[width=1\textwidth]{timeline}
+	\caption{Timeline for the research activities}
+	\label{fig:research-activities}
+\end{figure}
 
 ### Relevance cycle
 
@@ -49,6 +59,8 @@ An overview of the field studies performed between years 2011-2014, in relation 
 
 \begin{table}[h]
 	\centering
+	\caption{Description of field studies performed}
+	\label{field-studies}
 \begin{tabular}{@{}lllllllll@{}}	
 %\begin{tabular}{@{}p{0.3cm}p{3cm}p{0.3cm}p{0.3cm}p{3cm}p{0.25cm}p{0.25cm}p{0.25cm}p{1.5cm}}
 \toprule
@@ -62,8 +74,6 @@ F5*  & \specialcell[t]{Dec. 2013,\\30 days}          & & \textbullet & 8 field w
 F6  & \specialcell[t]{Apr. 2014,\\2 days}            & & \textbullet & \specialcell[t]{27 field workers,\\1 manager} & \textbullet                          &                                     & \textbullet                               &  P2, P3, P6   \\ \noalign{\smallskip} \hline \noalign{\smallskip}
 \multicolumn{9}{l}{*The author was not present during the study} \\ \bottomrule
 \end{tabular}
-\caption{Description of field studies performed}
-\label{field-studies}
 \end{table}
 
 #### The setting
@@ -74,11 +84,17 @@ Although traditional field studies claim that a work practice is best understood
 
 The observed training events, involved personnel from a range of crisis management organisations operating in northern Italy, coordinated by ANPAS-Piemonte[^anpas] and SEIRS[^seirs] organisations. Those institutions were selected because of being affiliated to the MIRROR consortium, which facilitated access to resources and personal. A wide range of roles were on field during training, including field workers (firefighters, paramedics, police agents), team coordinators, disaster manager, technical and radio staff. The number of participants to our studies varied between dozens of workers observed in the exploratory studies to smaller groups who where actively involved during interviews and prototype evaluations. 
 
-The observed events tried to follow as much as possible real crisis in terms of physical context and activities. Activities spanned between one to three days, simulating different scenarios including flooding, earthquake and chemical spills. The drills usually took place in remote areas unaccessible to the public, which were set up to recreate harsh conditions like the presence of debris, flooded terrains, fire ashes and broken cars. In this setting, volunteers impersonating the injured to be rescued were located in places undisclosed to the trainees (Figure X-left).
+The observed events tried to follow as much as possible real crisis in terms of physical context and activities. Activities spanned between one to three days, simulating different scenarios including flooding, earthquake and chemical spills. The drills usually took place in remote areas unaccessible to the public, which were set up to recreate harsh conditions like the presence of debris, flooded terrains, fire ashes and broken cars. In this setting, volunteers impersonating the injured to be rescued were located in places undisclosed to the trainees (Figure \ref{fig:simulation-phases}-left).
 
-![Different phases of a simulation, setup (left), work (center), debriefing (right). Pictures were taken during F2 and F4 studies](imgs/simulation_phases.pdf)
+\begin{figure}[tbh]
+	\centering
+	\includegraphics[width=1\textwidth]{simulation_phases}
+	\caption{Different phases of a simulation, setup (left), work (center), debriefing (right). Pictures were taken during F2 and F4 studies}
+	\label{fig:simulation-phases}
+\end{figure}
 
-A typical training sessions included *briefing*, *simulation* and *debriefing* phases. During briefing the drill manager described the settings, and assigned duties to the teams. During simulation workers were implementing rescue procedures (Figure X-center). The work involved cooperation among: police forces, to handle traffic and fence the operational area, firefighters to explore and secure undisclosed areas, civil protection workers to build field hospitals, dog handlers to search for survivors and teams of paramedics to activate triage, threat of injured and transportation to the nearest field hospital. A collaborative debriefing of the events followed, with focus on time of completion of procedures and issues that might have been arisen during the practice (Figure X-right).
+
+A typical training sessions included *briefing*, *simulation* and *debriefing* phases. During briefing the drill manager described the settings, and assigned duties to the teams. During simulation workers were implementing rescue procedures (Figure \ref{fig:simulation-phases}-center). The work involved cooperation among: police forces, to handle traffic and fence the operational area, firefighters to explore and secure undisclosed areas, civil protection workers to build field hospitals, dog handlers to search for survivors and teams of paramedics to activate triage, threat of injured and transportation to the nearest field hospital. A collaborative debriefing of the events followed, with focus on time of completion of procedures and issues that might have been arisen during the practice (Figure \ref{fig:simulation-phases}-right).
 
 #### Data collection methods
 
@@ -110,6 +126,8 @@ Table \ref{prototypes} overviews prototypes developed, tools and technologies us
 
 \begin{table}[!p]
 	\centering
+	\caption{List of prototypes built}
+	\label{prototypes}
 	  \begin{threeparttable}
 \begin{tabular}{@{}lllllllll@{}}	
 	\toprule
@@ -133,8 +151,6 @@ Table \ref{prototypes} overviews prototypes developed, tools and technologies us
     \includegraphics[width=\linewidth]{prototypes}
    \end{tablenotes}
  \end{threeparttable}
-\caption{List of prototypes built}
-\label{prototypes}
 \end{table}
 
 During development I largely adopted rapid prototyping techniques in order to keep design iterations shorts and make incremental improvements based on frequent feedbacks exchanges with end users. To this end a wide range of open source toolkit were used, including Arduino[^arduino] and RaspberryPi[^raspberry] hardware development platforms. Dealing with hybrid hardware/software artefacts, digital manufacturing techniques were largely adopted, including CAD draws, 3D printing and laser-cut production. These activities were essential to the development of knowledge to the investigation of RQ3. Building prototypes I was often helped by a few students who have written master theses related to the topics presented in this thesis.\todo{leave?}
@@ -145,6 +161,8 @@ After each prototype was built, a formative evaluation followed. Frequent user t
 
 \begin{table}[h]
 	\centering
+	\caption{Description of focus groups performed}
+	\label{labtests}
 \begin{tabular}{@{}lllllllll@{}}	
 \toprule
 ID  & Date        & Participants      & Prototypes tested \\
@@ -155,8 +173,6 @@ G3  & Jul. 2013  & 3 field workers, 1 manager & D2 \\
 G4  & Sept. 2013 & 8 IT students, 4 HCI experts & D2 \\
 \bottomrule
 \end{tabular}
-\caption{Description of focus groups performed}
-\label{labtests}
 \end{table}
 
 To this intent, focus groups with crisis workers were performed. 
@@ -164,12 +180,12 @@ A list of focus groups performed, and prototypes tested is depicted in Table \re
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=0.85\textwidth]{d2_prototype}
+	\includegraphics[width=1\textwidth]{d2_prototype}
 	\caption{Participants of the G3 group filling in SUS questionnaires, after the test of D2 prototype}
 	\label{fig:focus_group}
 \end{figure}
 
-During focus groups low and high fidelity prototypes were evaluated. The typical setting of focus groups performed is represented in Figure X. Low-fidelity prototypes acted as technology probes [@Hutchinson:2003il]. Despite their evident usability issues, they were essential to create new scenarios of use and identify technological and usage challenges. High-fidelity prototypes underwent usability tests [@Dumas:2009th] using System Usability Scale (SUS) [@jordan1996usability pag.189]. 
+During focus groups low and high fidelity prototypes were evaluated. The typical setting of focus groups performed is represented in Figure \ref{fig:focus_group}. Low-fidelity prototypes acted as technology probes [@Hutchinson:2003il]. Despite their evident usability issues, they were essential to create new scenarios of use and identify technological and usage challenges. High-fidelity prototypes underwent usability tests [@Dumas:2009th] using System Usability Scale (SUS) [@jordan1996usability pag.189]. 
 
 ### The rigor cycle
 
@@ -177,9 +193,14 @@ The design process above described was grounded in literature in computer suppor
 
 Yet, as pointed out by Edelson [-@Edelson:2002kp], “design plays a critical role in the development of theories, not just their evaluation”. The work in this thesis contributed with knowledge useful for validating the CSRL model described in [@Krogstie:fo] (as in P2), in defining new theories about how technology can support reflective learning (P6) and in drafting design challenges to develop data capturing tools (P3). 
 
-Those constructs came as output of an effort towards generalising the experience earned with the design and construction of prototypes, and knowledge that surfaced from field studies to other application domains. Research results were hence brought to domains that might benefit from the novel interaction techniques to support reflection developed in this research work. To accomplish this goal, I compared the results obtained with other case studies in the MIRROR project, reported in P6 and I conducted research abroad, as guest researcher, at City London University and MIT. During a total of twenty-six weeks time abroad, I joined projects run by the respective institutions doing design and prototypes construction work inspired by the results of this PhD (Figure X).
+Those constructs came as output of an effort towards generalising the experience earned with the design and construction of prototypes, and knowledge that surfaced from field studies to other application domains. Research results were hence brought to domains that might benefit from the novel interaction techniques to support reflection developed in this research work. To accomplish this goal, I compared the results obtained with other case studies in the MIRROR project, reported in P6 and I conducted research abroad, as guest researcher, at City London University and MIT. During a total of twenty-six weeks time abroad, I joined projects run by the respective institutions doing design and prototypes construction work inspired by the results of this PhD (Figure \ref{research-abroad}).
 
-![Prototypes developed during research visit abroad](imgs/london+mit.pdf)  
+\begin{figure}[tbh]
+	\centering
+	\includegraphics[width=1\textwidth]{london+mit}
+	\caption{Prototypes developed during research visits abroad.}
+	\label{fig:research-abroad}
+\end{figure}
 
 During fourteen weeks spent at City University (one of the partners of the MIRROR consortium) I investigated the design and production of a digitally augmented serious game for better training of dementia carers, under the supervision of professor Neil Maiden. The game has been implemented and evaluated in eight care homes in the greater London area, and is reported in a joined publication to be submitted. 
 
