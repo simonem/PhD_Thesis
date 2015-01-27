@@ -2,13 +2,14 @@
 
 [Revision 3]
 
-changelog
+Changelog
 
 - removed interpretative case studies as methodologies
 - removed instantiation of (March, 1995) framework
 - Added instantiation of (Havner, 2007) framework, a better fit for the type of work done
 - Added tables for field studies, prototypes and focus groups
 - added figures 
+- fixed references to papers, figures and table
 
 \reversemarginpar
 

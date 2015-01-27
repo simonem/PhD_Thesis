@@ -2,7 +2,7 @@ RQs
 
 RQ1: How computer interfaces can be designed to enable unobtrusive data collection during crisis work? 
 
-How interaction techniques can be designed to facilitate the different phases of a reflection processes? 
+How sensing-based interfaces can be designed to trigger and support reflection activities? 
 
 How technology tools for supporting reflection can be rapid prototyped?
 
