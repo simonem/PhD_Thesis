@@ -89,7 +89,7 @@ ICT can introduce new opportunities to the reflective practice\todo{this is the 
 
 **Therefore, I identified theory in reflective learning and advances in ICT technology as two key elements to make crisis training based on experiential learning effective**. The two domains are interrelated, with the role of theory to inform the design of technology.
 
-In the remaining of this thesis, theoretical frameworks presented in the next chapter describe on how to assist reflection by identifying relevant activities and *cycles* of activities. Chapter \ref{sensing} describes how ICT can assist those activities.
+In the remaining of this thesis, theoretical frameworks presented in the next chapter describe on how to assist reflection by identifying relevant activities and *cycles* of activities. Chapter \ref{interaction} describes how ICT can assist those activities.
 
 [^epa]:source: http://www.epa.gov/watersecurity/tools/trainingcd/Pages/exercise-menu.html
 [^eudisaster]: “Council adopts new Union Civil Protection

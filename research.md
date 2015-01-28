@@ -178,14 +178,14 @@ G4  & Sept. 2013 & 8 IT students, 4 HCI experts & D2 \\
 To this intent, focus groups with crisis workers were performed. 
 A list of focus groups performed, and prototypes tested is depicted in Table \ref{labtests}. Being the drills described in the *relevance cycle* arranged rarely due to the high organisational and financial efforts required; focus groups with workers were essential for fuelling the design activity. Moreover, meetings often saw the participation of the same workers who were perviously shadowed during physical simulations. It was therefore possible to ground discussions into specific episodes previously observed on the field.
 
-\begin{figure}[h!]
+\begin{figure}[htb]
 	\centering
 	\includegraphics[width=1\textwidth]{d2_prototype}
 	\caption{Participants of the G3 group filling in SUS questionnaires, after the test of D2 prototype}
-	\label{fig:focus_group}
+	\label{fig:focus-group}
 \end{figure}
 
-During focus groups low and high fidelity prototypes were evaluated. The typical setting of focus groups performed is represented in Figure \ref{fig:focus_group}. Low-fidelity prototypes acted as technology probes [@Hutchinson:2003il]. Despite their evident usability issues, they were essential to create new scenarios of use and identify technological and usage challenges. High-fidelity prototypes underwent usability tests [@Dumas:2009th] using System Usability Scale (SUS) [@jordan1996usability pag.189]. 
+During focus groups low and high fidelity prototypes were evaluated. The typical setting of focus groups performed is represented in Figure \ref{fig:focus-group}. Low-fidelity prototypes acted as technology probes [@Hutchinson:2003il]. Despite their evident usability issues, they were essential to create new scenarios of use and identify technological and usage challenges. High-fidelity prototypes underwent usability tests [@Dumas:2009th] using System Usability Scale (SUS) [@jordan1996usability pag.189].
 
 ### The rigor cycle
 
