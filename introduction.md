@@ -120,7 +120,7 @@ In addition to these papers, this PhD work has produced fourteen secondary peer-
 
 The seven paper published added to the following contributions of this research work. The relation between research papers and the main topics of the research contributions is represented in Figure \ref{fig:mapping} 
 
-> ***C1:** Implementation and evaluation of MIRROR Computer Supported Reflective Learning theory.* It includes a validation of previous theoretical models and in the formulation of new constructs
+> ***C1:** Implementation and evaluation of MIRROR Computer Supported Reflective Learning (CSRL) theory.* It includes a validation of previous theoretical models and in the formulation of new constructs
 
 > ***C2:** Knowledge about designing experience-capturing tools for crisis workers.* It defines the design space as well as design challenges for building computer-based data capturing tools.
 
