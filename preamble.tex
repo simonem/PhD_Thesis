@@ -4,38 +4,25 @@
  
 % Headers and page numbering 
 \usepackage{fancyhdr}
-\pagestyle{plain}
-\addtolength{\headheight}{2.5pt}
-\addtolength{\oddsidemargin}{0.7cm}
-\addtolength{\evensidemargin}{-0.7cm}
-
-% Improving headers 
-\usepackage{fancyhdr}
 \pagestyle{fancy}
 \addtolength{\headheight}{2.5pt}
 \addtolength{\oddsidemargin}{0.7cm}
 \addtolength{\evensidemargin}{-0.7cm}
-
-% Improving chapter name in the header
-\renewcommand{\chaptermark}[1]{%
-\markboth{\thechapter.\ #1}{}}
-
-% Improving section name in the header
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}} 
-
 \fancyhead{}				% Header flush
 \fancyfoot{}
 \fancyhead[LE,RO]{\thepage}	% Page number on the external side of the pages
 \fancyhead[RE]{\leftmark}		% Chapter name on the right page
 \fancyhead[LO]{\rightmark}	% Section name on the left page
+% Improving chapter name in the header
+\renewcommand{\chaptermark}[1]{%
+\markboth{\thechapter.\ #1}{}}
+% Improving section name in the header
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}} 
 
 \linespread{1.1}
 
 % Defines figure captions
-\usepackage[bf,small]{caption}
-\usepackage{tabulary}
-\usepackage{lscape}
-\usepackage{longtable}
+%\usepackage[bf,small]{caption}
 
 %Hypernation
-\hyphenation{ASTRA UbiCollab}
+\hyphenation{UbiCollab}
