@@ -1,7 +1,9 @@
 
 # The case of Crisis Training {#crisis}
 
-[Revision 3]
+[Revision 4]
+
+- added description of physical simulation, moved from research chap.
 
 In this chapter I provide an overview of crisis management and training, highlighting how experiential learning can improve training practices.
 
@@ -56,7 +58,20 @@ Four approaches to crisis training have been identified. They share the goal to 
 
 *Tabletop exercise* -  Often performed at the strategic level, it usually involves disaster managers to gather together and talk through a simulated disaster. There’s usually little realism in a tabletop exercise[^epa]: equipments are not used, resources are not deployed in space and time constraints are not introduced. Tabletop exercises run for few hours, the limited scale of the exercises make them a cost-effective tool to validate plans and activities.
 
-*Physical simulation* - Those are large-scale events that try to follow as much as possible events and context from real ones, in terms of environment, tasks and challenges, stress and emotions. Simulated crisis events can run for days, they take place on location using, as much as possible, equipments and personnel that would be deployed on a real event. Simulations involve a wide range of roles from disaster manager, to team leaders and field workers. They are highly costly events and for this reason are run sporadically; it is therefore important to maximise their training outcomes. **The field studies performed during this PhD research, reported in Chapter \ref{research}, have been conducted during this kind of training activities**.
+*Physical simulation* - Those are large-scale events that try to recreate as much as possible events and context from real ones, in terms of environment, tasks and challenges, stress and emotions. Simulated crisis events can run for days, they take place on location using, as much as possible, equipments and personnel that would be deployed on a real event. Simulations involve a wide range of roles from disaster manager, to team leaders and field workers. They are highly costly events and for this reason are run sporadically; it is therefore important to maximise their training outcomes.
+
+Simulations usually take place in remote areas unaccessible to the public, which were set up to recreate harsh conditions like the presence of debris, flooded terrains, fire ashes and broken cars. In this setting, volunteers impersonating the injured to be rescued were located in places undisclosed to the trainees (Figure \ref{fig:simulation-phases}-left).
+
+\begin{figure}[tbh]
+	\centering
+	\includegraphics[width=1\textwidth]{simulation_phases}
+	\caption{Different phases of a simulation, setup (left), work (center), debriefing (right). Pictures were taken during field studies performed by the author.}
+	\label{fig:simulation-phases}
+\end{figure}
+
+A typical training session includes *briefing*, *simulation* and *debriefing* phases. During briefing the drill manager described the settings, and assigned duties to the teams. During simulation workers were implementing rescue procedures (Figure \ref{fig:simulation-phases}-center). The work involved cooperation among: police forces, to handle traffic and fence the operational area, firefighters to explore and secure undisclosed areas, civil protection workers to build field hospitals, dog handlers to search for survivors and teams of paramedics to activate triage, threat of injured and transportation to the nearest field hospital. A collaborative debriefing of the events followed, with focus on time of completion of procedures and issues that might have been arisen during the practice (Figure \ref{fig:simulation-phases}-right).
+
+During this PhD work the author performed a set of field studies during physical simulations. A list of the studies and methods adopted is reported in Chapter \ref{research}
 
 *Serious games* - The aim is at teaching useful skills for crisis management leveraging the “fun” aspect of games as a motivator to play repeatedly and therefore gain multiple perspectives [@DiLoreto:2012bj]. Rather than seeking to teach *hard skills*  like protocols and best practices, serious games work best at enhancing *soft skills* e.g. communication styles, stress management and coping strategies [@Sagun:2009ks]. Those skills are useful both for prevention and for response to a crisis. Serious games bridge the gap between tabletop exercises and physical simulations: they are more realistic than the former yet without the huge costs of the latter. They can be played multiple times, both by individuals and collaboratively by teams. An ecology of serious games can address a variety of roles and tasks: being a lightweight training tool, each games can have learning objective tailored on a specific learning objective. Games varies from board game to highly immersive virtual environments, for a review see [@DiLoreto:2012bj].
 

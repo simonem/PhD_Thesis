@@ -44,7 +44,7 @@ Several qualitative research methods [@robson1993real] have been adopted, includ
 
 Prototyping involved the construction of hardware and software ICT systems to support reflection processes. The design of prototypes was grounded in field studies during physical simulations of crisis I attended. Simple prototypes were initially used to build a deeper understanding of the crisis domain, for which I didn't have a previous knowledge. They acted as technology probes [@Hutchinson:2003il] and facilitate building and understanding of the crisis domain by engaging users in focus groups. Later, multiple iterations implemented a growing set of requirements in fully working prototypes robust enough to be deployed during simulated rescue work.
 
-User evaluations followed each design iteration \ref{cromar}. The aim was both in assessing usability of the prototypes and relevance of reflection outcomes they might produce. Prototypes were evaluated both during focus groups and during large simulations of crisis response works. Results from evaluations have fed following design iterations, contributed in the validation of theories on reflective learning and into the development of new constructs.
+User evaluations followed each design iteration \ref{fig:cromar}. The aim was both in assessing usability of the prototypes and relevance of reflection outcomes they might produce. Prototypes were evaluated both during focus groups and during large simulations of crisis response works. Results from evaluations have fed following design iterations, contributed in the validation of theories on reflective learning and into the development of new constructs.
 
 \begin{figure}[tbh]
 	\centering
