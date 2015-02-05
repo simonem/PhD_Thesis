@@ -57,7 +57,7 @@ User evaluations followed each design iteration \ref{fig:cromar}. The aim was bo
 
 The main research question for the PhD work is:
 
-> MRQ: What are the opportunities introduced by combining reflective learning theories with sensing-based interfaces for crisis training?
+> MRQ: What are the opportunities introduced by combining reflective learning theories with sensing-based interfaces for supporting crisis training?
 
 To answer the main research question the work has been broken down into three sub-questions:
 
@@ -147,7 +147,7 @@ During the final phase of the investigation, commercial exploitation of research
 	\label{tab:papers-inventions}
 \begin{tabular}{p{\dimexpr 0.05\linewidth-2\tabcolsep}p{\dimexpr 0.30\linewidth-2\tabcolsep}p{\dimexpr 0.50\linewidth-2\tabcolsep}p{\dimexpr 0.15\linewidth-2\tabcolsep}}
 \toprule
-\multicolumn{2}{l}{Authors}    & Invention  &  Research papers  \\ \midrule
+  & Authors    & Invention  &  Research papers  \\ \midrule
 I1 & Mora, S., Boron, A. and Divitini, M.   & CroMAR. Situated reflection and training in crisis management.   & P1, P2    \\ \noalign{\smallskip}
 I2 & Mora, A. and Divitini, M. & WATCHiT. Wearable data collection in crisis management and training & P2, P3 \\ \noalign{\smallskip}
 I3 & Di Loreto, I., Mora, S. and Divitini, M. & “Don’t Panic!” A serious game for enhancing soft skills for Civil Protection workers & P4, P5 \\ \noalign{\smallskip}
