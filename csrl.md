@@ -2,6 +2,7 @@
 # Theoretical underpinning: Computer Supported Reflective Learning {#csrl}
 
 [Revision 4]
+- added figures
 
 In order to inform the design of technology to support experiential learning in crisis training, I adopted the Computer Supported Reflective Learning model (hereafter CSRL model) developed by the MIRROR project. The model identifies requirements to design technology to support reflective learning [@Krogstie:2013kf]. The CSRL model has worked as theoretical underpinning for the development of applications of technology presented in this PhD work, providing a language for guiding the understanding of reflection and drafting requirements for the technology.
 
@@ -79,18 +80,23 @@ Triggers also allow for including more actors in the reflection process, iterati
 
 The CSRL model can be used by designers to choose which technology to use to support reflection activities or do derive requirements for the design of new technologies [@Krogstie:2013kf]. 
 
-For each stage, the CSRL model identifies support that can be provided through technology. For example in the *do work* phase, technology could be used to monitor work and collect data that can be useful for reflection, in *initiate reflection* to set the objectives for reflection or involve others in the session, in *conduct reflection* to share work experiences with others; and in *apply reflection outcomes* to decide how the change to work will be implemented.
+For each stage, the CSRL model identifies support that can be provided through technology. For example in the *do work* phase, technology could be used to monitor work and collect data that can be useful for reflection, in *initiate reflection* to set the objectives for reflection or to involve others in the session, in *conduct reflection* to share work experiences with colleagues; and in *apply reflection outcomes* to decide how the change to work will be implemented.
 
 The model has driven the development of several software and hardware applications within the MIRROR project; to address reflective learning in the fields of social care, health care, business and emergency aid. For a description of the applications see [@Schwantzer:2014we]. Several works [@Krogstie:2013kf; @Krogstie:fo; @Krogstie:2012ki] have shown how the four stages in the model can me mapped against technologies to support individual and collaborative reflection. 
 
-In the case of crisis training I identified that the mapping between the activities described by the CSRL model and technology can be placed into three stages:
+In the case of crisis training I identified that the mapping between the activities described by the CSRL model and technology can be placed into three area (Figure \ref{fig:model-instantiation}):
   
 - technology to **capture** work experiences (for example by means of automatic sensors, a personal diary application, or a timeline visualisation) 
-- technology to **re-create** work experiences based on data captured to trigger and assist a reflection session with relevant information (for example by allowing to re-evaluate a past experiences from multiple point of views, in a context that help making sense processes during debriefing) 
+- technology to **re-create** work experiences, making use of the captured data to trigger and assist a reflection session with relevant information (for example by allowing to re-evaluate a past experiences from multiple point of views, in a context that help making sense processes during debriefing) 
 - technology to **generate** new, realistic work experiences for training purposes (for example via virtual worlds, serious games, or tabletop exercises)  
 
-\missingfigure{relation between CSRL model and these three macro areas}
+\begin{figure}[htb]
+	\centering
+	\includegraphics[width=1\textwidth]{model-instantiation}
+	\caption{Instantiation of the CSRL model to support crisis training}
+	\label{fig:model-instantiation}
+\end{figure}
 
-The three areas have in common the need for innovative interfaces between people and technology. Yet the design of such user interfaces aims at different goals: while during *capturing* such interface allows to capture both automatic data and user-submitted information without interrupting crisis work, *re-creating* experiences need tools for data visualisation and manipulation capable to re-create a work experiences in a context that promote reflection; finally *generating* experiences needs interfaces to bring realism and engagement of real crises into a simulated environment. Notably, the *capture* of experiences is done during the crisis work, which is subject to strict protocols that limit the design space for the technology.
+The three areas have in common the need for innovative interfaces between people and technology. Yet the design of such user interfaces aims at different goals. During *capturing* the interface should allow the capture of a variety of quantitative data and user-submitted information without interrupting crisis work. The stage of *re-creating* experiences need tools for data visualisation and manipulation capable to re-create a work experiences in a context that promote reflection. Finally *generating* experiences needs interfaces to bring realism and engagement of real crises into a simulated environment. Notably, the *capture* of experiences is done during the crisis work, which is subject to strict protocols that limit the design space for the technology.
   
-In the following chapter I will investigate how recent advances in the field of sensing-based interaction can provide theoretical tools from human-computer interaction theory and rapid prototyping techniques for the creation of user interfaces for capturing, re-creating and generating experiences.
+In the following chapter I will investigate how recent advances in the field of sensing-based interaction can provide theoretical tools from human-computer interaction theory for the design of user interfaces for capturing, re-creating and generating crisis work experiences.
