@@ -1,3 +1,4 @@
+
 #Abbreviations
 
 NTNU Norwegian University of Science and Technology
