@@ -9,6 +9,8 @@
 *.exe
 *.o
 *.so
+*.aux
+*.out
  
 # Packages #
 ############
