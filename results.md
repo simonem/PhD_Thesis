@@ -193,7 +193,7 @@ The three design dimensions are functional to build technology tools that implem
 
 \begin{figure}[tbh]
 	\centering
-	\includegraphics[width=1\textwidth]{csrl_mapping}
+	\includegraphics[width=0.5\textwidth]{csrl_mapping}
 	\caption{Design decisions to turn context into content, in relation to the CSRL model}
 	\label{fig:csrl-mapping}
 \end{figure}
