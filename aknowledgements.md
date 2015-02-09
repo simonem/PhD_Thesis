@@ -6,3 +6,4 @@
 - london
 - boston
 - trondheim friend
+- field studies, regola, gianni ec, mirror
