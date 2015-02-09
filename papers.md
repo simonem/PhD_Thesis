@@ -1,6 +1,6 @@
 \appendix
 
-# Research Papers
+# Research Papers {#papers}
 
 **Paper 1** Mora, S., Boron, A., & Divitini, M. (2012). CroMAR: Mobile Augmented Reality for Supporting Reflection on Crowd Management. *International Journal of Mobile Human Computer Interaction*, 4(2), 88–101. Available at: http://simonemora.me/papers/P1.pdf
 
