@@ -36,11 +36,13 @@
   }
   \strng{namehash}{AVHSLU1}
   \strng{fullhash}{AVHSLU1}
+  \field{labelyear}{2008}
   \field{sortinit}{A}
   \field{number}{3}
   \field{title}{{Simulated Decision Learning in a Multiactor Setting}}
   \field{volume}{43}
   \field{journaltitle}{Organizacija}
+  \field{year}{2008}
 \endentry
 
 \entry{Asproth:2013vs}{article}{}
@@ -597,6 +599,33 @@
   \field{volume}{8}
   \field{journaltitle}{Personal and Ubiquitous Computing}
   \field{year}{2004}
+\endentry
+
+\entry{Guerreiro:2008wt}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Guerreiro}{G.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gamboa}{G.}%
+     {R}{R}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jorge}{J.}%
+     {J}{J}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{GTGRJJ1}
+  \strng{fullhash}{GTGRJJ1}
+  \field{labelyear}{2008}
+  \field{sortinit}{G}
+  \field{title}{{Mnemonical body shortcuts: improving mobile interaction}}
+  \field{journaltitle}{{\ldots} : the ergonomics of cool interaction}
+  \field{year}{2008}
 \endentry
 
 \entry{Gulliksen:2003hd}{article}{}
@@ -1206,45 +1235,6 @@
   \field{year}{1984}
 \endentry
 
-\entry{Krogstie:fo}{incollection}{}
-  \name{author}{5}{}{%
-    {{}%
-     {Krogstie}{K.}%
-     {B~R}{B.~R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Prilla}{P.}%
-     {M}{M}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wessel}{W.}%
-     {D}{D}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Knipfer}{K.}%
-     {K}{K}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pammer}{P.}%
-     {V}{V}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {IEEE}%
-  }
-  \strng{namehash}{KBR+1}
-  \strng{fullhash}{KBRPMWDKKPV1}
-  \field{sortinit}{K}
-  \field{pages}{151\bibrangedash 153}
-  \field{title}{{Computer Support for Reflective Learning in the Workplace: A
-  Model}}
-\endentry
-
 \entry{Krogstie:2012ki}{inproceedings}{}
   \name{author}{6}{}{%
     {{}%
@@ -1320,7 +1310,7 @@
   \strng{fullhash}{KBRPMPV1}
   \field{labelyear}{2013}
   \field{sortinit}{K}
-  \field{booktitle}{Lecture Notes in Computer Science}
+  \field{booktitle}{link.springer.com}
   \field{pages}{151\bibrangedash 164}
   \field{title}{{Understanding and Supporting Reflective Learning Processes in
   the Workplace: The CSRL Model}}
@@ -1669,9 +1659,11 @@
   }
   \strng{namehash}{RBWG1}
   \strng{fullhash}{RBWG1}
+  \field{labelyear}{2014}
   \field{sortinit}{R}
   \field{title}{{D1.7 Report on Summative Evaluations}}
   \field{type}{techreport}
+  \field{year}{2014}
 \endentry
 
 \entry{robson1993real}{book}{}

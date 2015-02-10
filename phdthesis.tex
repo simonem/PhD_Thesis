@@ -1,34 +1,45 @@
-\documentclass[11pt,twoside,a4paper]{book}
-\usepackage{lmodern}
+\documentclass[11pt,a4paper,showtrims]{book}
+
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+
+%\usepackage{lmodern}
 \usepackage{microtype}
 \usepackage{graphicx}
 \graphicspath{{imgs/}}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg,jpeg}
-
+\usepackage{pdfpages}
 \usepackage[]{todonotes}
 \usepackage{wrapfig}
 \usepackage{booktabs, tabulary}
 \usepackage{rotating, multirow}
 \usepackage[flushleft]{threeparttable}
 \usepackage{xcolor}
+
 % Table of contents formatting
 \renewcommand{\contentsname}{Table of Contents}
 \setcounter{tocdepth}{4}
 \setcounter{secnumdepth}{4}
+
+%hyperlinks
 \usepackage[unicode=true]{hyperref}
 \hypersetup{breaklinks=true,
             bookmarks=true,
             pdfauthor={Simone Mora},
-            pdftitle={Thesis Outline},
+            pdftitle={PhD Thesis},
             colorlinks=true,
-            citecolor=blue,
+           citecolor=blue,
             urlcolor=blue,
-            linkcolor=magenta,
-            pdfborder={0 0 0}}
+           linkcolor=magenta,
+        %    pdfborder={0 0 0}
+			}
 \urlstyle{same}  % don't use monospace font for urls
+
+%Pharagraph style
 \setlength{\parindent}{0pt} 
 \setlength{\parskip}{6pt plus 2pt minus 1pt} 
 \setlength{\emergencystretch}{3em} % prevent overfull lines 
+
 % Headers and page numbering 
 \usepackage{fancyhdr}
 \pagestyle{fancy}
@@ -45,10 +56,15 @@
 \markboth{\thechapter.\ #1}{}}
 % Improving section name in the header
 \renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}} 
+
 %Hypernation
 \hyphenation{UbiCollab}
-\usepackage{pdfpages}
-%service commands
+
+%Bibliography
+\usepackage[backend=bibtex,style=authoryear]{biblatex}
+\addbibresource{biblio}
+
+%Service commands
 \newcommand*{\missingreference}[1]{\colorbox{red}{?#1?}}%JB
 \newcommand*{\missingcitation}[1]{\colorbox{red}{?#1?}}%JB
 \makeatletter
@@ -76,35 +92,34 @@
 \newcommand{\specialcell}[2][c]{%
   \begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
 	% \specialcell{Date,\\duration}
-	
-\usepackage[backend=bibtex,style=authoryear]{biblatex}
-\addbibresource{biblio.bib}
 %-------------------------------------
 
 \begin{document}
-
+	
+\includepdf[pages={1,2}]{cover.pdf}
 \frontmatter
-\include{abstract}
-\include{preface}
+\include{F1-abstract}
+\include{F2-preface}
+%\include{F3-aknowledgements}
 \tableofcontents
 \listoffigures
 \listoftables
 \listoftodos
-\include{abbreviations}
+\include{F4-abbreviations}
 
 \mainmatter
-\include{introduction}
-\include{crisis}
-\include{csrl}
-\include{interaction}
-\include{research}
-\include{results}
-\include{contributions}
-\include{evaluation}
-\include{conclusions}
+\include{C1-introduction}
+\include{C2-crisis}
+\include{C3-csrl}
+\include{C4-interaction}
+\include{C5-research}
+\include{C6-results}
+\include{C7-contributions}
+\include{C8-evaluation}
+\include{C9-conclusions}
 
 \appendix
-\include{appendix}
+\include{A1-appendix}
 
 \backmatter
 \printbibliography
