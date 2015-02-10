@@ -1,0 +1,112 @@
+\documentclass[11pt,twoside,a4paper]{book}
+\usepackage{lmodern}
+\usepackage{microtype}
+\usepackage{graphicx}
+\graphicspath{{imgs/}}
+\DeclareGraphicsExtensions{.pdf,.png,.jpg,jpeg}
+
+\usepackage[]{todonotes}
+\usepackage{wrapfig}
+\usepackage{booktabs, tabulary}
+\usepackage{rotating, multirow}
+\usepackage[flushleft]{threeparttable}
+\usepackage{xcolor}
+% Table of contents formatting
+\renewcommand{\contentsname}{Table of Contents}
+\setcounter{tocdepth}{4}
+\setcounter{secnumdepth}{4}
+\usepackage[unicode=true]{hyperref}
+\hypersetup{breaklinks=true,
+            bookmarks=true,
+            pdfauthor={Simone Mora},
+            pdftitle={Thesis Outline},
+            colorlinks=true,
+            citecolor=blue,
+            urlcolor=blue,
+            linkcolor=magenta,
+            pdfborder={0 0 0}}
+\urlstyle{same}  % don't use monospace font for urls
+\setlength{\parindent}{0pt} 
+\setlength{\parskip}{6pt plus 2pt minus 1pt} 
+\setlength{\emergencystretch}{3em} % prevent overfull lines 
+% Headers and page numbering 
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\addtolength{\headheight}{2.5pt}
+\addtolength{\oddsidemargin}{0.7cm}
+\addtolength{\evensidemargin}{-0.7cm}
+\fancyhead{}				% Header flush
+\fancyfoot{}
+\fancyhead[LE,RO]{\thepage}	% Page number on the external side of the pages
+\fancyhead[RE]{\leftmark}		% Chapter name on the right page
+\fancyhead[LO]{\rightmark}	% Section name on the left page
+% Improving chapter name in the header
+\renewcommand{\chaptermark}[1]{%
+\markboth{\thechapter.\ #1}{}}
+% Improving section name in the header
+\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}} 
+%Hypernation
+\hyphenation{UbiCollab}
+\usepackage{pdfpages}
+%service commands
+\newcommand*{\missingreference}[1]{\colorbox{red}{?#1?}}%JB
+\newcommand*{\missingcitation}[1]{\colorbox{red}{?#1?}}%JB
+\makeatletter
+\def\@setref#1#2#3{%
+  \ifx#1\relax
+   \protect\G@refundefinedtrue
+   \nfss@text{\reset@font\missingreference{#3}}%%JB
+   \@latex@warning{Reference `#3' on page \thepage \space
+             undefined}%
+  \else
+   \expandafter#2#1\null
+  \fi}
+\def\@citex[#1]#2{\leavevmode
+  \let\@citea\@empty
+  \@cite{\@for\@citeb:=#2\do
+    {\@citea\def\@citea{,\penalty\@m\ }%
+     \edef\@citeb{\expandafter\@firstofone\@citeb\@empty}%
+     \if@filesw\immediate\write\@auxout{\string\citation{\@citeb}}\fi
+     \@ifundefined{b@\@citeb}{\hbox{\reset@font\missingcitation{#2}}%%JB
+       \G@refundefinedtrue
+       \@latex@warning
+         {Citation `\@citeb' on page \thepage \space undefined}}%
+       {\@cite@ofmt{\csname b@\@citeb\endcsname}}}}{#1}}
+\makeatother
+\newcommand{\specialcell}[2][c]{%
+  \begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
+	% \specialcell{Date,\\duration}
+	
+\usepackage[backend=bibtex,style=authoryear]{biblatex}
+\addbibresource{biblio.bib}
+%-------------------------------------
+
+\begin{document}
+
+\frontmatter
+\include{abstract}
+\include{preface}
+\tableofcontents
+\listoffigures
+\listoftables
+\listoftodos
+\include{abbreviations}
+
+\mainmatter
+\include{introduction}
+\include{crisis}
+\include{csrl}
+\include{interaction}
+\include{research}
+\include{results}
+\include{contributions}
+\include{evaluation}
+\include{conclusions}
+
+\appendix
+\include{appendix}
+
+\backmatter
+\printbibliography
+
+\end{document}
