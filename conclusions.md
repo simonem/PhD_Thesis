@@ -1,32 +1,54 @@
 
 # Conclusions and future works {#conclusions}
 
-[Revision 1]
+[Revision 2]
 
+- rewrote paragraphs
 
 This thesis has focused on enhancing crisis training practices with novel sensing-based technologies to capture, re-create and generate crisis work experiences. 
 
 The main research method adopted was design science. To this respect six field studies during physical simulations of crisis work were performed. Field work and literature in computer supported reflective learning has driven eight prototyping iteration during which complex hardware/software sensing-based devices were built and evaluated both in focus groups and during physical simulations. The work has resulted in seven paper published and five declaration of inventions filed for technology transfer.
 
-The research questions were answered by four contributions.
+The research questions were answered by four contributions, hereafter summarised. Future works are also outlined. 
+\bigskip
 
-The computer-supported reflective learning model developed by the MIRROR project (Chapter \ref{csrl}) has been validated by the production of novel ICT systems. First determinate activities described in the model, together with requirements derived from field studies, have driven the selection of relevant sensing-based technologies. Wearable sensors have been selected for capturing experiences at work, mobile augmented reality for re-creating experiences; while tangible user interfaces and board games mechanics were helpful for generating interactive work experiences. The usefulness of those technologies for reflection was demonstrated by the production of working prototypes featuring novel user interfaces. Prototypes were evaluated during physical simulations of crisis management work. Results from questionnaires and interviews show that the systems were compatible with (simulated) rescue work and, though with some limitation, can be useful in supporting reflection processes. Moreover a novel approach to the use of sensor data as learning content emerged. Yet this research work has only considered two of the stages in the model. Further work is required to map with technology the remaining stages. Also the investigation is deeply connected with the specific nature of crisis work. Further work is required to generalise the mapping found to other domains.
+\emph{Contribution 1}
+\newline
+\rule{\textwidth}{.1pt}
+*The MIRROR CSRL model summarised in Chapter \ref{csrl} can be used to technology-enhance reflective learning practices in crisis training. Activities described in the model together with requirements derived from field studies drove the design of sensing-based interfaces to support the capture, re-creation and generation of work experiences. Eight prototypes were built, including wearable data-collection tools (P3), mobile augmented reality browsers (P1) and serious games (P4,P5). Ecologies of prototypes were successfully evaluated for their impact in supporting debriefing after physical simulations of crisis work (P2). New theories about the use of sensor data as learning contents emerged (P6).*
 
-*The MIRROR CSRL model can be used to drive the development of technology for support selected reflection activities for crisis training. Further work is required to complete the missing mapping between model activities and technology, and to generalise the mapping itself to other domains.*
+Further work is required to map with technology the two stages in the model not addressed in this research work. As evaluated in Chapter \ref{evaluation}, this investigation is deeply connected with the specific case of crisis work. Future works will generalise the theoretical findings and the technologies produced to other domains.
+\rule{\textwidth}{.1pt}
+\medskip
 
-A set of challenges for designing tools for capturing work experiences have been drafted. The challenges shed light on what information is relevant as learning content and how to capture relevant information. The challenges were addressed in several design choices during multiple prototyping iteration of a wearable data capturing tools. Combining wearable sensors and modular design has been found as a viable solution to address the challenge to capture different types in different crises, while wearable sensor well support the highly mobile nature of crisis work in the challenge of ensuring pervasive data collection. A user-interaction paradigm derived by literature in body-centric gesture implemented the challenge for intuitive interaction, providing an user interface suitable to be used during crisis work.  
+\emph{Contribution 2}
+\newline
+\rule{\textwidth}{.1pt}
+*Capturing relevant data to feed reflection processes is challenging due to the unpredictability of relevance typical of reflection (P6). In addition, the highly dynamic nature of crisis work requires to design tools that need to be adapted to the capturing needs of always varying scenarios. This space of opportunities is provided to researchers as a set of challenges to the design of experience-capturing tools. The challenges were explored with the development of data collection tools (P3) that can be used to support debriefing (P2). Prototypes developed feature wearable sensors and an embodied user interfaces based on mnemonic body shortcuts.* 
 
-*Capturing relevant data to feed reflection processes is challenging due to the unpredictability of relevance typical of reflection processes [@Muller2014]. In addition, the highly dynamic nature of crisis work make it harder to design tools that need to be adapted to the capturing needs of always varying crisis scenarios. This space of opportunities is provided as a set of challenges to the design of experience-capturing tools. Further work is required to generalise the challenges to other work practices.*
+Further work is required to validate the identified challenges with more field work and to investigate challenges not addressed in this work production of prototypes. Furthermore the relevance of the challenges to other application domain has to be investigated. 
+\rule{\textwidth}{.1pt}
+\medskip
 
-The body of literature in sensing-based interaction has inspired the design of novel computer interfaces to assist reflection processes. The interfaces are user-centred designed on the personas observed during field studies and they are compatible to be used during simulated crisis work. During capturing experiences, areas of workers’ uniform and tools are turned into digital shortcuts to control the activation of wearable sensors. During re-creating experiences, a mobile augmented reality interface allows for multi-source browsing in time and space of data generated during crisis work; thus allowing debriefing the work in the very same physical environment were events unfolded. Finally traditional game board mechanics implemented in tangible and embodied interfaces provided affordances for improving collaboration and decision making skills as part of a serious game to play with realistic crisis work experience.
+\emph{Contribution 3}
+\newline
+\rule{\textwidth}{.1pt}
+*Novel approaches inspired by sensing-based paradigms can facilitate interaction with technology to support reflection. The approaches have driven the design of interfaces to reduce distraction while interacting with capturing tools during work, to allow for browsing information in physical environments that contextualise reflection; and to provide social and engaging serious gaming experiences.*
 
-*Novel user interfaces inspired by sensing-based interaction paradigms can facilitate interaction with technology to support reflection. The designed interfaces reduce distraction while interacting with capturing tools during work, allow for browsing information in physical environments that contextualise reflection and provide social and engaging serious gaming experiences. Further work points at validating the developed user interfaces embedding them in new ICT systems.*
+Further work points at validating the developed approaches with the production and evaluation of new prototypes and to formalise the approaches in interaction models and design processes.
 
-Building prototypes of experience-capturing tools and sensing-based user interfaces required a range of skills in the fields of software and hardware engineering, product design and assembly. It involved: writing code, designing circuits, drawing 3D models of prototypes casing, soldering electronics, and shaping wood and plastic artefacts with laser cut and 3D printing techniques. Further, prototypes to be tested during field studies required to show higher resilience compared to the ones built for lab testing. The skill-set that researchers need to master exceed the one usually required for prototyping “traditional” ICT systems. Although state-of-the-art toolkits and communicates of practice have eased the prototyping work during research, an holistic tool to support the development of both software and hardware complex features couldn’t be found. This has resulted in large efforts required for building prototypes and in the development of a understanding of the challenges and tools available for the  prototyping of sensing-based systems.   
+\rule{\textwidth}{.1pt}
+\medskip
 
-*Prototypes have a central role in design science research for the validation of theories and in the development of new methods. Yet, building sensing-based interfaces require large efforts due to the multi-disciplinary skills-set required. In the case of crisis training this is made even more demanding because of the harsh environment in which prototypes field evaluations are conducted. Despite tools to ease prototyping are available, no satisfactory support do the development of complex software and hardware features is found. Future works points at building on the challenges experienced in the production of prototypes for this PhD work for the conceptualisation and production of a toolkit to ease the production of complex sensing-based systems.*
+\emph{Contribution 4}
+\newline
+\rule{\textwidth}{.1pt}
+*Prototypes have a central role in design science research for the validation of theories and in the development of new methods. Yet, prototyping sensing-based interfaces require large efforts due to the wide range of skills required, including hardware and software engineering, product design and assembly. Further, technology artefacts to be tested during crisis work are to be built for higher resilience compared to ones deployed for lab testing. Despite prototyping toolkits are available, to date an holistic tool to support the development of both software and hardware complex features couldn’t be found. This has resulted in large efforts required for building prototypes and in the development of a understanding of the challenges and tools available for the  prototyping of sensing-based systems.*
 
-Future work heads for two directions. First, as described in Section \ref{external-validity}, this research work has a number of limitations that weaken the external validity and makes it hard generalise research findings both within the crisis domain and to other settings. Further work is required to generalise results in terms of sensing-based technologies for supporting reflection at work and in methods for the production of prototypes to undergo field tests. Second, the investigation of commercial exploitation for the research results will continue with new prototyping iterations and increasing contacts with the industry; new funds that have been granted to this purpose (see Section \ref{exploitation-of-research-results}).
+Future work builds on the challenges experienced with the production of prototypes for this PhD work for the conceptualisation and production of a toolkit to ease the production of complex sensing-based systems. Research funds have been already granted to this purpose (see Section \ref{exploitation-of-research-outcomes}).
 
-In conclusion, this thesis has developed knowledge about the implementation of computer supported reflection theories into novel ICT systems and sensing-based interfaces that can produce learning outcomes. Although the investigation is limited to the characteristic case of crisis training, basis for the generalisation of theories and technologies developed have been settled. Commercial exploitation of research results is being explored. Future works aim at generalising research findings to new domains and to exploit commercially the same results.  
+\rule{\textwidth}{.1pt}
+\bigskip
+
+In conclusion, this thesis has developed knowledge about the implementation of computer supported reflection theories into novel ICT systems and sensing-based interfaces that can produce learning outcomes. Although the investigation is limited to the characteristic case of crisis training, basis for the generalisation of theories and technologies developed have been settled. Commercial exploitation of research outcomes is being explored, research funds have been granted to this purpose (see Section \ref{exploitation-of-research-outcomes}). Future works aim at generalising research findings to new domains and to exploit commercially the same results.  
 

@@ -124,7 +124,7 @@ The seven paper published added to the following contributions of this research 
 
 > ***C2:** Knowledge about designing experience-capturing tools for crisis workers.* It defines the design space as well as design challenges for building computer-based data capturing tools.
 
-> ***C3:** Novel sensing-based interaction techniques to support re-creation and generation of work experiences in crisis training* It describes novel user interfaces for the visualisation and manipulation of data captured from working experiences.
+> ***C3:** Novel sensing-based interaction techniques to support re-creation and generation of work experiences in crisis training.* It describes novel user interfaces for the visualisation and manipulation of data captured from working experiences.
 
 > ***C4:** Knowledge about implementing prototypes to be deployed into the wild.* Drawing from the author’s experience,  it presents presents challenges and lessons learnt for building prototypes of sensing-based interfaces.
 
