@@ -93,7 +93,11 @@
   \begin{tabular}[#1]{@{}l@{}}#2\end{tabular}}
 	% \specialcell{Date,\\duration}
 	
+	\usepackage{array}
+	\newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
+	
 % Metadata
+\newcommand{\MRQ}{What are the opportunities introduced by combining reflective learning theories with sensing-based interfaces for supporting crisis training?} 
 \newcommand{\RQi}{How sensing-based interfaces can be designed to enable unobtrusive experience collection during crisis work?}
 \newcommand{\RQii}{How sensing-based interfaces can be designed to trigger and support reflection activities?}	
 \newcommand{\RQiii}{How sensing-based interfaces for supporting reflection can be rapidly prototyped?}	
