@@ -314,6 +314,45 @@
   \field{year}{1985}
 \endentry
 
+\entry{Chen:2012wk}{article}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Chen}{C.}%
+     {Xiang'Anthony}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marquardt}{M.}%
+     {Nicolai}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tang}{T.}%
+     {Anthony}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boring}{B.}%
+     {Sebastian}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenberg}{G.}%
+     {Saul}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CX+1}
+  \strng{fullhash}{CXMNTABSGS1}
+  \field{labelyear}{2012}
+  \field{sortinit}{C}
+  \field{pages}{151\bibrangedash 160}
+  \field{title}{{Extending a mobile device's interaction space through
+  body-centric interaction}}
+  \field{journaltitle}{In Proc. of MobileHCI}
+  \field{year}{2012}
+\endentry
+
 \entry{JCCM:JCCM15}{article}{}
   \name{author}{1}{}{%
     {{}%
@@ -517,27 +556,6 @@
   \field{title}{{Usability Testing: Current Practice and Future Directions}}
   \field{journaltitle}{Human-computer interaction: Development process}
   \field{year}{2009}
-\endentry
-
-\entry{Edelson:2002kp}{article}{}
-  \name{author}{1}{}{%
-    {{}%
-     {Edelson}{E.}%
-     {Daniel~C}{D.~C.}%
-     {}{}%
-     {}{}}%
-  }
-  \strng{namehash}{EDC1}
-  \strng{fullhash}{EDC1}
-  \field{labelyear}{2002}
-  \field{sortinit}{E}
-  \field{number}{1}
-  \field{pages}{105\bibrangedash 121}
-  \field{title}{{Design Research: What We Learn When We Engage in Design}}
-  \field{volume}{11}
-  \field{journaltitle}{Journal of the Learning Sciences}
-  \field{month}{01}
-  \field{year}{2002}
 \endentry
 
 \entry{Fishkin:2000df}{article}{}
@@ -1233,56 +1251,6 @@
   and development}}
   \field{volume}{1}
   \field{year}{1984}
-\endentry
-
-\entry{Krogstie:2012ki}{inproceedings}{}
-  \name{author}{6}{}{%
-    {{}%
-     {Krogstie}{K.}%
-     {Birgit}{B.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Krogstie}{K.}%
-     {John}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Maiden}{M.}%
-     {Neil}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Lockerbie}{L.}%
-     {James}{J.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Wessel}{W.}%
-     {Daniel}{D.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Knipfer}{K.}%
-     {Kristin}{K.}%
-     {}{}%
-     {}{}}%
-  }
-  \list{publisher}{1}{%
-    {ACM Press}%
-  }
-  \strng{namehash}{KB+1}
-  \strng{fullhash}{KBKJMNLJWDKK1}
-  \field{labelyear}{2012}
-  \field{sortinit}{K}
-  \field{booktitle}{the 12th International Conference}
-  \field{pages}{1}
-  \field{title}{{Collaborative modelling of reflection to inform the
-  development and evaluation of work-based learning technologies}}
-  \list{location}{1}{%
-    {New York, New York, USA}%
-  }
-  \field{year}{2012}
 \endentry
 
 \entry{Krogstie:2013kf}{incollection}{}

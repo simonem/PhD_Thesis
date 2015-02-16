@@ -1,8 +1,4 @@
-\documentclass[11pt,b5paper]{book}
-
-% from phd template
-\usepackage[margin=20mm,top=15mm,bindingoffset=10mm,includeheadfoot,headheight=14.5pt]{geometry}
-\usepackage[cam,a4,center]{crop}
+\documentclass{ntnuthesis}
 
 \usepackage[utf8]{inputenc}
 \usepackage[british]{babel}
@@ -43,7 +39,7 @@
 %Pharagraph style
 \setlength{\parindent}{0pt} 
 \setlength{\parskip}{6pt plus 2pt minus 1pt} 
-%\setlength{\emergencystretch}{3em} % prevent overfull lines 
+\setlength{\emergencystretch}{3em} % prevent overfull lines 
 
 % Headers and page numbering 
 \usepackage{fancyhdr}
@@ -116,32 +112,32 @@
 
 \begin{document}
 	
-\includepdf[pages={1,2}]{cover.pdf}
+%\includepdf[pages={1,2}]{cover.pdf}
 \frontmatter
-\include{F1-abstract}
-\include{F2-preface}
+%\include{F1-abstract}
+%\include{F2-preface}
 %\include{F3-aknowledgements}
-\tableofcontents
-\listoffigures
-\listoftables
+%\tableofcontents
+%\listoffigures
+%\listoftables
 %\listoftodos
-\include{F4-abbreviations}
+%\include{F4-abbreviations}
 
 \mainmatter
-\include{C1-introduction}
-\include{C2-crisis}
-\include{C3-csrl}
-\include{C4-interaction}
-\include{C5-research}
+%\include{C1-introduction}
+%\include{C2-crisis}
+%\include{C3-csrl}
+%\include{C4-interaction}
+%\include{C5-research}
 \include{C6-results}
-\include{C7-contributions}
-\include{C8-evaluation}
-\include{C9-conclusions}
+%\include{C7-contributions}
+%\include{C8-evaluation}
+%\include{C9-conclusions}
 
 \appendix
-\include{A1-papers}
-\include{A2-secondary-papers}
-\include{A3-abroad}
+%\include{A1-papers}
+%\include{A2-secondary-papers}
+%\include{A3-abroad}
 %\include{A4-technology-benchmark}
 
 \backmatter
