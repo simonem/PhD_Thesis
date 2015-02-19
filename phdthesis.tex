@@ -1,4 +1,4 @@
-\documentclass[11pt,b5paper, showtrims]{book}
+\documentclass[11pt,b5paper]{book}
 
 % from phd template
 %\usepackage[margin=20mm,top=15mm,bindingoffset=10mm,includeheadfoot,headheight=14.5pt]{geometry}
@@ -15,8 +15,8 @@
 \usepackage{pdfpages}
 \usepackage[disable]{todonotes}
 \usepackage{wrapfig}
-\usepackage{booktabs, tabulary}
-\usepackage{rotating, multirow}
+\usepackage{booktabs, tabulary, longtable}
+\usepackage{rotating, multirow, pdflscape}
 \usepackage[flushleft]{threeparttable}
 \usepackage{xcolor}
 \usepackage{framed}
@@ -112,10 +112,11 @@
 \newcommand{\Ciii}{Novel sensing-based interaction techniques to support re-creation and generation of work experiences in crisis training}
 \newcommand{\Civ}{Knowledge about implementing prototypes to be deployed into the wild}
 
+
 %-------------------------------------
 
 \begin{document}
-	
+
 \includepdf[pages={1,2}]{cover.pdf}
 \frontmatter
 \include{F1-abstract}
@@ -124,7 +125,7 @@
 \tableofcontents
 \listoffigures
 \listoftables
-%\listoftodos
+\listoftodos
 \include{F4-abbreviations}
 
 \mainmatter
@@ -142,7 +143,7 @@
 \include{A1-papers}
 \include{A2-secondary-papers}
 \include{A3-abroad}
-%\include{A4-technology-benchmark}
+\include{A4-toolkits}
 
 \backmatter
 \printbibliography
