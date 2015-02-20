@@ -1,6 +1,6 @@
-\documentclass[11pt,b5paper]{book}
+\documentclass[11pt,b5paper,twoside]{book}
 
-% from phd template
+%from phd template
 %\usepackage[margin=20mm,top=15mm,bindingoffset=10mm,includeheadfoot,headheight=14.5pt]{geometry}
 \usepackage[cam,a4,center]{crop}
 
@@ -112,6 +112,7 @@
 \newcommand{\Ciii}{Novel sensing-based interaction techniques to support re-creation and generation of work experiences in crisis training}
 \newcommand{\Civ}{Knowledge about implementing prototypes to be deployed into the wild}
 
+\usepackage{verbatim, enumitem}
 
 %-------------------------------------
 
@@ -128,6 +129,7 @@
 \listoftodos
 \include{F4-abbreviations}
 
+\part{Part I}
 \mainmatter
 \include{C1-introduction}
 \include{C2-crisis}
@@ -138,14 +140,26 @@
 \include{C7-contributions}
 \include{C8-evaluation}
 \include{C9-conclusions}
-
 \appendix
-\include{A1-papers}
 \include{A2-secondary-papers}
 \include{A3-abroad}
 \include{A4-toolkits}
-
 \backmatter
+\addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
+
+\part{Part II}
+\include{A1-papers}
+\begin{comment}
+\includepdf[pages=-]{./papers/P1.pdf}
+\includepdf[pages=-]{./papers/P2.pdf}
+\includepdf[pages=-]{./papers/P3.pdf}
+\includepdf[pages=-]{./papers/P4.pdf}
+\includepdf[pages=-]{./papers/P5.pdf}
+\includepdf[pages=-]{./papers/P6.pdf}
+\includepdf[pages=-]{./papers/P7.pdf}
+\end{comment}
+
+
 
 \end{document}

@@ -1,12 +1,12 @@
-\documentclass[11pt,b5paper]{memoir}
-\DisemulatePackage{crop}
+\documentclass[11pt,b5paper,twoside,showtrims]{memoir}
+%\DisemulatePackage{crop}
 
 \usepackage[utf8]{inputenc}
 \usepackage[british]{babel}
 
 % from phd template
 %\usepackage[margin=20mm,top=15mm,bindingoffset=10mm,includeheadfoot,headheight=14.5pt]{geometry}
-\usepackage[cam,a4,center]{crop}
+%\usepackage[cam,a4,center]{crop}
 
 
 % Layout from master themplate
@@ -15,13 +15,13 @@
 %\checkandfixthelayout
 
 % fonts
-\usepackage{fontspec}
-\newcommand{\nfont}{Adobe Caslon Pro}
+%\usepackage{fontspec}
+%\newcommand{\nfont}{Adobe Caslon Pro}
 %\newcommand{\ttfont}{Envy Code R}
 %\newcommand{\sffont}{Optima Regular}
 %\newcommand{\commodorefont}{Commodore 64 Pixeled}
-\defaultfontfeatures{Mapping=tex-text}
-\setromanfont[Ligatures={Common}]{\nfont}
+%\defaultfontfeatures{Mapping=tex-text}
+%\setromanfont[Ligatures={Common}]{\nfont}
 %\setmonofont[Scale=0.8]{\ttfont}
 %\setsansfont[Scale=0.9]{\sffont}
 
@@ -46,29 +46,28 @@
 
 
 % chapter style:
-\makeatletter
-\makechapterstyle{thesis}{%
-  \renewcommand{\chapternamenum}{}
-  \setlength{\beforechapskip}{0pt}
-  \setlength{\midchapskip}{0pt}
-  \setlength{\afterchapskip}{0pt}
-  \renewcommand{\chapnamefont}{\LARGE}
-  \renewcommand{\chapnumfont}{\chapnamefont}
-  \renewcommand{\chaptitlefont}{\chapnamefont}
-  \renewcommand{\printchapternum}{}
-  \renewcommand{\afterchapternum}{}
-  \renewcommand{\printchaptername}{}
-  \renewcommand{\afterchaptertitle}{\chapnumfont\hfill\thechapter\\\vspace*{-.3cm}\hrulefill\vspace*{6cm}\\}
-}
-\makeatother
+%\makeatletter
+%\makechapterstyle{thesis}{%
+%  \renewcommand{\chapternamenum}{}
+%  \setlength{\beforechapskip}{0pt}
+%  \setlength{\midchapskip}{0pt}
+%  \setlength{\afterchapskip}{0pt}
+%  \renewcommand{\chapnamefont}{\LARGE}
+%  \renewcommand{\chapnumfont}{\chapnamefont}
+%  \renewcommand{\chaptitlefont}{\chapnamefont}
+%  \renewcommand{\printchapternum}{}
+%  \renewcommand{\afterchapternum}{}
+%  \renewcommand{\printchaptername}{}
+ %\renewcommand{\afterchaptertitle}{\chapnumfont\hfill\thechapter\\\vspace*{-.3cm}\hrulefill\vspace*{6cm}\\}
+%}
+%\makeatother
 
 % divisions:
-\maxsecnumdepth{subsubsection}
-\maxtocdepth{subsection}
-
-\makeatletter 
-\renewcommand{\fnum@figure}{\textsc{\figurename~\thefigure}}
-\makeatother
+%\maxsecnumdepth{subsubsection}
+%\maxtocdepth{subsection}
+%\makeatletter 
+%\renewcommand{\fnum@figure}{\textsc{\figurename~\thefigure}}
+%\makeatother
 
 %\usepackage{lmodern}
 \usepackage{microtype}
@@ -78,8 +77,8 @@
 \usepackage{pdfpages}
 \usepackage[disable]{todonotes}
 \usepackage{wrapfig}
-\usepackage{booktabs, tabulary}
-\usepackage{rotating, multirow}
+\usepackage{booktabs, tabulary, longtable}
+\usepackage{rotating, multirow, pdflscape}
 \usepackage[flushleft]{threeparttable}
 \usepackage{xcolor}
 \usepackage{framed}
@@ -192,14 +191,13 @@
 
 \mainmatter
 
-\chapterstyle{thesis}
-
+\chapterstyle{southall}
 \pagestyle{Ruled}
 
 \include{C1-introduction}
 
-\let\stdsection\section
-\renewcommand\section{\newpage\stdsection}
+%\let\stdsection\section
+%\renewcommand\section{\newpage\stdsection}
 
 \include{C2-crisis}
 \include{C3-csrl}
@@ -212,9 +210,16 @@
 
 \appendix
 \include{A1-papers}
-%\include{A2-secondary-papers}
+\includepdf[pages=-]{./papers/P1.pdf}
+\includepdf[pages=-]{./papers/P2.pdf}
+\includepdf[pages=-]{./papers/P3.pdf}
+\includepdf[pages=-]{./papers/P4.pdf}
+\includepdf[pages=-]{./papers/P5.pdf}
+\includepdf[pages=-]{./papers/P6.pdf}
+\includepdf[pages=-]{./papers/P7.pdf}
+\include{A2-secondary-papers}
 \include{A3-abroad}
-%\include{A4-technology-benchmark}
+\include{A4-toolkits}
 
 \backmatter
 \chapterstyle{default}
