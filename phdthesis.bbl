@@ -36,16 +36,17 @@
   }
   \strng{namehash}{AVHSLU1}
   \strng{fullhash}{AVHSLU1}
-  \field{labelyear}{2008}
+  \field{labelyear}{2010}
   \field{sortinit}{A}
   \field{number}{3}
-  \field{title}{{Simulated Decision Learning in a Multiactor Setting}}
+  \field{pages}{136\bibrangedash 145}
+  \field{title}{Simulated Decision Learning in a Multiactor Setting}
   \field{volume}{43}
   \field{journaltitle}{Organizacija}
-  \field{year}{2008}
+  \field{year}{2010}
 \endentry
 
-\entry{Asproth:2013vs}{article}{}
+\entry{Asproth:2013vs}{inproceedings}{}
   \name{author}{3}{}{%
     {{}%
      {Asproth}{A.}%
@@ -67,54 +68,59 @@
   \strng{fullhash}{AVOLMBEA1}
   \field{labelyear}{2013}
   \field{sortinit}{A}
-  \field{title}{{Exercises for crisis management training in intra-
-  organizational settings }}
-  \field{journaltitle}{Proceedings of ISCRAM}
+  \field{booktitle}{Proceedings of Information Systems for Crisis Response and
+  Management (ISCRAM)}
+  \field{pages}{105\bibrangedash 109}
+  \field{title}{Exercises for crisis management training in
+  intra-organizational settings}
   \field{year}{2013}
 \endentry
 
-\entry{Bellotti:2002wg}{article}{}
+\entry{Bellotti:2002wg}{inproceedings}{}
   \name{author}{6}{}{%
     {{}%
      {Bellotti}{B.}%
-     {V}{V}%
+     {Victoria}{V.}%
      {}{}%
      {}{}}%
     {{}%
      {Back}{B.}%
-     {M.}{M.}%
+     {Maribeth}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Edwards}{E.}%
-     {W.K.}{W.}%
+     {W.~Keith}{W.~K.}%
      {}{}%
      {}{}}%
     {{}%
      {Grinter}{G.}%
-     {R.E.}{R.}%
+     {Rebecca~E.}{R.~E.}%
      {}{}%
      {}{}}%
     {{}%
      {Henderson}{H.}%
-     {A.}{A.}%
+     {Austin}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Lopes}{L.}%
-     {C.}{C.}%
+     {Cristina}{C.}%
      {}{}%
      {}{}}%
   }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
   \strng{namehash}{BV+1}
-  \strng{fullhash}{BVBMEWGRHALC1}
+  \strng{fullhash}{BVBMEWKGREHALC1}
   \field{labelyear}{2002}
   \field{sortinit}{B}
+  \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI)}
   \field{pages}{415\bibrangedash 422}
-  \field{title}{{Making sense of sensing systems: five questions for designers
-  and researchers}}
-  \field{journaltitle}{Proceedings of the SIGCHI conference on Human factors in
-  computing systems: Changing our world, changing ourselves}
+  \field{title}{Making sense of sensing systems: five questions for designers
+  and researchers}
   \field{year}{2002}
 \endentry
 
@@ -206,11 +212,11 @@
   \field{labelyear}{2005}
   \field{sortinit}{B}
   \field{number}{1}
-  \field{title}{{Expected, sensed, and desired: A framework for designing
-  sensing-based interaction}}
+  \field{pages}{3\bibrangedash 30}
+  \field{title}{Expected, sensed, and desired: A framework for designing
+  sensing-based interaction}
   \field{volume}{12}
-  \field{journaltitle}{Transactions on Computer-Human Interaction (TOCHI}
-  \field{month}{03}
+  \field{journaltitle}{Transactions on Computer-Human Interaction (TOCHI)}
   \field{year}{2005}
 \endentry
 
@@ -228,11 +234,10 @@
   \field{sortinit}{B}
   \field{number}{4}
   \field{pages}{367\bibrangedash 377}
-  \field{title}{{The New World of Crises and Crisis Management: Implications
-  for Policymaking and Research}}
+  \field{title}{The New World of Crises and Crisis Management: Implications for
+  Policymaking and Research}
   \field{volume}{26}
   \field{journaltitle}{Review of Policy Research}
-  \field{month}{07}
   \field{year}{2009}
 \endentry
 
@@ -254,8 +259,8 @@
   \field{labelyear}{2007}
   \field{sortinit}{B}
   \field{pages}{42\bibrangedash 54}
-  \field{title}{{The crisis approach}}
-  \field{journaltitle}{Handbook of disaster research}
+  \field{title}{The crisis approach}
+  \field{journaltitle}{Handbook of Disaster Research}
   \field{year}{2007}
 \endentry
 
@@ -278,10 +283,9 @@
   \field{sortinit}{B}
   \field{number}{3}
   \field{pages}{139\bibrangedash 147}
-  \field{title}{{Individual and Group Learning in Crisis Simulations}}
+  \field{title}{Individual and Group Learning in Crisis Simulations}
   \field{volume}{10}
   \field{journaltitle}{Journal of Contingencies and Crisis Management}
-  \field{month}{09}
   \field{year}{2002}
 \endentry
 
@@ -289,17 +293,17 @@
   \name{author}{3}{}{%
     {{}%
      {Boud}{B.}%
-     {D.}{D.}%
+     {David}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Keogh}{K.}%
-     {R.}{R.}%
+     {Rosemary}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Walker}{W.}%
-     {D.}{D.}%
+     {David}{D.}%
      {}{}%
      {}{}}%
   }
@@ -310,11 +314,11 @@
   \strng{fullhash}{BDKRWD1}
   \field{labelyear}{1985}
   \field{sortinit}{B}
-  \field{title}{{Reflection: turning experience into learning}}
+  \field{title}{Reflection: Turning Experience into Learning}
   \field{year}{1985}
 \endentry
 
-\entry{Chen:2012wk}{article}{}
+\entry{Chen:2012wk}{inproceedings}{}
   \name{author}{5}{}{%
     {{}%
      {Chen}{C.}%
@@ -342,14 +346,17 @@
      {}{}%
      {}{}}%
   }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
   \strng{namehash}{CX+1}
   \strng{fullhash}{CXMNTABSGS1}
   \field{labelyear}{2012}
   \field{sortinit}{C}
+  \field{booktitle}{Proceedings of MobileHCI}
   \field{pages}{151\bibrangedash 160}
-  \field{title}{{Extending a mobile device's interaction space through
-  body-centric interaction}}
-  \field{journaltitle}{In Proc. of MobileHCI}
+  \field{title}{Extending a mobile device's interaction space through
+  body-centric interaction}
   \field{year}{2012}
 \endentry
 
@@ -367,8 +374,8 @@
   \field{sortinit}{C}
   \field{number}{1}
   \field{pages}{15\bibrangedash 26}
-  \field{title}{{Integrating Information Technology into International Crisis
-  Management and Policy}}
+  \field{title}{Integrating Information Technology into International Crisis
+  Management and Policy}
   \field{volume}{1}
   \field{journaltitle}{Journal of Contingencies and Crisis Management}
   \field{year}{1993}
@@ -388,13 +395,13 @@
   \field{sortinit}{D}
   \field{number}{3}
   \field{pages}{36\bibrangedash 48}
-  \field{title}{{Learning from experience through reflection}}
+  \field{title}{Learning from experience through reflection}
   \field{volume}{24}
   \field{journaltitle}{Organizational Dynamics}
   \field{year}{1996}
 \endentry
 
-\entry{Deverell:2009fk}{article}{}
+\entry{Deverell:2009fk}{incollection}{}
   \name{author}{1}{}{%
     {{}%
      {Deverell}{D.}%
@@ -402,17 +409,19 @@
      {}{}%
      {}{}}%
   }
+  \list{publisher}{1}{%
+    {Blackwell Publishing}%
+  }
   \strng{namehash}{DE1}
   \strng{fullhash}{DE1}
   \field{labelyear}{2009}
   \field{sortinit}{D}
+  \field{booktitle}{Journal of Contingencies and Crisis Management}
   \field{number}{3}
   \field{pages}{179\bibrangedash 188}
-  \field{title}{{Crises as Learning Triggers: Exploring a Conceptual Framework
-  of Crisis-Induced Learning}}
+  \field{title}{Crises as Learning Triggers: Exploring a Conceptual Framework
+  of Crisis-Induced Learning}
   \field{volume}{17}
-  \field{journaltitle}{Journal of Contingencies and Crisis Management}
-  \field{month}{09}
   \field{year}{2009}
 \endentry
 
