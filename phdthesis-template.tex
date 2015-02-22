@@ -1,7 +1,80 @@
-\documentclass{ntnuthesis}
+\documentclass[a4crop]{ntnuthesis} 
 
 \usepackage[utf8]{inputenc}
 \usepackage[british]{babel}
+
+%caption styles
+\usepackage[small,bf]{caption}
+%\usepackage{caption}
+\usepackage[labelformat=simple]{subcaption}
+\renewcommand\thesubfigure{(\alph{subfigure})} % see subcaption doc
+%<<byman 
+\usepackage{colortbl}
+\usepackage{xcolor}
+\usepackage{color}
+\usepackage{sidecap}
+%byman>>
+
+%<<byman
+%% Use scalable, PostScript Type 1 versions of the Computer Modern fonts.
+\usepackage{type1cm}
+%% Replace the standard Computer Modern Typewriter font LaTeX uses
+%% for monospace text with the PostScript font Adobe Courier.
+\usepackage{courier}
+\usepackage[T1]{fontenc}
+\usepackage{ae,aecompl}
+\usepackage{times}
+%% Redefine the font used for the section headings to
+%% Helvetica-Narrow Bold.
+\usepackage{sectsty}
+\allsectionsfont{\usefont{OT1}{phv}{bc}{n}\selectfont}
+% for colour shades in tables 
+\usepackage{colortbl} 
+ %to control the title formating and spaces around the titles
+ \usepackage{pdfpages}
+\usepackage[compact]{titlesec}
+%%byman>>
+
+%spaces under sections
+\usepackage[compact]{titlesec}
+\titlespacing{\section}{0pt}{*0}{*0}
+\titlespacing{\subsection}{0pt}{*0}{*0}
+\titlespacing{\subsubsection}{0pt}{*0}{*0}
+
+%% Use fancy chapter headers, with Jos Dingjan's modifications,
+%% plus my own tweaks. This style is not part of teTeX,
+%% so we are using a local (and renamed) copy.
+%\usepackage[Lenny]{fncychapleo}
+\usepackage{fncychap}
+
+%% Nicely format and linebreak URLs in the bibliography (and elsewhere).
+\usepackage{url}
+%% Define a new 'leo' style for the package that will use a smaller font.
+\makeatletter
+\def\url@leostyle{%
+  \@ifundefined{selectfont}{\def\UrlFont{\sf}}{\def\UrlFont{\small\ttfamily}}}
+\makeatother
+%% Now actually use the newly defined style.
+\urlstyle{leo}
+%byman>>
+
+%Titles
+\title{Title of the Thesis}
+%\subtitle{Subtitle of the thesis here}
+\author{John Doe}
+
+\def \thesisAuthor{John Doe}
+
+%\degreetype{PhD}
+\faculty{Faculty of Engineering Science and Technology Updated}
+\department{Hydraulic and Environmental Engineering}
+\copyrightnotice{All rights reserved}
+\isbnprinted{}
+\isbnelectronic{}
+\serialnumber{}
+\setyear{2014}
+\setmonth{September}
+
 
 %\usepackage{lmodern}
 \usepackage{microtype}
@@ -9,10 +82,10 @@
 \graphicspath{{imgs/}}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg,jpeg}
 \usepackage{pdfpages}
-\usepackage[]{todonotes}
+\usepackage[disable]{todonotes}
 \usepackage{wrapfig}
-\usepackage{booktabs, tabulary}
-\usepackage{rotating, multirow}
+\usepackage{booktabs, tabulary, longtable}
+\usepackage{rotating, multirow, lscape}
 \usepackage[flushleft]{threeparttable}
 \usepackage{xcolor}
 \usepackage{framed}
@@ -39,24 +112,9 @@
 %Pharagraph style
 \setlength{\parindent}{0pt} 
 \setlength{\parskip}{6pt plus 2pt minus 1pt} 
-\setlength{\emergencystretch}{3em} % prevent overfull lines 
+%\setlength{\emergencystretch}{3em} % prevent overfull lines 
 
-% Headers and page numbering 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\addtolength{\headheight}{2.5pt}
-\addtolength{\oddsidemargin}{0.7cm}
-\addtolength{\evensidemargin}{-0.7cm}
-\fancyhead{}				% Header flush
-\fancyfoot{}
-\fancyhead[LE,RO]{\thepage}	% Page number on the external side of the pages
-\fancyhead[RE]{\leftmark}		% Chapter name on the right page
-\fancyhead[LO]{\rightmark}	% Section name on the left page
-% Improving chapter name in the header
-\renewcommand{\chaptermark}[1]{%
-\markboth{\thechapter.\ #1}{}}
-% Improving section name in the header
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}} 
+
 
 %Hypernation
 \hyphenation{UbiCollab}
@@ -108,39 +166,50 @@
 \newcommand{\Ciii}{Novel sensing-based interaction techniques to support re-creation and generation of work experiences in crisis training}
 \newcommand{\Civ}{Knowledge about implementing prototypes to be deployed into the wild}
 
+\usepackage{verbatim, enumitem}
+
 %-------------------------------------
 
 \begin{document}
 	
-%\includepdf[pages={1,2}]{cover.pdf}
+\includepdf[pages={1,2}]{cover.pdf}
 \frontmatter
-%\include{F1-abstract}
-%\include{F2-preface}
+\include{F1-abstract}
+\include{F2-preface}
 %\include{F3-aknowledgements}
-%\tableofcontents
-%\listoffigures
-%\listoftables
-%\listoftodos
-%\include{F4-abbreviations}
+\tableofcontents
+\listoffigures
+\listoftables
+\listoftodos
+\include{F4-abbreviations}
 
 \mainmatter
-%\include{C1-introduction}
-%\include{C2-crisis}
-%\include{C3-csrl}
-%\include{C4-interaction}
-%\include{C5-research}
+\include{C1-introduction}
+\include{C2-crisis}
+\include{C3-csrl}
+\include{C4-interaction}
+\include{C5-research}
 \include{C6-results}
-%\include{C7-contributions}
-%\include{C8-evaluation}
-%\include{C9-conclusions}
-
+\include{C7-contributions}
+\include{C8-evaluation}
+\include{C9-conclusions}
 \appendix
-%\include{A1-papers}
-%\include{A2-secondary-papers}
-%\include{A3-abroad}
-%\include{A4-technology-benchmark}
-
+\include{A1-secondary-papers}
+\include{A2-abroad}
+\include{A3-toolkits}
 \backmatter
+\addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
 
+\mainmatter
+\include{P2-papers}
+\begin{comment}
+\includepdf[pages=-]{./papers/P1.pdf}
+\includepdf[pages=-]{./papers/P2.pdf}
+\includepdf[pages=-]{./papers/P3.pdf}
+\includepdf[pages=-]{./papers/P4.pdf}
+\includepdf[pages=-]{./papers/P5.pdf}
+\includepdf[pages=-]{./papers/P6.pdf}
+\includepdf[pages=-]{./papers/P7.pdf}
+\end{comment}
 \end{document}

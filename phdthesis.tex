@@ -16,7 +16,7 @@
 \usepackage[disable]{todonotes}
 \usepackage{wrapfig}
 \usepackage{booktabs, tabulary, longtable}
-\usepackage{rotating, multirow, pdflscape}
+\usepackage{rotating, multirow, lscape}
 \usepackage[flushleft]{threeparttable}
 \usepackage{xcolor}
 \usepackage{framed}
@@ -117,7 +117,7 @@
 %-------------------------------------
 
 \begin{document}
-
+	
 \includepdf[pages={1,2}]{cover.pdf}
 \frontmatter
 \include{F1-abstract}
@@ -130,8 +130,6 @@
 \include{F4-abbreviations}
 
 \mainmatter
-\part*{Introduction and methods}
-%\addcontentsline{toc}{part}{Part I}
 \include{C1-introduction}
 \include{C2-crisis}
 \include{C3-csrl}
@@ -149,8 +147,7 @@
 \addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
 
-\part*{Research papers}
-%\addcontentsline{toc}{part}{Part II}
+\mainmatter
 \include{P2-papers}
 \begin{comment}
 \includepdf[pages=-]{./papers/P1.pdf}
