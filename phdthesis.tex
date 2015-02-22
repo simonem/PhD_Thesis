@@ -1,4 +1,4 @@
-\documentclass[11pt,b5paper,twoside, draft]{book}
+\documentclass[11pt,b5paper,twoside, draft, openright]{book}
 
 %from phd template
 %\usepackage[margin=20mm,top=15mm,bindingoffset=10mm,includeheadfoot,headheight=14.5pt]{geometry}
@@ -99,7 +99,7 @@
 	% \specialcell{Date,\\duration}
 	
 % left align in table paragraphs
-\usepackage{array}
+\usepackage{array, url}
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 	
 % Metadata
@@ -129,8 +129,9 @@
 \listoftodos
 \include{F4-abbreviations}
 
-\part{Part I}
 \mainmatter
+\part*{Introduction and methods}
+%\addcontentsline{toc}{part}{Part I}
 \include{C1-introduction}
 \include{C2-crisis}
 \include{C3-csrl}
@@ -141,15 +142,16 @@
 \include{C8-evaluation}
 \include{C9-conclusions}
 \appendix
-\include{A2-secondary-papers}
-\include{A3-abroad}
-\include{A4-toolkits}
+\include{A1-secondary-papers}
+\include{A2-abroad}
+\include{A3-toolkits}
 \backmatter
 \addcontentsline{toc}{chapter}{Bibliography}
 \printbibliography
 
-\part{Part II}
-\include{A1-papers}
+\part*{Research papers}
+%\addcontentsline{toc}{part}{Part II}
+\include{P2-papers}
 \begin{comment}
 \includepdf[pages=-]{./papers/P1.pdf}
 \includepdf[pages=-]{./papers/P2.pdf}
@@ -159,7 +161,4 @@
 \includepdf[pages=-]{./papers/P6.pdf}
 \includepdf[pages=-]{./papers/P7.pdf}
 \end{comment}
-
-
-
 \end{document}
