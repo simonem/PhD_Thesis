@@ -1,7 +1,5 @@
 \chapter[Theoretical underpinning:\\ Computer Supported Reflective Learning]{Theoretical underpinning: Computer Supported Reflective Learning}\label{csrl}
 
-\todo[inline]{Revision 5}
-
 In order to provide information about the design of technology to support experiential learning in crisis training, I adopted the Computer Supported Reflective Learning model (hereafter CSRL model) developed by the MIRROR project. The model identifies the requirements to design technology to support reflective learning \autocite{Krogstie:2013kf}. The CSRL model has worked as theoretical underpinning for the development of sensing-based technologies presented in this PhD work, providing a language for guiding the understanding of reflection and drafting requirements for the technology.
 
 After a brief introduction about theories in the field of reflective learning, I describe the CSRL model and how it can be applied to the development of technology. In the following I will use the terms \emph{reflective learning} and \emph{reflection} as synonyms.
@@ -67,28 +65,29 @@ Figure \ref{fig:csrl-model} depicts the models in terms of \emph{stages}, \emph{
 
 Triggers also allow for including more actors in the reflection process, iteratively starting a new cycle based on the results of previous ones. For instance, the outcome of a personal consideration (e.g.~how a crisis procedure is applied) might be brought in a team meeting to trigger collaborative reflection, ultimately leading to a change in protocols. In this way, we can look at reflection as a storyline that might involve different actors within the organisation \autocite{PrPK13}.
 
-\section{CSRL applied to crisis training}\label{csrl-applied-to-the-design-of-technology-for-crisis-training}
+\section{CSRL applied to crisis training}\label{csrl-crisis}
 
 The CSRL model can be used by designers to choose which technology to use to support reflection activities or do derive requirements for the design of new technologies. For each stage, the CSRL model identifies support that can be provided through technology. For example in the \emph{do work} phase, technology could be used to monitor work and collect data that can be useful for reflection, in \emph{initiate reflection} to set the objectives for reflection or to involve others in the session, in \emph{conduct reflection} to share work experience with colleagues; and in \emph{apply reflection outcomes} to decide how the change to work will be implemented.
 
 The model has driven the development of several software and hardware applications within the MIRROR project; to address reflective learning in the fields of social care, health care, business and emergency aid. For a description of the applications see \autocite{Schwantzer:2014we}. 
 
-In the case of crisis training I identified that the mapping between the activities described by the CSRL model and technology can be placed in three areas (Figure \ref{fig:model-instantiation}):
+In the case of crisis training I identified that the mapping between the activities described by the CSRL model and technology can be placed in three macro-areas (Figure \ref{fig:model-instantiation}):
+
 \begin{itemize}
 	\itemsep1pt\parskip0pt\parsep0pt 
 	\item technology to \textbf{capture} work experiences (for example by means of automatic sensors, a personal diary application, or a timeline visualisation) 
-	\item technology to \textbf{re-create} work experiences, making use of the captured data to trigger and assist a reflection session with relevant information (for example by allowing to re-evaluate a past experience from multiple point of views, in a context that help making sense processes during debriefing) 
+	\item technology to \textbf{re-create} work experiences, making use of the captured data to trigger and assist a reflection session with relevant information (for example by allowing to re-evaluate a past experience from multiple point of views, in a context that helps making sense processes during debriefing) 
 	\item technology to \textbf{generate} new, realistic work experiences for training purposes (for example via virtual worlds, serious games, or tabletop exercises) 
 \end{itemize}
 
-The mapping has been derived by the field studies performed and it has not yet included the stages of \emph{initiate reflection} and \emph{apply outcomes}.
+Although specific activities from each of the four stages have been considered, the main focus is on supporting with technology the stages of \emph{plan and do work} and \emph{conduct reflection session}, since these stages involve activities observed during field studies.
+
+The three areas have the common need for innovative interfaces between people and technology. Yet the design of such user interfaces aims at different goals. During \emph{capturing} the interface should allow the capture of a variety of quantitative data and user-submitted information without interrupting crisis work. The stage of \emph{re-creating} experiences need tools for data visualisation and manipulation capable to re-create a work experiences in a context that promote reflection. Finally \emph{generating} experiences needs interfaces to bring realism and engagement of real crises into a simulated environment. Notably, the \emph{capture} of experiences is done during the work, which is subject to strict protocols that limit the design space for the technology.
 
 \begin{figure}
 	[htb] \centering 
 	\includegraphics[width=1
 	\textwidth]{model-instantiation} \caption{Instantiation of the CSRL model to support crisis training} \label{fig:model-instantiation} 
 \end{figure}
-
-The three areas have the common need for innovative interfaces between people and technology. Yet the design of such user interfaces aims at different goals. During \emph{capturing} the interface should allow the capture of a variety of quantitative data and user-submitted information without interrupting crisis work. The stage of \emph{re-creating} experiences need tools for data visualisation and manipulation capable to re-create a work experiences in a context that promote reflection. Finally \emph{generating} experiences needs interfaces to bring realism and engagement of real crises into a simulated environment. Notably, the \emph{capture} of experiences is done during the work, which is subject to strict protocols that limit the design space for the technology.
 
 In the following chapter I will investigate how recent advances in the field of sensing-based interaction can provide theoretical tools from human-computer interaction theory for the design of user interfaces for capturing, re-creating and generating crisis work experience. 
