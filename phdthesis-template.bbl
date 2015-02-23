@@ -1,0 +1,2256 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{Asproth:cb}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Asproth}{A.}%
+     {Viveca}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holmberg}{H.}%
+     {Stig}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {L{\"o}fstedt}{L.}%
+     {Ulrica}{U.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AVHSLU1}
+  \strng{fullhash}{AVHSLU1}
+  \field{labelyear}{2010}
+  \field{sortinit}{A}
+  \field{number}{3}
+  \field{pages}{136\bibrangedash 145}
+  \field{title}{Simulated Decision Learning in a Multiactor Setting}
+  \field{volume}{43}
+  \field{journaltitle}{Organizacija}
+  \field{year}{2010}
+\endentry
+
+\entry{Asproth:2013vs}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Asproth}{A.}%
+     {Viveca}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{\"O}berg}{{\"O}.}%
+     {Lena-Maria}{L.-M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Borglund}{B.}%
+     {Erik~AM}{E.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{AVOLMBEA1}
+  \strng{fullhash}{AVOLMBEA1}
+  \field{labelyear}{2013}
+  \field{sortinit}{A}
+  \field{booktitle}{Proceedings of Information Systems for Crisis Response and
+  Management (ISCRAM)}
+  \field{pages}{105\bibrangedash 109}
+  \field{title}{Exercises for crisis management training in
+  intra-organizational settings}
+  \field{year}{2013}
+\endentry
+
+\entry{Bellotti:2002wg}{inproceedings}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Bellotti}{B.}%
+     {Victoria}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Back}{B.}%
+     {Maribeth}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Edwards}{E.}%
+     {W.~Keith}{W.~K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Grinter}{G.}%
+     {Rebecca~E.}{R.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Henderson}{H.}%
+     {Austin}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lopes}{L.}%
+     {Cristina}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM}%
+  }
+  \strng{namehash}{BV+1}
+  \strng{fullhash}{BVBMEWKGREHALC1}
+  \field{labelyear}{2002}
+  \field{sortinit}{B}
+  \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI)}
+  \field{pages}{415\bibrangedash 422}
+  \field{title}{Making sense of sensing systems: five questions for designers
+  and researchers}
+  \field{year}{2002}
+\endentry
+
+\entry{Benford:2005bo}{article}{}
+  \name{author}{16}{}{%
+    {{}%
+     {Benford}{B.}%
+     {Steve}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schn{\"a}delbach}{S.}%
+     {Holger}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koleva}{K.}%
+     {Boriana}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anastasi}{A.}%
+     {Rob}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenhalgh}{G.}%
+     {Chris}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodden}{R.}%
+     {Tom}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Green}{G.}%
+     {Jonathan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ghali}{G.}%
+     {Ahmed}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pridmore}{P.}%
+     {Tony}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gaver}{G.}%
+     {Bill}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boucher}{B.}%
+     {Andy}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walker}{W.}%
+     {Brendan}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pennington}{P.}%
+     {Sarah}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmidt}{S.}%
+     {Albrecht}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gellersen}{G.}%
+     {Hans}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Steed}{S.}%
+     {Anthony}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BS+1}
+  \strng{fullhash}{BSSHKBARGCRTGJGAPTGBBAWBPSSAGHSA1}
+  \field{labelyear}{2005}
+  \field{sortinit}{B}
+  \field{number}{1}
+  \field{pages}{3\bibrangedash 30}
+  \field{title}{Expected, sensed, and desired: A framework for designing
+  sensing-based interaction}
+  \field{volume}{12}
+  \field{journaltitle}{Transactions on Computer-Human Interaction (TOCHI)}
+  \field{year}{2005}
+\endentry
+
+\entry{Boin:2009bv}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Boin}{B.}%
+     {Arjen}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BA1}
+  \strng{fullhash}{BA1}
+  \field{labelyear}{2009}
+  \field{sortinit}{B}
+  \field{number}{4}
+  \field{pages}{367\bibrangedash 377}
+  \field{title}{The New World of Crises and Crisis Management: Implications for
+  Policymaking and Research}
+  \field{volume}{26}
+  \field{journaltitle}{Review of Policy Research}
+  \field{year}{2009}
+\endentry
+
+\entry{Boin:2007wt}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Boin}{B.}%
+     {Arjen}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hart}{H.}%
+     {Paul~T}{P.~T.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{BAHPT1}
+  \strng{fullhash}{BAHPT1}
+  \field{labelyear}{2007}
+  \field{sortinit}{B}
+  \field{pages}{42\bibrangedash 54}
+  \field{title}{The crisis approach}
+  \field{journaltitle}{Handbook of Disaster Research}
+  \field{year}{2007}
+\endentry
+
+\entry{Borodzicz:2002em}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Borodzicz}{B.}%
+     {Edward}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Haperen}{H.}%
+     {Kees}{K.}%
+     {van}{v.}%
+     {}{}}%
+  }
+  \strng{namehash}{BEHKv1}
+  \strng{fullhash}{BEHKv1}
+  \field{labelyear}{2002}
+  \field{sortinit}{B}
+  \field{number}{3}
+  \field{pages}{139\bibrangedash 147}
+  \field{title}{Individual and Group Learning in Crisis Simulations}
+  \field{volume}{10}
+  \field{journaltitle}{Journal of Contingencies and Crisis Management}
+  \field{year}{2002}
+\endentry
+
+\entry{boud1985reflection}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Boud}{B.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Keogh}{K.}%
+     {Rosemary}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Walker}{W.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Routledge}%
+  }
+  \strng{namehash}{BDKRWD1}
+  \strng{fullhash}{BDKRWD1}
+  \field{labelyear}{1985}
+  \field{sortinit}{B}
+  \field{title}{Reflection: Turning Experience into Learning}
+  \field{year}{1985}
+\endentry
+
+\entry{Chen:2012wk}{inproceedings}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Chen}{C.}%
+     {Xiang'Anthony}{X.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Marquardt}{M.}%
+     {Nicolai}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tang}{T.}%
+     {Anthony}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boring}{B.}%
+     {Sebastian}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenberg}{G.}%
+     {Saul}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{CX+1}
+  \strng{fullhash}{CXMNTABSGS1}
+  \field{labelyear}{2012}
+  \field{sortinit}{C}
+  \field{booktitle}{Proceedings of MobileHCI}
+  \field{pages}{151\bibrangedash 160}
+  \field{title}{Extending a mobile device's interaction space through
+  body-centric interaction}
+  \field{year}{2012}
+\endentry
+
+\entry{JCCM:JCCM15}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Comfort}{C.}%
+     {Louise~K}{L.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{CLK1}
+  \strng{fullhash}{CLK1}
+  \field{labelyear}{1993}
+  \field{sortinit}{C}
+  \field{number}{1}
+  \field{pages}{15\bibrangedash 26}
+  \field{title}{Integrating Information Technology into International Crisis
+  Management and Policy}
+  \field{volume}{1}
+  \field{journaltitle}{Journal of Contingencies and Crisis Management}
+  \field{year}{1993}
+\endentry
+
+\entry{WoodDaudelin199636}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Daudelin}{D.}%
+     {Marilyn~Wood}{M.~W.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{DMW1}
+  \strng{fullhash}{DMW1}
+  \field{labelyear}{1996}
+  \field{sortinit}{D}
+  \field{number}{3}
+  \field{pages}{36\bibrangedash 48}
+  \field{title}{Learning from experience through reflection}
+  \field{volume}{24}
+  \field{journaltitle}{Organizational Dynamics}
+  \field{year}{1996}
+\endentry
+
+\entry{Deverell:2009fk}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Deverell}{D.}%
+     {Edward}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing}%
+  }
+  \strng{namehash}{DE1}
+  \strng{fullhash}{DE1}
+  \field{labelyear}{2009}
+  \field{sortinit}{D}
+  \field{booktitle}{Journal of Contingencies and Crisis Management}
+  \field{number}{3}
+  \field{pages}{179\bibrangedash 188}
+  \field{title}{Crises as Learning Triggers: Exploring a Conceptual Framework
+  of Crisis-Induced Learning}
+  \field{volume}{17}
+  \field{year}{2009}
+\endentry
+
+\entry{dewey1933we}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dewey}{D.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Boston: D.C. Heath}%
+  }
+  \strng{namehash}{DJ1}
+  \strng{fullhash}{DJ1}
+  \field{labelyear}{1933}
+  \field{sortinit}{D}
+  \field{title}{How we think: A restatement of the relation of reflective
+  thinking to the educational process}
+  \field{year}{1933}
+\endentry
+
+\entry{Dewey:1998ug}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dewey}{D.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Kappa Delta Pi}%
+  }
+  \strng{namehash}{DJ1}
+  \strng{fullhash}{DJ1}
+  \field{labelyear}{1998}
+  \field{sortinit}{D}
+  \field{title}{Experience and education}
+  \field{year}{1998}
+\endentry
+
+\entry{DiLoreto:2012bj}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Di~Loreto}{D.~L.}%
+     {Ines}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mora}{M.}%
+     {Simone}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Divitini}{D.}%
+     {Monica}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{DLIMSDM1}
+  \strng{fullhash}{DLIMSDM1}
+  \field{labelyear}{2012}
+  \field{extrayear}{1}
+  \field{sortinit}{D}
+  \field{booktitle}{Proceedings of Enabling Technologies: Infrastructure for
+  Collaborative Enterprises (WETICE)}
+  \field{pages}{352\bibrangedash 357}
+  \field{title}{Collaborative Serious Games for Crisis Management: An Overview}
+  \field{year}{2012}
+\endentry
+
+\entry{DiLoreto:2012jj}{inproceedings}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Di~Loreto}{D.~L.}%
+     {Ines}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mora}{M.}%
+     {Simone}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Divitini}{D.}%
+     {Monica}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Berlin Heidelberg}%
+  }
+  \strng{namehash}{DLIMSDM1}
+  \strng{fullhash}{DLIMSDM1}
+  \field{labelyear}{2012}
+  \field{extrayear}{2}
+  \field{sortinit}{D}
+  \field{booktitle}{In Proceedings of Conference on Serious Games Development
+  and Applications (SGDA)}
+  \field{pages}{1\bibrangedash 12}
+  \field{title}{Don{\textquoteright}t Panic: Enhancing Soft Skills for Civil
+  Protection Workers}
+  \field{year}{2012}
+\endentry
+
+\entry{Dourish:2001vc}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Dourish}{D.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {The MIT Press}%
+  }
+  \strng{namehash}{DP1}
+  \strng{fullhash}{DP1}
+  \field{labelyear}{2001}
+  \field{sortinit}{D}
+  \field{title}{Where the Action Is The Foundations of Embodied Interaction}
+  \field{year}{2001}
+\endentry
+
+\entry{Dumas:2009th}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Dumas}{D.}%
+     {Joseph~S.}{J.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fox}{F.}%
+     {Jean~E.}{J.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CRC Press}%
+  }
+  \strng{namehash}{DJSFJE1}
+  \strng{fullhash}{DJSFJE1}
+  \field{labelyear}{2009}
+  \field{sortinit}{D}
+  \field{booktitle}{Human-computer interaction: Development process}
+  \field{pages}{1129\bibrangedash 1149}
+  \field{title}{Usability Testing: Current Practice and Future Directions}
+  \field{year}{2009}
+\endentry
+
+\entry{Fishkin:2004uv}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Fishkin}{F.}%
+     {Kenneth~P.}{K.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{FKP1}
+  \strng{fullhash}{FKP1}
+  \field{labelyear}{2004}
+  \field{sortinit}{F}
+  \field{booktitle}{Personal and Ubiquitous Computing}
+  \field{number}{5}
+  \field{pages}{347\bibrangedash 358}
+  \field{title}{A taxonomy for and analysis of tangible interfaces}
+  \field{volume}{8}
+  \field{year}{2004}
+\endentry
+
+\entry{Fishkin:2000df}{incollection}{}
+  \name{author}{5}{}{%
+    {{}%
+     {Fishkin}{F.}%
+     {Kenneth~P}{K.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gujar}{G.}%
+     {Anuj}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Harrison}{H.}%
+     {Beverly~L}{B.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Moran}{M.}%
+     {Thomas~P}{T.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Want}{W.}%
+     {Roy}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{FKP+1}
+  \strng{fullhash}{FKPGAHBLMTPWR1}
+  \field{labelyear}{2000}
+  \field{sortinit}{F}
+  \field{booktitle}{Communications of the ACM}
+  \field{number}{9}
+  \field{pages}{74\bibrangedash 80}
+  \field{title}{Embodied user interfaces for really direct manipulation}
+  \field{volume}{43}
+  \field{year}{2000}
+\endentry
+
+\entry{Guerreiro:2008wt}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Guerreiro}{G.}%
+     {Tiago}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Gamboa}{G.}%
+     {Ricardo}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jorge}{J.}%
+     {Joaquin}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{GTGRJJ1}
+  \strng{fullhash}{GTGRJJ1}
+  \field{labelyear}{2008}
+  \field{sortinit}{G}
+  \field{booktitle}{European Conference on Cognitive Ergonomics (ECCE)}
+  \field{title}{Mnemonical body shortcuts: improving mobile interaction}
+  \field{year}{2008}
+\endentry
+
+\entry{Gulliksen:2003hd}{incollection}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Gulliksen}{G.}%
+     {Jan}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {G{\"o}ransson}{G.}%
+     {Bengt}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Boivie}{B.}%
+     {Inger}{I.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Blomkvist}{B.}%
+     {Stefan}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Persson}{P.}%
+     {Jenny}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Cajander}{C.}%
+     {{\AA}sa}{{\AA}.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Taylor {\&} Francis}%
+  }
+  \strng{namehash}{GJ+1}
+  \strng{fullhash}{GJGBBIBSPJCA1}
+  \field{labelyear}{2003}
+  \field{sortinit}{G}
+  \field{booktitle}{Behaviour {\&} Information Technology}
+  \field{number}{6}
+  \field{pages}{397\bibrangedash 409}
+  \field{title}{Key principles for user-centred systems design}
+  \field{volume}{22}
+  \field{year}{2003}
+\endentry
+
+\entry{Hevner:2010gc}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hevner}{H.}%
+     {Alan}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Chatterjee}{C.}%
+     {Samir}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer US}%
+  }
+  \strng{namehash}{HACS1}
+  \strng{fullhash}{HACS1}
+  \field{labelyear}{2010}
+  \field{sortinit}{H}
+  \field{booktitle}{Design Research in Information Systems}
+  \field{pages}{9\bibrangedash 22}
+  \field{title}{Design Science Research in Information Systems}
+  \field{volume}{22}
+  \field{year}{2010}
+\endentry
+
+\entry{hevner2007three}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hevner}{H.}%
+     {Alan~R}{A.~R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{HAR1}
+  \strng{fullhash}{HAR1}
+  \field{labelyear}{2007}
+  \field{sortinit}{H}
+  \field{booktitle}{Scandinavian Journal of Information Systems}
+  \field{number}{2}
+  \field{pages}{4}
+  \field{title}{A three cycle view of design science research}
+  \field{volume}{19}
+  \field{year}{2007}
+\endentry
+
+\entry{Havner2004}{incollection}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Hevner}{H.}%
+     {Alan~R}{A.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {March}{M.}%
+     {Salvatore~T}{S.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Park}{P.}%
+     {Jinsoo}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ram}{R.}%
+     {Sudha}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{HAR+1}
+  \strng{fullhash}{HARMSTPJRS1}
+  \field{labelyear}{2004}
+  \field{sortinit}{H}
+  \field{booktitle}{MIS Quarterly}
+  \field{number}{1}
+  \field{pages}{75\bibrangedash 105}
+  \field{title}{Design Science in Information Systems Research}
+  \field{volume}{28}
+  \field{year}{2004}
+\endentry
+
+\entry{hewit}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hewitt}{H.}%
+     {Kenneth}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{2}{%
+    {Allen}%
+    {Unwin, Boston}%
+  }
+  \strng{namehash}{HK1}
+  \strng{fullhash}{HK1}
+  \field{labelyear}{1983}
+  \field{sortinit}{H}
+  \field{booktitle}{Interpretations of calamity from the viewpoint of human
+  ecology}
+  \field{title}{The idea of calamity in a technocratic age}
+  \field{year}{1983}
+\endentry
+
+\entry{Hillyard:SYlJRQLN}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Hillyard}{H.}%
+     {Michael~J}{M.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {iUniverse}%
+  }
+  \strng{namehash}{HMJ1}
+  \strng{fullhash}{HMJ1}
+  \field{labelyear}{2000}
+  \field{sortinit}{H}
+  \field{title}{Public Crisis Management: How and Why Organizations Work
+  Together to Solve Society's Most Threatening Problems}
+  \field{year}{2000}
+\endentry
+
+\entry{Hornecker:2006uq}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Hornecker}{H.}%
+     {Eva}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Buur}{B.}%
+     {Jacob}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{HEBJ1}
+  \strng{fullhash}{HEBJ1}
+  \field{labelyear}{2006}
+  \field{sortinit}{H}
+  \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI)}
+  \field{pages}{437\bibrangedash 446}
+  \field{title}{Getting a grip on tangible interaction: a framework on physical
+  space and social interaction}
+  \field{year}{2006}
+\endentry
+
+\entry{Hutchinson:2003il}{incollection}{}
+  \name{author}{12}{}{%
+    {{}%
+     {Hutchinson}{H.}%
+     {Hilary}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Mackay}{M.}%
+     {Wendy}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Westerlund}{W.}%
+     {Bosse}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bederson}{B.}%
+     {Benjamin~B}{B.~B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Druin}{D.}%
+     {Allison}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Plaisant}{P.}%
+     {Catherine}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Beaudouin-Lafon}{B.-L.}%
+     {Michel}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Conversy}{C.}%
+     {St{\'e}phane}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Evans}{E.}%
+     {Helen}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hansen}{H.}%
+     {Heiko}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Roussel}{R.}%
+     {Nicolas}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eiderb{\"a}ck}{E.}%
+     {Bj{\"o}rn}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{HH+1}
+  \strng{fullhash}{HHMWWBBBBDAPCBLMCSEHHHRNEB1}
+  \field{labelyear}{2003}
+  \field{sortinit}{H}
+  \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI)}
+  \field{pages}{17\bibrangedash 24}
+  \field{title}{Technology probes: inspiring design for and with families}
+  \field{year}{2003}
+\endentry
+
+\entry{Ishii:2008fh}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Ishii}{I.}%
+     {Hiroshi}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{IH1}
+  \strng{fullhash}{IH1}
+  \field{labelyear}{2008}
+  \field{sortinit}{I}
+  \field{booktitle}{Proceedings of the Conference on Tangible Embodied and
+  Embedded Computing (TEI)}
+  \field{title}{Tangible bits: beyond pixels}
+  \field{year}{2008}
+\endentry
+
+\entry{Ishii:1997ur}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ishii}{I.}%
+     {Hiroshi}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ullmer}{U.}%
+     {Brygg}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{IHUB1}
+  \strng{fullhash}{IHUB1}
+  \field{labelyear}{1997}
+  \field{sortinit}{I}
+  \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI)}
+  \field{pages}{234\bibrangedash 241}
+  \field{title}{{Tangible bits: towards seamless interfaces between people,
+  bits and atoms}}
+  \field{year}{1997}
+\endentry
+
+\entry{Jacob:2008vm}{incollection}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Jacob}{J.}%
+     {Robert~J.K.}{R.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Girouard}{G.}%
+     {Audrey}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hirshfield}{H.}%
+     {Leanne~M.}{L.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Horn}{H.}%
+     {Michael~S.}{M.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Shaer}{S.}%
+     {Orit}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Solovey}{S.}%
+     {Erin~T.}{E.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zigelbaum}{Z.}%
+     {Jamie}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{JRJ+1}
+  \strng{fullhash}{JRJGAHLMHMSSOSETZJ1}
+  \field{labelyear}{2008}
+  \field{sortinit}{J}
+  \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI)}
+  \field{pages}{201\bibrangedash 210}
+  \field{title}{Reality-based interaction: a framework for post-WIMP
+  interfaces}
+  \field{year}{2008}
+\endentry
+
+\entry{jasanoff1994learning}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Jasanoff}{J.}%
+     {Sheila}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {University of Pennsylvania Press}%
+  }
+  \strng{namehash}{JS1}
+  \strng{fullhash}{JS1}
+  \field{labelyear}{1994}
+  \field{sortinit}{J}
+  \field{title}{Learning from Disaster: Risk Management After Bhopal}
+  \field{year}{1994}
+\endentry
+
+\entry{jordan1996usability}{book}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Jordan}{J.}%
+     {Patrick~W}{P.~W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thomas}{T.}%
+     {B}{B}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McClelland}{M.}%
+     {Ian~L.}{I.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Weerdmeester}{W.}%
+     {Bernanrd}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CRC Press}%
+  }
+  \strng{namehash}{JPW+1}
+  \strng{fullhash}{JPWTBMILWB1}
+  \field{labelyear}{1996}
+  \field{sortinit}{J}
+  \field{title}{Usability Evaluation In Industry}
+  \field{year}{1996}
+\endentry
+
+\entry{kirkpatrick2009evaluating}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kirkpatrick}{K.}%
+     {Donald~L.}{D.~L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kirkpatrick}{K.}%
+     {James~L.}{J.~L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Berrett-Koehler Publishers}%
+  }
+  \strng{namehash}{KDLKJL1}
+  \strng{fullhash}{KDLKJL1}
+  \field{labelyear}{2009}
+  \field{sortinit}{K}
+  \field{title}{Evaluating Training Programs: The Four Levels}
+  \field{year}{2009}
+\endentry
+
+\entry{Klemmer:2006ez}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Klemmer}{K.}%
+     {Scott~R}{S.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hartmann}{H.}%
+     {Bjorn}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Takayama}{T.}%
+     {Leila}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{KSRHBTL1}
+  \strng{fullhash}{KSRHBTL1}
+  \field{labelyear}{2006}
+  \field{sortinit}{K}
+  \field{booktitle}{Proceedings of the Conference on Designing Interactive
+  Systems (DIS)}
+  \field{pages}{140\bibrangedash 149}
+  \field{title}{How Bodies Matter: Five Themes for Interaction Design}
+  \field{year}{2006}
+\endentry
+
+\entry{Knipfer:2012vi}{misc}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Knipfer}{K.}%
+     {Kristin}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wessel}{W.}%
+     {Daniel}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {DeLeeuw}{D.}%
+     {Krista}{K.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{KKWDDK1}
+  \strng{fullhash}{KKWDDK1}
+  \field{labelyear}{2012}
+  \field{sortinit}{K}
+  \field{title}{D1.5 specification of evaluation methodology and research
+  tooling}
+  \verb{url}
+  \verb http://www.mirror-project.eu/research-results/downloads/finish/5/67
+  \endverb
+  \field{year}{2012}
+\endentry
+
+\entry{kolb1984experiential}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Kolb}{K.}%
+     {David~A}{D.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Prentice-Hall Englewood Cliffs}%
+  }
+  \strng{namehash}{KDA1}
+  \strng{fullhash}{KDA1}
+  \field{labelyear}{1984}
+  \field{sortinit}{K}
+  \field{title}{Experiential learning: Experience as the source of learning and
+  development}
+  \field{year}{1984}
+\endentry
+
+\entry{kolb1984organizational}{book}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Kolb}{K.}%
+     {David~A.}{D.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rubin}{R.}%
+     {Irwin~M.}{I.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {McIntyre}{M.}%
+     {James~M.}{J.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Prentice-Hall}%
+  }
+  \strng{namehash}{KDARIMMJM1}
+  \strng{fullhash}{KDARIMMJM1}
+  \field{labelyear}{1984}
+  \field{sortinit}{K}
+  \field{title}{Organizational psychology: an experiential approach to
+  organizational behavior}
+  \field{year}{1984}
+\endentry
+
+\entry{kolb1974toward}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Kolb}{K.}%
+     {David~Allen}{D.~A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fry}{F.}%
+     {Ronald~Eugene}{R.~E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {M.I.T. Alfred P. Sloan School of Management}%
+  }
+  \strng{namehash}{KDAFRE1}
+  \strng{fullhash}{KDAFRE1}
+  \field{labelyear}{1974}
+  \field{sortinit}{K}
+  \field{title}{Toward an Applied Theory of Experiential Learning}
+  \field{year}{1974}
+\endentry
+
+\entry{Krogstie:2013kf}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Krogstie}{K.}%
+     {Birgit~R}{B.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Prilla}{P.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pammer}{P.}%
+     {Viktoria}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Berlin Heidelberg}%
+  }
+  \strng{namehash}{KBRPMPV1}
+  \strng{fullhash}{KBRPMPV1}
+  \field{labelyear}{2013}
+  \field{sortinit}{K}
+  \field{booktitle}{Proceedings of the European Conference on Technology
+  Enhanced Learning (EC-TEL)}
+  \field{pages}{151\bibrangedash 164}
+  \field{title}{Understanding and Supporting Reflective Learning Processes in
+  the Workplace: The CSRL Model}
+  \field{year}{2013}
+\endentry
+
+\entry{krumm2009ubiquitous}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Krumm}{K.}%
+     {John}{J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {CRC Press}%
+  }
+  \strng{namehash}{KJ1}
+  \strng{fullhash}{KJ1}
+  \field{labelyear}{2009}
+  \field{sortinit}{K}
+  \field{title}{Ubiquitous computing fundamentals}
+  \field{year}{2009}
+\endentry
+
+\entry{Kyng:2006he}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Kyng}{K.}%
+     {Morten}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Nielsen}{N.}%
+     {Esben~Toftdahl}{E.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kristensen}{K.}%
+     {Margit}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{KMNETKM1}
+  \strng{fullhash}{KMNETKM1}
+  \field{labelyear}{2006}
+  \field{sortinit}{K}
+  \field{booktitle}{Proceedings of the Conference on Designing Interactive
+  Systems (DIS)}
+  \field{pages}{301\bibrangedash 310}
+  \field{title}{Challenges in designing interactive systems for emergency
+  response}
+  \field{year}{2006}
+\endentry
+
+\entry{LaPorte:1991gk}{book}{}
+  \name{author}{2}{}{%
+    {{}%
+     {La~Porte}{L.~P.}%
+     {Todd~R.}{T.~R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Consolini}{C.}%
+     {Paula~M.}{P.~M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Institute of Governmental Studies, University of California, Berkeley}%
+  }
+  \strng{namehash}{LPTRCPM1}
+  \strng{fullhash}{LPTRCPM1}
+  \field{labelyear}{1991}
+  \field{sortinit}{L}
+  \field{title}{{Working in Practice But Not in Theory}}
+  \field{year}{1991}
+\endentry
+
+\entry{Lagadec:1997js}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Lagadec}{L.}%
+     {Patrick}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing}%
+  }
+  \strng{namehash}{LP1}
+  \strng{fullhash}{LP1}
+  \field{labelyear}{1997}
+  \field{sortinit}{L}
+  \field{booktitle}{Journal of Contingencies and Crisis Management}
+  \field{number}{1}
+  \field{pages}{24\bibrangedash 31}
+  \field{title}{{Learning Processes for Crisis Management in Complex
+  Organizations}}
+  \field{volume}{5}
+  \field{year}{1997}
+\endentry
+
+\entry{Larsson:2010jr}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Larsson}{L.}%
+     {Lars{\aa}ke}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Wiley}%
+  }
+  \strng{namehash}{LL1}
+  \strng{fullhash}{LL1}
+  \field{labelyear}{2010}
+  \field{sortinit}{L}
+  \field{booktitle}{The handbook of crisis communication}
+  \field{pages}{713\bibrangedash 718}
+  \field{title}{{Crisis and learning}}
+  \field{year}{2010}
+\endentry
+
+\entry{MacKinnon:2012wz}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {MacKinnon}{M.}%
+     {Lachlan}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bacon}{B.}%
+     {Liz}{L.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{MLBL1}
+  \strng{fullhash}{MLBL1}
+  \field{labelyear}{2012}
+  \field{sortinit}{M}
+  \field{booktitle}{Proceedings of Information Systems for Crisis Response and
+  Management (ISCRAM)}
+  \field{title}{Developing Realistic Crisis Management Training}
+  \field{year}{2012}
+\endentry
+
+\entry{MAGUIRE:2001dp}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Maguire}{M.}%
+     {Martin}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Academic Press}%
+  }
+  \strng{namehash}{MM1}
+  \strng{fullhash}{MM1}
+  \field{labelyear}{2001}
+  \field{sortinit}{M}
+  \field{booktitle}{International Journal of Human-Computer Studies}
+  \field{number}{4}
+  \field{pages}{587\bibrangedash 634}
+  \field{title}{{Methods to support human-centred design}}
+  \field{volume}{55}
+  \field{year}{2001}
+\endentry
+
+\entry{March:1995gm}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {March}{M.}%
+     {Salvatore~T.}{S.~T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Smith}{S.}%
+     {Gerald~F.}{G.~F.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{MSTSGF1}
+  \strng{fullhash}{MSTSGF1}
+  \field{labelyear}{1995}
+  \field{sortinit}{M}
+  \field{booktitle}{Decision support systems}
+  \field{pages}{251\bibrangedash 266}
+  \field{title}{{Design and natural science research on information
+  technology}}
+  \field{volume}{15}
+  \field{year}{1995}
+\endentry
+
+\entry{Marquardt:2012tg}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Marquardt}{M.}%
+     {Nicolai}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Greenberg}{G.}%
+     {Saul}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {IEEE}%
+  }
+  \strng{namehash}{MNGS1}
+  \strng{fullhash}{MNGS1}
+  \field{labelyear}{2012}
+  \field{sortinit}{M}
+  \field{booktitle}{IEEE Pervasive Computing}
+  \field{number}{12}
+  \field{title}{{Informing the design of proxemic interactions}}
+  \field{volume}{1536-1268}
+  \field{year}{2012}
+\endentry
+
+\entry{Marshall:2007dr}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Marshall}{M.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{MP1}
+  \strng{fullhash}{MP1}
+  \field{labelyear}{2007}
+  \field{sortinit}{M}
+  \field{booktitle}{Proceedings of the Conference on Tangible Embodied and
+  Embedded Computing (TEI)}
+  \field{pages}{163\bibrangedash 170}
+  \field{title}{{Do tangible interfaces enhance learning?}}
+  \field{year}{2007}
+\endentry
+
+\entry{Mazalek:2009uy}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Mazalek}{M.}%
+     {Ali}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Van Den~Hoven}{V.~D.~H.}%
+     {Elise}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Cambridge University Press}%
+  }
+  \strng{namehash}{MAVDHE1}
+  \strng{fullhash}{MAVDHE1}
+  \field{labelyear}{2009}
+  \field{sortinit}{M}
+  \field{booktitle}{Artificial Intelligence for Engineering Design, Analysis
+  and Manufacturing}
+  \field{number}{3}
+  \field{pages}{225\bibrangedash 235}
+  \field{title}{{Framing tangible interaction frameworks}}
+  \field{volume}{23}
+  \field{year}{2009}
+\endentry
+
+\entry{Moynihan:2008gq}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Moynihan}{M.}%
+     {Donald~P}{D.~P.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {JSTOR}%
+  }
+  \strng{namehash}{MDP1}
+  \strng{fullhash}{MDP1}
+  \field{labelyear}{2008}
+  \field{sortinit}{M}
+  \field{booktitle}{Public Administration Review}
+  \field{number}{2}
+  \field{pages}{350\bibrangedash 365}
+  \field{title}{{Learning under Uncertainty: Networks in Crisis Management}}
+  \field{volume}{68}
+  \field{year}{2008}
+\endentry
+
+\entry{omalley:hal-00190328}{report}{}
+  \name{author}{2}{}{%
+    {{}%
+     {O'Malley}{O.}%
+     {Claire}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stanton~Fraser}{S.~F.}%
+     {Danae}{D.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{OCSFD1}
+  \strng{fullhash}{OCSFD1}
+  \field{labelyear}{2004}
+  \field{sortinit}{O}
+  \field{title}{Literature Review in Learning with Tangible Technologies}
+  \list{institution}{1}{%
+    {A NESTA Futurelab Research report - report 12. 2004}%
+  }
+  \field{type}{techreport}
+  \field{annotation}{%
+  A NESTA Futurelab Research report - report 12%
+  }
+  \field{year}{2004}
+\endentry
+
+\entry{PrPK13}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Prilla}{P.}%
+     {Michael}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pammer}{P.}%
+     {Viktoria}{V.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krogstie}{K.}%
+     {Birgit}{B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{PMPVKB1}
+  \strng{fullhash}{PMPVKB1}
+  \field{labelyear}{2013}
+  \field{sortinit}{P}
+  \field{booktitle}{Proceedings of the European Conference on Computer
+  Supported Cooperative Work (ECSCW 2013)}
+  \field{pages}{249\bibrangedash 268}
+  \field{title}{{Fostering Collaborative Redesign of Work Practice: Challenges
+  for Tools Supporting Reflection at Work}}
+  \field{year}{2013}
+\endentry
+
+\entry{Renner:v4nLmwOk}{misc}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Renner}{R.}%
+     {Bettina}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wesiak}{W.}%
+     {Gudrun}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{RBWG1}
+  \strng{fullhash}{RBWG1}
+  \field{labelyear}{2014}
+  \field{sortinit}{R}
+  \field{title}{{D1.7 Report on Summative Evaluations}}
+  \verb{url}
+  \verb http://www.mirror-project.eu/research-results/downloads/finish/5-delive
+  \verb rables/153-d1-7-report-on-summative-evaluations
+  \endverb
+  \field{year}{2014}
+\endentry
+
+\entry{robson1993real}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Robson}{R.}%
+     {Colin}{C.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing}%
+  }
+  \strng{namehash}{RC1}
+  \strng{fullhash}{RC1}
+  \field{labelyear}{1993}
+  \field{sortinit}{R}
+  \field{title}{{Real World Research: A Resource for Social Scientists and
+  Practitioner-Researchers}}
+  \field{year}{1993}
+\endentry
+
+\entry{Rogers:2006te}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rogers}{R.}%
+     {Yvonne}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Muller}{M.}%
+     {Henk}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Elsevier}%
+  }
+  \strng{namehash}{RYMH1}
+  \strng{fullhash}{RYMH1}
+  \field{labelyear}{2006}
+  \field{sortinit}{R}
+  \field{booktitle}{International Journal of Human-Computer Studies}
+  \field{number}{1}
+  \field{pages}{1\bibrangedash 14}
+  \field{title}{{A framework for designing sensor-based interactions to promote
+  exploration and reflection in play}}
+  \field{volume}{64}
+  \field{year}{2006}
+\endentry
+
+\entry{Rogers:2003tt}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Rogers}{R.}%
+     {Yvonne}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Rodden}{R.}%
+     {Tom}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{RYRT1}
+  \strng{fullhash}{RYRT1}
+  \field{labelyear}{2003}
+  \field{sortinit}{R}
+  \field{booktitle}{Public and Situated Displays}
+  \field{pages}{45\bibrangedash 79}
+  \field{title}{{Configuring Spaces and Surfaces to Support Collaborative
+  Interactions}}
+  \field{year}{2003}
+\endentry
+
+\entry{Rogers:2007gv}{incollection}{}
+  \name{author}{8}{}{%
+    {{}%
+     {Rogers}{R.}%
+     {Yvonne}{Y.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Connelly}{C.}%
+     {Kay}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tedesco}{T.}%
+     {Lenore}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hazlewood}{H.}%
+     {William}{W.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kurtz}{K.}%
+     {Andrew}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hall}{H.}%
+     {Robert~E}{R.~E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hursey}{H.}%
+     {Josh}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Toscos}{T.}%
+     {Tammy}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer Berlin Heidelberg}%
+  }
+  \strng{namehash}{RY+1}
+  \strng{fullhash}{RYCKTLHWKAHREHJTT1}
+  \field{labelyear}{2007}
+  \field{sortinit}{R}
+  \field{booktitle}{Proceedings of the Conference on Ubiquitous Computing
+  (Ubicomp)}
+  \field{pages}{336\bibrangedash 353}
+  \field{title}{{Why It{\textquoteright}s Worth the Hassle: The Value of
+  In-Situ Studies When Designing Ubicomp}}
+  \field{year}{2007}
+\endentry
+
+\entry{Sagun:2009ks}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Sagun}{S.}%
+     {Aysu}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bouchlaghem}{B.}%
+     {Dino}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Anumba}{A.}%
+     {Chimay~J}{C.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing}%
+  }
+  \strng{namehash}{SABDACJ1}
+  \strng{fullhash}{SABDACJ1}
+  \field{labelyear}{2009}
+  \field{sortinit}{S}
+  \field{booktitle}{Disasters}
+  \field{number}{2}
+  \field{pages}{214\bibrangedash 238}
+  \field{title}{{A scenario-based study on information flow and collaboration
+  patterns in disaster management}}
+  \field{volume}{33}
+  \field{year}{2009}
+\endentry
+
+\entry{Schon:1983ut}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Sch{\"o}n}{S.}%
+     {Donald~A.}{D.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Basic Books}%
+  }
+  \strng{namehash}{SDA1}
+  \strng{fullhash}{SDA1}
+  \field{labelyear}{1983}
+  \field{sortinit}{S}
+  \field{title}{{The reflective practitioner: how professionals think in
+  action}}
+  \field{year}{1983}
+\endentry
+
+\entry{Schwab:2007iw}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schwab}{S.}%
+     {Andreas}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Informs}%
+  }
+  \strng{namehash}{SA1}
+  \strng{fullhash}{SA1}
+  \field{labelyear}{2007}
+  \field{sortinit}{S}
+  \field{booktitle}{Organization Science}
+  \field{number}{2}
+  \field{pages}{233\bibrangedash 251}
+  \field{title}{{Incremental Organizational Learning from Multilevel
+  Information Sources: Evidence for Cross-Level Interactions}}
+  \field{volume}{18}
+  \field{year}{2007}
+\endentry
+
+\entry{Schwantzer:2014we}{misc}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Schwantzer}{S.}%
+     {Simon}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SS1}
+  \strng{fullhash}{SS1}
+  \field{labelyear}{2014}
+  \field{sortinit}{S}
+  \field{title}{{D2.6 AppSphere Showcase Platform {\textendash} version 3}}
+  \verb{url}
+  \verb http://mirror-project.eu/research-results/deliverables/285-d26-appspher
+  \verb e-showcase-platform-version-3
+  \endverb
+  \field{year}{2014}
+\endentry
+
+\entry{Shaer:2009fx}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Shaer}{S.}%
+     {Orit}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Hornecker}{H.}%
+     {Eva}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Now, the essence of knowledge}%
+  }
+  \strng{namehash}{SOHE1}
+  \strng{fullhash}{SOHE1}
+  \field{labelyear}{2009}
+  \field{sortinit}{S}
+  \field{booktitle}{Foundations and Trends in Human{\textendash}Computer
+  Interaction}
+  \field{number}{1-2}
+  \field{pages}{1\bibrangedash 137}
+  \field{title}{{Tangible User Interfaces: Past, Present, and Future
+  Directions}}
+  \field{volume}{3}
+  \field{year}{2009}
+\endentry
+
+\entry{Shaer:2004ta}{incollection}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Shaer}{S.}%
+     {Orit}{O.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Leland}{L.}%
+     {Nancy}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Calvillo-G{\'a}mez}{C.-G.}%
+     {Eduardo~H.}{E.~H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jacob}{J.}%
+     {Robert~J.K.}{R.~J.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{SO+1}
+  \strng{fullhash}{SOLNCGEHJRJ1}
+  \field{labelyear}{2004}
+  \field{sortinit}{S}
+  \field{booktitle}{Personal and Ubiquitous Computing}
+  \field{number}{5}
+  \field{pages}{359\bibrangedash 369}
+  \field{title}{{The TAC paradigm: specifying tangible user interfaces}}
+  \field{volume}{8}
+  \field{year}{2004}
+\endentry
+
+\entry{simon1996sciences}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Simon}{S.}%
+     {Herbert~A.}{H.~A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {MIT Press}%
+  }
+  \strng{namehash}{SHA1}
+  \strng{fullhash}{SHA1}
+  \field{labelyear}{1996}
+  \field{sortinit}{S}
+  \field{title}{{The Sciences of the Artificial}}
+  \field{year}{1996}
+\endentry
+
+\entry{Stern:1997eb}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Stern}{S.}%
+     {Eric}{E.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Blackwell Publishing}%
+  }
+  \strng{namehash}{SE1}
+  \strng{fullhash}{SE1}
+  \field{labelyear}{1997}
+  \field{sortinit}{S}
+  \field{booktitle}{Journal of Contingencies and Crisis Management}
+  \field{number}{2}
+  \field{pages}{69\bibrangedash 86}
+  \field{title}{{Crisis and Learning: A Conceptual Balance Sheet}}
+  \field{volume}{5}
+  \field{year}{1997}
+\endentry
+
+\entry{Terrenghi:2005gq}{incollection}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Terrenghi}{T.}%
+     {Lucia}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kranz}{K.}%
+     {Matthias}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Holleis}{H.}%
+     {Paul}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Schmidt}{S.}%
+     {Albrecht}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{TL+1}
+  \strng{fullhash}{TLKMHPSA1}
+  \field{labelyear}{2005}
+  \field{sortinit}{T}
+  \field{booktitle}{Personal and Ubiquitous Computing}
+  \field{number}{2-3}
+  \field{pages}{153\bibrangedash 158}
+  \field{title}{{A cube to learn: a tangible user interface for the design of a
+  learning appliance}}
+  \field{volume}{10}
+  \field{year}{2005}
+\endentry
+
+\entry{Terrenghi:2007uv}{incollection}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Terrenghi}{T.}%
+     {Lucia}{L.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kirk}{K.}%
+     {David}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Sellen}{S.}%
+     {Abigail}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Izadi}{I.}%
+     {Shahram}{S.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{TL+1}
+  \strng{fullhash}{TLKDSAIS1}
+  \field{labelyear}{2007}
+  \field{sortinit}{T}
+  \field{booktitle}{Proceedings of the SIGCHI Conference on Human Factors in
+  Computing Systems (CHI)}
+  \field{pages}{1157\bibrangedash 1166}
+  \field{title}{{Affordances for manipulation of physical versus digital media
+  on interactive surfaces}}
+  \field{year}{2007}
+\endentry
+
+\entry{Ullmer:2000vf}{article}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Ullmer}{U.}%
+     {Brygg}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ishii}{I.}%
+     {Hiroshi}{H.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{UBIH1}
+  \strng{fullhash}{UBIH1}
+  \field{labelyear}{2000}
+  \field{sortinit}{U}
+  \field{number}{3.4}
+  \field{pages}{915\bibrangedash 931}
+  \field{title}{{Emerging frameworks for tangible user interfaces}}
+  \field{volume}{39}
+  \field{journaltitle}{IBM systems journal}
+  \field{year}{2000}
+\endentry
+
+\entry{Ullmer:2005jz}{incollection}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Ullmer}{U.}%
+     {Brygg}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ishii}{I.}%
+     {Hiroshi}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Jacob}{J.}%
+     {Robert J~K}{R.~J.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{UBIHJRJK1}
+  \strng{fullhash}{UBIHJRJK1}
+  \field{labelyear}{2005}
+  \field{sortinit}{U}
+  \field{booktitle}{ACM Transactions on Computer-Human Interaction (TOCHI)}
+  \field{number}{1}
+  \field{title}{{Token+constraint systems for tangible interaction with digital
+  information}}
+  \field{volume}{12}
+  \field{month}{03}
+  \field{year}{2005}
+\endentry
+
+\entry{VanDam:1997tz}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Van~Dam}{V.~D.}%
+     {Andries}{A.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{VDA1}
+  \strng{fullhash}{VDA1}
+  \field{labelyear}{1997}
+  \field{sortinit}{V}
+  \field{booktitle}{Communications of the ACM}
+  \field{number}{2}
+  \field{pages}{63\bibrangedash 67}
+  \field{title}{{Post-WIMP user interfaces}}
+  \field{volume}{40}
+  \field{year}{1997}
+\endentry
+
+\entry{Walsham:2006bo}{incollection}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Walsham}{W.}%
+     {Geoff}{G.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Palgrave-Macmillan}%
+  }
+  \strng{namehash}{WG1}
+  \strng{fullhash}{WG1}
+  \field{labelyear}{2006}
+  \field{sortinit}{W}
+  \field{booktitle}{European journal of information systems}
+  \field{number}{3}
+  \field{pages}{320\bibrangedash 330}
+  \field{title}{{Doing interpretive research}}
+  \field{volume}{15}
+  \field{year}{2006}
+\endentry
+
+\entry{weiser1991computer}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Weiser}{W.}%
+     {Mark}{M.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{WM1}
+  \strng{fullhash}{WM1}
+  \field{labelyear}{1991}
+  \field{sortinit}{W}
+  \field{title}{{The Computer for the 21st Century}}
+  \field{journaltitle}{Scientific american}
+  \field{year}{1991}
+\endentry
+
+\entry{Zhai:2005jm}{incollection}{}
+  \name{author}{2}{}{%
+    {{}%
+     {Zhai}{Z.}%
+     {Shumin}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bellotti}{B.}%
+     {Victoria}{V.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {ACM Press}%
+  }
+  \strng{namehash}{ZSBV1}
+  \strng{fullhash}{ZSBV1}
+  \field{labelyear}{2005}
+  \field{sortinit}{Z}
+  \field{booktitle}{Transactions on Computer-Human Interaction (TOCHI)}
+  \field{number}{1}
+  \field{title}{{Introduction to sensing-based interaction}}
+  \field{volume}{12}
+  \field{year}{2005}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput
