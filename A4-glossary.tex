@@ -1,0 +1,102 @@
+\chapter{Toolkits for rapid prototyping of sensing-based interfaces} \label{toolkits}
+
+This appendix catalogue selected toolkits to ease prototyping of hardware and software features of sensing-based interfaces. A toolkit usually is composed by a mix of electronic circuitries, components, software libraries and communities of users willing to share knowledge and reveals implementation details of prototypes being built. 
+
+The list reported in Table \ref{tab:toolkits} has been used to select relevant tools used to build the prototypes developed during the PhD work and can be used to drive future design iterations.  The toolkits hereafter reported has been selected after surveying, and in some case trying out, development tools either already available as commercial products or being available to beta testers. 
+
+Toolkits are classified along four dimensions, chosen to support  challenges and requirements commonly found in the development of sensing-based interfaces:
+
+\begin{itemize}
+	\item \textbf{Modularity: }whether the tool allows to build transient electronic circuitries without requiring soldering or high expertise in electronic engineering. For example by means of wired or wireless plug-and-play modules. 
+	\item \textbf{Connectivity: }whether the tool allows to effortlessly build internet-enabled prototypes by embedding wireless transceivers operating with standard protocols. For example providing ready to use bluetooth or wifi connectivity.
+	\item \textbf{Ecology: }whether the tool provides guidelines and mechanisms to build applications that orchestrate a network of heterogeneous artefacts to provide a common functionality. For example to enable distributing user interaction on a number of different interfaces yet providing a consistent user experience.
+	\item \textbf{Visual programming language: }whether the tools allows programming features using visual or other metaphors to speed up the development of software.
+\end{itemize} 
+
+In the following, Table \ref{tab:toolkits} details the toolkits reviewed. Rather than providing an exhaustive list of solutions the aim is at providing a reference to tools that somehow address the prototyping challenges found in this PhD work. 
+
+%\begin{center}
+	\begin{landscape}
+	\begin{longtable}{P{2cm}P{1cm}P{1cm}P{1.5cm}P{1.5cm}P{1.5cm}P{.51cm}P{.51cm}}
+	\caption[List of toolkits for rapid prototyping of sensing-based interfaces]{List of toolkits for rapid prototyping of sensing-based interfaces}	
+     \label{tab:toolkits} \\
+
+\hline
+	    \multicolumn{1}{P{2cm}}{\textbf{Name}}  & \multicolumn{1}{P{1.5cm}}{\textbf{Price}}  & \multicolumn{1}{P{1.5cm}}{\textbf{Released}} & \multicolumn{1}{P{1.5cm}}{\textbf{Open\protect\newline source}} & \multicolumn{1}{P{1.5cm}}{\textbf{Modul.}}       & \multicolumn{1}{P{1.5cm}}{\textbf{Connect.}}           & \multicolumn{1}{P{1.5cm}}{\textbf{Ecology}} & \multicolumn{1}{P{1.5cm}}{\textbf{Visual\newline language}}                      \\ \midrule    
+		
+\endfirsthead
+	    \multicolumn{1}{P{2cm}}{\textbf{Name}}  & \multicolumn{1}{P{1.5cm}}{\textbf{Price}}  & \multicolumn{1}{P{1.5cm}}{\textbf{Released}} & \multicolumn{1}{P{1.5cm}}{\textbf{Open\protect\newline source}} & \multicolumn{1}{P{1.5cm}}{\textbf{Modul.}}       & \multicolumn{1}{P{1.5cm}}{\textbf{Connect.}}           & \multicolumn{1}{P{1.5cm}}{\textbf{Ecology}} & \multicolumn{1}{P{1.5cm}}{\textbf{Visual\newline language}}                      \\ \midrule    
+\endhead
+\hline \multicolumn{8}{r}{{Continued on next page}} \\ \hline
+\endfoot
+\hline \hline
+\endlastfoot
+	    Arduino [1]                          & \$30     & 2005         & yes         &yes (tinker kit)  & yes (w/extra hw)   & no   & yes (ardublock)  \\
+	    RaspberryPi [2]                      & \$40      & 2012         & yes         & no               & yes (w/extra hw)    & no      & yes \newline (scratch)         \\
+	    LittleBits [3]                        & \$100 & 2008         & yes         & yes              & yes (wifi)             & no      & no                                \\
+	    Lightblue Bean [4]                    & \$30      & 2013         & partially   & no               & yes (ble)              & no      & no                      \\
+	    Printoo [5]                           & \$45    & 2014         & yes         & yes              & yes (ble)              & no      & no                       \\
+	    Bitalino [6]                          & \$45          & 2014         & n/a         & yes              & n/a                    & no      & no                                \\
+	    Atomwear [7]                          & \$45   & 2014         & yes         & yes              & yes (ble)              & no      & no                   \\
+	    Microduino [8]                        & \$20         & 2013         & yes         & yes              & yes (BT)               & no      & no                       \\
+	    Twine [9]                             & \$99        & 2012         & n/a         & no               & yes (wifi)             & no      & no                                \\
+	    Microview [10]                         & \$45        & 2014         & partially   & no               & no                     & no      & no                       \\
+	    Xadow [11]                             & \$30        & 2012         & no          & yes              & yes (ble)              & no      & no                      \\
+	    Kano Computer [12]                      & \$99        & 2013         & partially   & no               & yes (wifi)             & no      & yes\newline (scratch)                     \\
+	    Spark [13]                             & \$39       & 2013         & partially   & no               & yes (wifi)             & no      & no                 \\
+	    Wonderbar [14]                          & \$100 & 2013         & no          & yes              & yes (ble+wifi)         & n/a     & yes              \\
+	    Metawear [15]                          & \$35   & 2014         & no          & no               & yes (ble)              & no      & no                         \\
+	    Smart Citizen [16]                      & \$100  & 2012         & no          & partially        & yes (wifi)             & no      & no                                \\
+	    Circuit Scribe [17]                    & \$30   & 2014         & no          & yes              & no                     & no      & no                                \\
+	    Verve 2 [18]                           & \$45   & 2014         & n/a         & yes              & no                     & no      & n/a                               \\
+	    Notion	[19]						   & \$99        & 2014         & no          & yes              & no                     & no      & no             \\
+	    Make!Sense [20]                        & \$39        & 2014         & no          & yes              & no                     & no      & yes\newline (scratch)                     \\
+	    McThings [21]                          & \$100       & 2014         & n/a         & yes              & yes (ble+wifi)         & no      & yes            \\
+	    Gadgeteer [22]                         & \$100   & 2009         & no          & no               & no                     & no      & no                                \\
+	    Intel Edison\newline Sparkfun Blocks [23]     & \$120   & 2015         & no          & yes              & yes (ble+wifi)         & no      & no                                \\
+	    Mesh [24]                              & \$105   & 2015         & n/a         & yes              & yes (ble)              & yes     & yes                               \\
+	    Spark Photon [25]                       & \$19        & 2015         & n/a         & no               & yes (wifi)             & no      & no                                \\
+	    Airboard [26]                          & \$20        & 2015         & no          & yes              & yes                    & no      & no                                \\
+	    HIRIS [27]                             & \$100       & 2015         & n/a         & yes              & yes(ble)               & no      & no                                \\				
+	\bottomrule
+	\end{longtable}
+	\end{landscape}
+	
+	\textbf{References: }
+	
+	[1]: http://arduino.cc  \newline
+	[2]: http://raspberrypi.org  \newline
+	[3]: http://littlebits.cc  \newline
+	[4]: http://punchthrough.com/bean/ \newline
+	[5]: http://printoo.pt \newline
+	[6]: http://www.bitalino.com/ \newline
+	[7]: https://www.kickstarter.com/projects/343910040/atomwear \newline
+	[8]: https://www.kickstarter.com/projects/microduino/microduino-arduino-in-your-pocket-small-stackable \newline
+	[9]: https://www.kickstarter.com/projects/supermechanical/twine-listen-to-your-world-talk-to-the-internet \newline
+	[10]: https://www.kickstarter.com/projects/1516846343/microview-chip-sized-arduino-with-built-in-oled-di \newline
+	[11]: http://www.seeedstudio.com/depot/s/xadow.html \newline
+	[12]: https://www.kickstarter.com/projects/alexklein/kano-a-computer-anyone-can-make \newline
+	[13]: https://www.kickstarter.com/projects/sparkdevices/spark-core-wi-fi-for-everything-arduino-compatible \newline
+	[14]: http://www.dragoninnovation.com/projects/35-wunderbar-by-relayr \newline
+	[15]: https://www.kickstarter.com/projects/guardyen/metawear-production-ready-wearables-in-30-minutes  \newline
+	[16]: https://www.kickstarter.com/projects/acrobotic/the-smart-citizen-kit-crowdsourced-environmental \newline
+	[17]: https://www.kickstarter.com/projects/electroninks/circuit-scribe-draw-circuits-instantly \newline
+	[18]: https://www.kickstarter.com/projects/54060271/verve2-connect-your-world-to-your-computer-and-int \newline
+	[19]: https://www.kickstarter.com/projects/1044009888/notion-be-home-even-when-youre-not \newline
+	[20]: https://www.kickstarter.com/projects/1978340629/makesense-a-universal-interface-for-learning \newline
+	[21]: https://www.kickstarter.com/projects/2016620887/mcthings-tiny-wireless-bluetooth-sensors-and-contr \newline
+	[22]: http://www.netmf.com/gadgeteer/ \newline
+	[23]: https://www.sparkfun.com/products/13276 \newline
+	[24]: https://www.indiegogo.com/projects/mesh-creative- \newline diy-kit-for-the-connected-life \newline
+	[25]: https://www.spark.io \newline
+	[26]: https://www.kickstarter.com/projects/223628811/the-airboard-sketch-internet-of-things-fast  \newline
+	[27]: https://www.indiegogo.com/projects/hiris-the-first-wearable-computer-for-everyone \newline
+
+	
+%	\end{center}
+
+
+
+
+
+
