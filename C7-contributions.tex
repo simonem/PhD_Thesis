@@ -82,11 +82,27 @@ Contribution 1 can be a resource for researchers in the field of computer suppor
 
 Contribution 2 of this thesis is a set of challenges for the design of experience-capturing tools during real or simulated crises.
 
-Seven design challenges derived from multiple user studies with crisis workers (summarised in Table \ref{tab:design-challenges}), have been reported in P3. Despite the guidelines for designing sensor and capturing tools for a variety of domains; in this work I focused on capturing information that is is relevant for reflective learning in crisis training. The challenges shed light on \emph{what} information is relevant and \emph{how} to capture relevant information. This contribution also highlights a design trade-off common for many sensing-based applications: the degree of data that can be captured with sensors, automatically and without user intervention, versus information that can be submitted in-action by workers themselves; which, in the case of crisis training, requires novel interaction modalities (Contribution 3). 
+Seven design challenges derived from multiple user studies with crisis workers, have been reported in P3. The challenges are summarised in Table \ref{tab:design-challenges}. Despite there are guidelines for designing sensor and capturing tools for a variety of domains; in this work I focused on capturing information that is is relevant for reflective learning in crisis training. The challenges shed light on \emph{what} information is relevant and \emph{how} to capture relevant information. This contribution also highlights a design trade-off common for many sensing-based applications: the degree of data that can be captured with sensors, automatically and without user intervention, versus information that can be submitted in-action by workers themselves; which, in the case of crisis training, requires novel interaction approaches (Contribution 3). 
 
 The challenges have informed the design of \emph{WATCHiT}, a modular data capturing tool (P3) that has been successfully evaluated in a scenario to support debriefing after procedural training (P2). \emph{WATCHiT} can be configured to address new scenarios, data captured can be also used to support coordination of work or monitoring activities in real time.
 
-Contribution 2 can be a resource for computer scientists aiming at designing technologies for pervasive, quantitative and qualitative data collection. The presented challenges constitute a foundation for a design space for data capturing tools. They are an expression of the trade-off between technology-centred quantitative data acquisition and user-centred qualitative information collection.
+Contribution 2 can be a resource for computer scientists aiming at designing technologies for pervasive quantitative and qualitative data collection. The presented challenges constitute a foundation for a design space for data capturing tools. They are an expression of the trade-off between technology-centred quantitative data acquisition and user-centred qualitative information collection.
+
+\begin{table}
+	[p] \centering \caption{Design challenges for data collection tools in crisis work} \label{tab:design-challenges} 
+	\begin{tabular}
+		{@{}p{0.05\linewidth}p{0.25\linewidth}p{0.60\linewidth}@{}} \toprule & Challenge & Description \\
+		\midrule DC1 & Mobility of work and sensing & It is important to complement data from sensors embedded in the environment with mobile ones. The degree of mobility and thus granularity of data is important. Fine granular data is achieved with sensors worn by first responders. \\
+		DC2 & Different crises, different relevant data & Being each crisis almost unique, it is difficult to define which data might be relevant to capture based on generic typologies of crises. \\
+		DC3 & Different types of data & Different types of information are relevant to be captured. Including information for assessment of the worker’s safety, for mapping the territory and the work and Information related to the rescued people (e.g. type of injures). \\
+		DC4 & Sensor data and user-submitted data & Workers might however provide critical qualitative data that cannot be measured with sensors to complement quantitative ones. \\
+		DC5 & Different use, different sharing & While some types of data (e.g. location of agents) can be shared with colleagues to support real-time real time coordination, it's up each agent whether to share or not sensitive data (e.g. stress levels) with peers. \\
+		DC6 & Intuitive, hands-free interaction & Workers must focus on the rescue operation and not on data capturing and logging tasks. User interfaces must be very intuitive and distraction-free. \\
+		DC7 & Automate and discrete capturing & Capturing data with automatic means doesn't require user intervention but it produce datasets often affected by noise. Discrete capturing requires the user to activate sensors but produces more relevant and contextualised data. \\
+		\bottomrule 
+	\end{tabular}
+\end{table}
+
 
 \section{C3: Novel sensing-based interaction techniques to support recreation and generation of work experiences in crisis training}\label{c3-novel-sensing-based-interaction-techniques-to-support-recreation-and-generation-of-work-experiences-in-crisis-training}
 

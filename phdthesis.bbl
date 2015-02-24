@@ -1,5 +1,5 @@
 % $ biblatex auxiliary file $
-% $ biblatex version 2.4 $
+% $ biblatex version 2.3 $
 % Do not modify the above lines!
 %
 % This is an auxiliary file used by the 'biblatex' package.
@@ -2221,6 +2221,25 @@
   \field{title}{{The Computer for the 21st Century}}
   \field{journaltitle}{Scientific american}
   \field{year}{1991}
+\endentry
+
+\entry{yin2013case}{book}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Yin}{Y.}%
+     {R~K}{R.~K.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {SAGE Publications}%
+  }
+  \strng{namehash}{YRK1}
+  \strng{fullhash}{YRK1}
+  \field{labelyear}{2013}
+  \field{sortinit}{Y}
+  \field{title}{{Case Study Research: Design and Methods}}
+  \field{year}{2013}
 \endentry
 
 \entry{Zhai:2005jm}{incollection}{}
