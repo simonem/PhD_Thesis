@@ -1,4 +1,4 @@
-\documentclass[11pt,b5paper,twoside,showtrims]{memoir}
+\documentclass[10pt,b5paper,twoside,openright,showtrims]{memoir}
 %\DisemulatePackage{crop}
 
 \usepackage[utf8]{inputenc}
@@ -7,12 +7,18 @@
 % from phd template
 %\usepackage[margin=20mm,top=15mm,bindingoffset=10mm,includeheadfoot,headheight=14.5pt]{geometry}
 %\usepackage[cam,a4,center]{crop}
+%\usepackage[lmargin=25mm,rmargin=25mm,tmargin=27mm,bmargin=30mm]{geometry}
 
+%\usepackage[lmargin=25mm,rmargin=25mm,tmargin=27mm,bmargin=30mm, bindingoffset=5mm]{geometry}
+%\linespread{1.1}
 
 % Layout from master themplate
-%\setlrmarginsandblock{25mm}{*}{0.91}
-%\setulmarginsandblock{7pc}{*}{1}
-%\checkandfixthelayout
+\setlrmarginsandblock{25mm}{*}{0.91}
+\setulmarginsandblock{7pc}{*}{1}
+\setbinding{20mm}
+\checkandfixthelayout
+
+
 
 % fonts
 %\usepackage{fontspec}
@@ -46,6 +52,7 @@
 
 
 % chapter style:
+% chapter style:
 %\makeatletter
 %\makechapterstyle{thesis}{%
 %  \renewcommand{\chapternamenum}{}
@@ -58,7 +65,7 @@
 %  \renewcommand{\printchapternum}{}
 %  \renewcommand{\afterchapternum}{}
 %  \renewcommand{\printchaptername}{}
- %\renewcommand{\afterchaptertitle}{\chapnumfont\hfill\thechapter\\\vspace*{-.3cm}\hrulefill\vspace*{6cm}\\}
+  %\renewcommand{\afterchaptertitle}{\chapnumfont\hfill\thechapter\\\vspace*{-.3cm}\hrulefi%ll\vspace*{6cm}\\}
 %}
 %\makeatother
 
@@ -170,11 +177,12 @@
 \newcommand{\RQiii}{How sensing-based interfaces for supporting reflection can be rapidly prototyped?}	
 \newcommand{\Ci}{Implementation and evaluation of MIRROR Computer Supported Reflective Learning (CSRL) theory}
 \newcommand{\Cii}{Knowledge about designing experience-capturing tools for crisis workers}
-\newcommand{\Ciii}{Novel sensing-based interaction techniques to support re-creation and generation of work experiences in crisis training}
+\newcommand{\Ciii}{Novel sensing-based interaction techniques to support re-creation and generation of work experience in crisis training}
 \newcommand{\Civ}{Knowledge about implementing prototypes to be deployed into the wild}
 
+\usepackage{verbatim, enumitem}
+
 %-------------------------------------
-\makeindex
 
 \begin{document}
 	
@@ -182,23 +190,20 @@
 \frontmatter
 \include{F1-abstract}
 \include{F2-preface}
-\include{F3-aknowledgements}
+%\include{F3-aknowledgements}
 \tableofcontents
+\cleardoublepage
 \listoffigures
+\cleardoublepage
 \listoftables
 \listoftodos
 \include{F4-abbreviations}
 
 \mainmatter
-
 \chapterstyle{southall}
-\pagestyle{Ruled}
+\pagestyle{ruled}
 
 \include{C1-introduction}
-
-%\let\stdsection\section
-%\renewcommand\section{\newpage\stdsection}
-
 \include{C2-crisis}
 \include{C3-csrl}
 \include{C4-interaction}
@@ -207,9 +212,17 @@
 \include{C7-contributions}
 \include{C8-evaluation}
 \include{C9-conclusions}
-
 \appendix
-\include{A1-papers}
+\include{A1-secondary-papers}
+\include{A2-abroad}
+\include{A3-toolkits}
+\backmatter
+%\addcontentsline{toc}{chapter}{References}
+\printbibliography[title=References]
+
+\mainmatter
+\include{P2-papers}
+\begin{comment}
 \includepdf[pages=-]{./papers/P1.pdf}
 \includepdf[pages=-]{./papers/P2.pdf}
 \includepdf[pages=-]{./papers/P3.pdf}
@@ -217,13 +230,5 @@
 \includepdf[pages=-]{./papers/P5.pdf}
 \includepdf[pages=-]{./papers/P6.pdf}
 \includepdf[pages=-]{./papers/P7.pdf}
-\include{A2-secondary-papers}
-\include{A3-abroad}
-\include{A4-toolkits}
-
-\backmatter
-\chapterstyle{default}
-
-\printbibliography
-
+\end{comment}
 \end{document}
