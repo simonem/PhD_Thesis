@@ -1,13 +1,52 @@
-\documentclass[10pt, b5paper,twoside,openright]{book}
-
-%from phd template
-%\usepackage[margin=20mm,top=15mm,bindingoffset=10mm,includeheadfoot,headheight=14.5pt]{geometry}
-%from daim
-\usepackage[lmargin=25mm,rmargin=25mm,tmargin=27mm,bmargin=30mm]{geometry}
-%\usepackage[cam,a4,center]{crop}
+\documentclass[10pt,twoside,openright,b5paper]{memoir}
+%\DisemulatePackage{crop}
 
 \usepackage[utf8]{inputenc}
 \usepackage[british]{babel}
+
+% from phd template
+%\usepackage[cam,a4,center]{crop}
+%\usepackage[lmargin=25mm,rmargin=25mm,tmargin=27mm,bmargin=30mm]{geometry}
+%\usepackage[lmargin=25mm,rmargin=25mm,tmargin=27mm,bmargin=30mm, bindingoffset=5mm]{geometry}
+%\linespread{1.1}
+
+% Layout from master themplate
+%\setbinding{10mm}
+%\setstocksize{297mm}{210mm}
+%\settrimmedsize{250mm}{176mm}{*}
+\setlrmarginsandblock{30mm}{20mm}{*}
+\setulmarginsandblock{27mm}{30mm}{1}
+\checkandfixthelayout
+
+% chapter style:
+\makeatletter
+\makechapterstyle{thesis}{%
+  \renewcommand{\chapternamenum}{}
+  \setlength{\beforechapskip}{0pt}
+  \setlength{\midchapskip}{0pt}
+  \setlength{\afterchapskip}{0pt}
+  \renewcommand{\chapnamefont}{\LARGE}
+  \renewcommand{\chapnumfont}{\chapnamefont}
+  \renewcommand{\chaptitlefont}{\chapnamefont}
+  \renewcommand{\printchapternum}{}
+  \renewcommand{\afterchapternum}{}
+  \renewcommand{\printchaptername}{}
+  \renewcommand{\afterchaptertitle}{\chapnumfont\hfill\thechapter\\\vspace*{-.3cm}\hrulefill\vspace*{6cm}\\}
+}
+\makeatother
+
+%\setsecheadstyle{\LARGE\mdseries}
+%\setsubsecheadstyle{\Large\mdseries}
+
+% divisions:
+\maxsecnumdepth{subsubsection}
+\maxtocdepth{subsection}
+\setsecnumdepth{subsection}
+
+%caption
+%\makeatletter 
+%\renewcommand{\fnum@figure}{\textsc{\figurename~\thefigure}}
+%\makeatother
 
 %\usepackage{lmodern}
 \usepackage{microtype}
@@ -18,15 +57,12 @@
 \usepackage[disable]{todonotes}
 \usepackage{wrapfig}
 \usepackage{booktabs, tabulary, longtable}
-\usepackage{rotating, multirow, lscape}
+\usepackage{rotating, multirow, pdflscape}
 \usepackage[flushleft]{threeparttable}
 \usepackage{xcolor}
 \usepackage{framed}
-
-% Table of contents formatting
-\renewcommand{\contentsname}{Table of Contents}
-\setcounter{tocdepth}{4}
-\setcounter{secnumdepth}{4}
+\usepackage{verbatim, enumitem}
+\usepackage{array}
 
 %hyperlinks
 \usepackage[unicode=true]{hyperref}
@@ -35,9 +71,9 @@
             pdfauthor={Simone Mora},
             pdftitle={PhD Thesis},
             colorlinks=true,
-           citecolor=blue,
+            citecolor=blue,
             urlcolor=blue,
-           linkcolor=magenta,
+            linkcolor=magenta,
         %    pdfborder={0 0 0}
 			}
 \urlstyle{same}  % don't use monospace font for urls
@@ -46,23 +82,6 @@
 \setlength{\parindent}{0pt} 
 \setlength{\parskip}{6pt plus 2pt minus 1pt} 
 %\setlength{\emergencystretch}{3em} % prevent overfull lines 
-
-% Headers and page numbering 
-\usepackage{fancyhdr}
-\pagestyle{fancy}
-\addtolength{\headheight}{2.5pt}
-\addtolength{\oddsidemargin}{0.7cm}
-\addtolength{\evensidemargin}{-0.7cm}
-\fancyhead{}				% Header flush
-\fancyfoot{}
-\fancyhead[LE,RO]{\thepage}	% Page number on the external side of the pages
-\fancyhead[RE]{\leftmark}		% Chapter name on the right page
-\fancyhead[LO]{\rightmark}	% Section name on the left page
-% Improving chapter name in the header
-\renewcommand{\chaptermark}[1]{%
-\markboth{\thechapter.\ #1}{}}
-% Improving section name in the header
-\renewcommand{\sectionmark}[1]{\markright{\thesection\ #1}} 
 
 %Hypernation
 \hyphenation{UbiCollab}
@@ -101,7 +120,6 @@
 	% \specialcell{Date,\\duration}
 	
 % left align in table paragraphs
-\usepackage{array, url}
 \newcolumntype{P}[1]{>{\raggedright\arraybackslash}p{#1}}
 	
 % Metadata
@@ -114,24 +132,30 @@
 \newcommand{\Ciii}{Novel sensing-based interaction techniques to support re-creation and generation of work experience in crisis training}
 \newcommand{\Civ}{Knowledge about implementing prototypes to be deployed into the wild}
 
-\usepackage{verbatim, enumitem}
+
 
 %-------------------------------------
 
 \begin{document}
-	
+
+\aliaspagestyle{part}{empty}
 \includepdf[pages={1,2}]{cover.pdf}
 \frontmatter
 \include{F1-abstract}
 \include{F2-preface}
 \include{F3-aknowledgements}
 \tableofcontents
+\cleardoublepage
 \listoffigures
+\cleardoublepage
 \listoftables
 \listoftodos
 \include{F4-abbreviations}
 
 \mainmatter
+\part[Part I]{Introduction and methods}
+\chapterstyle{southall}
+\pagestyle{ruled}
 \include{C1-introduction}
 \include{C2-crisis}
 \include{C3-csrl}
@@ -146,10 +170,12 @@
 \include{A2-abroad}
 \include{A3-toolkits}
 \backmatter
-\addcontentsline{toc}{chapter}{References}
+%\addcontentsline{toc}{chapter}{References}
 \printbibliography[title=References]
 
 \mainmatter
+\part[Part II]{Research papers}
+\pagenumbering{gobble}
 \include{P2-papers}
 \begin{comment}
 \includepdf[pages=-]{./papers/P1.pdf}
