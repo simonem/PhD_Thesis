@@ -142,14 +142,17 @@
 \includepdf[pages={1,2}]{cover.pdf}
 \frontmatter
 \include{F1-abstract}
+\cleardoublepage
 \include{F2-preface}
+\cleardoublepage
 \include{F3-aknowledgements}
+\cleardoublepage
 \tableofcontents
 \cleardoublepage
 \listoffigures
 \cleardoublepage
 \listoftables
-\listoftodos
+\cleardoublepage
 \include{F4-abbreviations}
 
 \mainmatter
@@ -173,17 +176,14 @@
 %\addcontentsline{toc}{chapter}{References}
 \printbibliography[title=References]
 
+\makeatletter
+\def\pagenumbering#1{%
+  \gdef\thepage{\csname @#1\endcsname \c@page}}
+\makeatother
+
 \mainmatter
 \part[Part II]{Research papers}
 \pagenumbering{gobble}
+\pagestyle{cleared}
 \include{P2-papers}
-\begin{comment}
-\includepdf[pages=-]{./papers/P1.pdf}
-\includepdf[pages=-]{./papers/P2.pdf}
-\includepdf[pages=-]{./papers/P3.pdf}
-\includepdf[pages=-]{./papers/P4.pdf}
-\includepdf[pages=-]{./papers/P5.pdf}
-\includepdf[pages=-]{./papers/P6.pdf}
-\includepdf[pages=-]{./papers/P7.pdf}
-\end{comment}
 \end{document}
