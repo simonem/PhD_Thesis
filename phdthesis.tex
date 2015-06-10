@@ -1,5 +1,5 @@
 %\documentclass[10pt,twoside,openright,b5paper]{memoir}
-\documentclass[10pt,twoside,openright,showtrims]{memoir}
+\documentclass[10pt,twoside,openright]{memoir}
 
 %\DisemulatePackage{crop}
 
@@ -12,9 +12,13 @@
 %\usepackage[lmargin=25mm,rmargin=25mm,tmargin=27mm,bmargin=30mm, bindingoffset=5mm]{geometry}
 %\linespread{1.1}
 
+
+
 % Layout from master themplate
-\setbinding{10mm}
-\setstocksize{297mm}{210mm}
+%\setbinding{10mm}
+%\setstocksize{297mm}{210mm}
+
+\setstocksize{250mm}{176mm}
 \settrimmedsize{250mm}{176mm}{*}
 \setlrmarginsandblock{30mm}{20mm}{*}
 \setulmarginsandblock{27mm}{30mm}{1}
@@ -44,6 +48,8 @@
 \maxsecnumdepth{subsubsection}
 \maxtocdepth{subsection}
 \setsecnumdepth{subsection}
+
+
 
 %caption
 %\makeatletter 
@@ -141,8 +147,9 @@
 \begin{document}
 
 \aliaspagestyle{part}{empty}
-\includepdf[pages={1,2}]{cover.pdf}
+%\includepdf[pages={1,2}]{cover.pdf}
 \frontmatter
+\setcounter{page}{3}
 \include{F1-abstract}
 \cleardoublepage
 \include{F2-preface}

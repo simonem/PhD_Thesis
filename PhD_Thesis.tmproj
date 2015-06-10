@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>P2-papers.tex</string>
+	<string>phdthesis.tex</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -15,12 +15,14 @@
 		<dict>
 			<key>filename</key>
 			<string>F2-preface.tex</string>
+			<key>lastUsed</key>
+			<date>2015-05-04T16:32:40Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>F3-aknowledgements.tex</string>
 			<key>lastUsed</key>
-			<date>2015-02-27T19:48:00Z</date>
+			<date>2015-05-06T20:47:11Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -30,7 +32,7 @@
 			<key>filename</key>
 			<string>C1-introduction.tex</string>
 			<key>lastUsed</key>
-			<date>2015-02-27T19:54:51Z</date>
+			<date>2015-04-29T09:42:41Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -54,19 +56,19 @@
 			<key>filename</key>
 			<string>C5-research.tex</string>
 			<key>lastUsed</key>
-			<date>2015-02-27T18:32:06Z</date>
+			<date>2015-04-29T09:56:09Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>C6-results.tex</string>
 			<key>lastUsed</key>
-			<date>2015-02-27T18:19:29Z</date>
+			<date>2015-04-29T10:06:00Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>C7-contributions.tex</string>
 			<key>lastUsed</key>
-			<date>2015-02-27T21:26:49Z</date>
+			<date>2015-04-29T12:11:36Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -90,7 +92,7 @@
 			<key>filename</key>
 			<string>A2-abroad.tex</string>
 			<key>lastUsed</key>
-			<date>2015-02-27T18:32:08Z</date>
+			<date>2015-04-29T12:50:05Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -108,15 +110,15 @@
 			<key>filename</key>
 			<string>P2-papers.tex</string>
 			<key>lastUsed</key>
-			<date>2015-03-02T11:47:33Z</date>
-			<key>selected</key>
-			<true/>
+			<date>2015-05-04T16:27:00Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>phdthesis.tex</string>
 			<key>lastUsed</key>
-			<date>2015-02-27T22:24:45Z</date>
+			<date>2015-05-06T20:47:11Z</date>
+			<key>selected</key>
+			<true/>
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
@@ -142,9 +144,9 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1001</integer>
+				<integer>286</integer>
 				<key>line</key>
-				<integer>15</integer>
+				<integer>2</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -184,14 +186,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>3</integer>
+				<integer>69</integer>
 				<key>line</key>
-				<integer>130</integer>
+				<integer>142</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>105</integer>
+			<integer>132</integer>
 		</dict>
 		<key>C2-crisis.tex</key>
 		<dict>
@@ -240,42 +242,42 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>200</integer>
+				<integer>453</integer>
 				<key>line</key>
-				<integer>49</integer>
+				<integer>41</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>133</integer>
+			<integer>150</integer>
 			<key>firstVisibleLine</key>
-			<integer>39</integer>
+			<integer>19</integer>
 		</dict>
 		<key>C6-results.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>64</integer>
+				<integer>228</integer>
 				<key>line</key>
-				<integer>179</integer>
+				<integer>20</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
-			<integer>270</integer>
+			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>159</integer>
+			<integer>0</integer>
 		</dict>
 		<key>C7-contributions.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>1285</integer>
+				<integer>527</integer>
 				<key>line</key>
-				<integer>81</integer>
+				<integer>119</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>113</integer>
+			<integer>0</integer>
 		</dict>
 		<key>C8-evaluation.tex</key>
 		<dict>
@@ -335,14 +337,28 @@
 				<integer>2</integer>
 			</dict>
 		</dict>
+		<key>F2-preface.tex</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>4</integer>
+				<key>line</key>
+				<integer>15</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>F3-aknowledgements.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>268</integer>
 				<key>line</key>
-				<integer>2</integer>
+				<integer>5</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -354,28 +370,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>58</integer>
+				<integer>31</integer>
 				<key>line</key>
-				<integer>110</integer>
+				<integer>179</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>98</integer>
+			<integer>158</integer>
 		</dict>
 		<key>phdthesis.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>16</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>146</integer>
+				<integer>51</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>121</integer>
+			<integer>30</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -396,11 +412,12 @@
 		<string>A1-secondary-papers.tex</string>
 		<string>A3-toolkits.tex</string>
 		<string>phdthesis.tex</string>
+		<string>F2-preface.tex</string>
 		<string>F3-aknowledgements.tex</string>
 	</array>
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{206, 0}, {1224, 877}}</string>
+	<string>{{808, 0}, {632, 877}}</string>
 </dict>
 </plist>
