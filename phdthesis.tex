@@ -61,7 +61,7 @@
 \usepackage{graphicx}
 \graphicspath{{imgs/}}
 \DeclareGraphicsExtensions{.pdf,.png,.jpg,jpeg}
-\usepackage{pdfpages}
+\usepackage{pdfpages}   %To include PDFs
 \usepackage[disable]{todonotes}
 \usepackage{wrapfig}
 \usepackage{booktabs, tabulary, longtable}
@@ -147,7 +147,8 @@
 \begin{document}
 
 \aliaspagestyle{part}{empty}
-%\includepdf[pages={1,2}]{cover.pdf}
+\includepdf{cover-1.pdf}
+\includepdf{cover-2.pdf}
 \frontmatter
 \setcounter{page}{3}
 \include{F1-abstract}

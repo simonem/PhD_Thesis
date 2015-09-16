@@ -32,7 +32,7 @@
 			<key>filename</key>
 			<string>C1-introduction.tex</string>
 			<key>lastUsed</key>
-			<date>2015-04-29T09:42:41Z</date>
+			<date>2015-06-12T19:28:46Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -44,7 +44,7 @@
 			<key>filename</key>
 			<string>C3-csrl.tex</string>
 			<key>lastUsed</key>
-			<date>2015-02-27T16:44:15Z</date>
+			<date>2015-06-12T19:28:44Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -62,13 +62,13 @@
 			<key>filename</key>
 			<string>C6-results.tex</string>
 			<key>lastUsed</key>
-			<date>2015-04-29T10:06:00Z</date>
+			<date>2015-06-13T10:20:08Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>C7-contributions.tex</string>
 			<key>lastUsed</key>
-			<date>2015-04-29T12:11:36Z</date>
+			<date>2015-06-13T10:29:03Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
@@ -110,13 +110,13 @@
 			<key>filename</key>
 			<string>P2-papers.tex</string>
 			<key>lastUsed</key>
-			<date>2015-05-04T16:27:00Z</date>
+			<date>2015-06-19T15:56:53Z</date>
 		</dict>
 		<dict>
 			<key>filename</key>
 			<string>phdthesis.tex</string>
 			<key>lastUsed</key>
-			<date>2015-05-06T20:47:11Z</date>
+			<date>2015-06-19T15:56:53Z</date>
 			<key>selected</key>
 			<true/>
 		</dict>
@@ -193,7 +193,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>132</integer>
+			<integer>160</integer>
 		</dict>
 		<key>C2-crisis.tex</key>
 		<dict>
@@ -214,14 +214,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>12</integer>
+				<integer>18</integer>
 				<key>line</key>
-				<integer>79</integer>
+				<integer>23</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>7</integer>
+				<key>line</key>
+				<integer>23</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>18</integer>
+				<key>line</key>
+				<integer>23</integer>
+			</dict>
 		</dict>
 		<key>C4-interaction.tex</key>
 		<dict>
@@ -270,14 +286,30 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>527</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>119</integer>
+				<integer>33</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>0</integer>
+			<integer>10</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>11</integer>
+				<key>line</key>
+				<integer>35</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>33</integer>
+			</dict>
 		</dict>
 		<key>C8-evaluation.tex</key>
 		<dict>
@@ -370,28 +402,44 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>31</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>179</integer>
+				<integer>64</integer>
 			</dict>
+			<key>columnSelection</key>
+			<false/>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>158</integer>
+			<integer>39</integer>
+			<key>selectFrom</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>42</integer>
+			</dict>
+			<key>selectTo</key>
+			<dict>
+				<key>column</key>
+				<integer>0</integer>
+				<key>line</key>
+				<integer>64</integer>
+			</dict>
 		</dict>
 		<key>phdthesis.tex</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>0</integer>
+				<integer>40</integer>
 				<key>line</key>
-				<integer>51</integer>
+				<integer>63</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>30</integer>
+			<integer>38</integer>
 		</dict>
 	</dict>
 	<key>openDocuments</key>
@@ -418,6 +466,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{808, 0}, {632, 877}}</string>
+	<string>{{645, 120}, {1059, 1049}}</string>
 </dict>
 </plist>
